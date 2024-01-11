@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="@192.168.1.22">
+<dataSource name="@192.168.3.22">
   <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.45">
     <root id="1">
       <DefaultCasing>exact</DefaultCasing>
@@ -775,28 +775,4691 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <collation id="223" parent="1" name="utf8mb4_vietnamese_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <schema id="224" parent="1" name="information_schema">
+    <schema id="224" parent="1" name="gulimall_admin">
       <Current>1</Current>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="225" parent="1" name="gulimall_oms">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="226" parent="1" name="gulimall_pms">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="227" parent="1" name="gulimall_sms">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="228" parent="1" name="gulimall_ums">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="229" parent="1" name="gulimall_wms">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="230" parent="1" name="information_schema">
       <CollationName>utf8_general_ci</CollationName>
     </schema>
-    <schema id="225" parent="1" name="mysql">
+    <schema id="231" parent="1" name="mysql">
       <CollationName>latin1_swedish_ci</CollationName>
     </schema>
-    <schema id="226" parent="1" name="performance_schema">
+    <schema id="232" parent="1" name="performance_schema">
       <CollationName>utf8_general_ci</CollationName>
     </schema>
-    <schema id="227" parent="1" name="sys">
+    <schema id="233" parent="1" name="sys">
       <CollationName>utf8_general_ci</CollationName>
     </schema>
-    <user id="228" parent="1" name="mysql.session">
+    <user id="234" parent="1" name="mysql.session">
       <Host>localhost</Host>
     </user>
-    <user id="229" parent="1" name="mysql.sys">
+    <user id="235" parent="1" name="mysql.sys">
       <Host>localhost</Host>
     </user>
-    <user id="230" parent="1" name="root"/>
-    <user id="231" parent="1" name="root">
+    <user id="236" parent="1" name="root"/>
+    <user id="237" parent="1" name="root">
       <Host>localhost</Host>
     </user>
+    <table id="238" parent="224" name="QRTZ_BLOB_TRIGGERS">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="239" parent="224" name="QRTZ_CALENDARS">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="240" parent="224" name="QRTZ_CRON_TRIGGERS">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="241" parent="224" name="QRTZ_FIRED_TRIGGERS">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="242" parent="224" name="QRTZ_JOB_DETAILS">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="243" parent="224" name="QRTZ_LOCKS">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="244" parent="224" name="QRTZ_PAUSED_TRIGGER_GRPS">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="245" parent="224" name="QRTZ_SCHEDULER_STATE">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="246" parent="224" name="QRTZ_SIMPLE_TRIGGERS">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="247" parent="224" name="QRTZ_SIMPROP_TRIGGERS">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="248" parent="224" name="QRTZ_TRIGGERS">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="249" parent="224" name="schedule_job">
+      <Comment>定时任务</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="250" parent="224" name="schedule_job_log">
+      <Comment>定时任务日志</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="251" parent="224" name="sys_captcha">
+      <Comment>系统验证码</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="252" parent="224" name="sys_config">
+      <Comment>系统配置信息表</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="253" parent="224" name="sys_log">
+      <Comment>系统日志</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="254" parent="224" name="sys_menu">
+      <Comment>菜单管理</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="255" parent="224" name="sys_oss">
+      <Comment>文件上传</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="256" parent="224" name="sys_role">
+      <Comment>角色</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="257" parent="224" name="sys_role_menu">
+      <Comment>角色与菜单对应关系</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="258" parent="224" name="sys_user">
+      <Comment>系统用户</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="259" parent="224" name="sys_user_role">
+      <Comment>用户与角色对应关系</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="260" parent="224" name="sys_user_token">
+      <Comment>系统用户Token</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="261" parent="224" name="tb_user">
+      <Comment>用户</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="262" parent="225" name="oms_order">
+      <Comment>����</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="263" parent="225" name="oms_order_item">
+      <Comment>��������Ϣ</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="264" parent="225" name="oms_order_operate_history">
+      <Comment>����������ʷ��¼</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="265" parent="225" name="oms_order_return_apply">
+      <Comment>�����˻�����</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="266" parent="225" name="oms_order_return_reason">
+      <Comment>�˻�ԭ��</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="267" parent="225" name="oms_order_setting">
+      <Comment>����������Ϣ</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="268" parent="225" name="oms_payment_info">
+      <Comment>֧����Ϣ��</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="269" parent="225" name="oms_refund_info">
+      <Comment>�˿���Ϣ</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="270" parent="226" name="pms_attr">
+      <Comment>��Ʒ����</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="271" parent="226" name="pms_attr_attrgroup_relation">
+      <Comment>����&amp;���Է������</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="272" parent="226" name="pms_attr_group">
+      <Comment>���Է���</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="273" parent="226" name="pms_brand">
+      <Comment>Ʒ��</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="274" parent="226" name="pms_category">
+      <Comment>��Ʒ��������</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="275" parent="226" name="pms_category_brand_relation">
+      <Comment>Ʒ�Ʒ������</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="276" parent="226" name="pms_comment_replay">
+      <Comment>��Ʒ���ۻظ���ϵ</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="277" parent="226" name="pms_product_attr_value">
+      <Comment>spu����ֵ</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="278" parent="226" name="pms_sku_images">
+      <Comment>skuͼƬ</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="279" parent="226" name="pms_sku_info">
+      <Comment>sku��Ϣ</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="280" parent="226" name="pms_sku_sale_attr_value">
+      <Comment>sku��������&amp;ֵ</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="281" parent="226" name="pms_spu_comment">
+      <Comment>��Ʒ����</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="282" parent="226" name="pms_spu_images">
+      <Comment>spuͼƬ</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="283" parent="226" name="pms_spu_info">
+      <Comment>spu��Ϣ</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="284" parent="226" name="pms_spu_info_desc">
+      <Comment>spu��Ϣ����</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="285" parent="227" name="sms_coupon">
+      <Comment>�Ż�ȯ��Ϣ</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="286" parent="227" name="sms_coupon_history">
+      <Comment>�Ż�ȯ��ȡ��ʷ��¼</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="287" parent="227" name="sms_coupon_spu_category_relation">
+      <Comment>�Ż�ȯ�������</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="288" parent="227" name="sms_coupon_spu_relation">
+      <Comment>�Ż�ȯ���Ʒ����</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="289" parent="227" name="sms_home_adv">
+      <Comment>��ҳ�ֲ����</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="290" parent="227" name="sms_home_subject">
+      <Comment>��ҳר�����jd��ҳ����ܶ�ר�⣬ÿ��ר�������µ�ҳ�棬չʾר����Ʒ��Ϣ��</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="291" parent="227" name="sms_home_subject_spu">
+      <Comment>ר����Ʒ</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="292" parent="227" name="sms_member_price">
+      <Comment>��Ʒ��Ա�۸�</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="293" parent="227" name="sms_seckill_promotion">
+      <Comment>��ɱ�</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="294" parent="227" name="sms_seckill_session">
+      <Comment>��ɱ�����</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="295" parent="227" name="sms_seckill_sku_notice">
+      <Comment>��ɱ��Ʒ֪ͨ����</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="296" parent="227" name="sms_seckill_sku_relation">
+      <Comment>��ɱ���Ʒ����</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="297" parent="227" name="sms_sku_full_reduction">
+      <Comment>��Ʒ������Ϣ</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="298" parent="227" name="sms_sku_ladder">
+      <Comment>��Ʒ���ݼ۸�</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="299" parent="227" name="sms_spu_bounds">
+      <Comment>��Ʒspu��������</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="300" parent="228" name="ums_growth_change_history">
+      <Comment>�ɳ�ֵ�仯��ʷ��¼</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="301" parent="228" name="ums_integration_change_history">
+      <Comment>���ֱ仯��ʷ��¼</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="302" parent="228" name="ums_member">
+      <Comment>��Ա</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="303" parent="228" name="ums_member_collect_spu">
+      <Comment>��Ա�ղص���Ʒ</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="304" parent="228" name="ums_member_collect_subject">
+      <Comment>��Ա�ղص�ר��</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="305" parent="228" name="ums_member_level">
+      <Comment>��Ա�ȼ�</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="306" parent="228" name="ums_member_login_log">
+      <Comment>��Ա��¼��¼</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="307" parent="228" name="ums_member_receive_address">
+      <Comment>��Ա�ջ���ַ</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="308" parent="228" name="ums_member_statistics_info">
+      <Comment>��Աͳ����Ϣ</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="309" parent="229" name="undo_log">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="310" parent="229" name="wms_purchase">
+      <Comment>采购信息</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="311" parent="229" name="wms_purchase_detail">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="312" parent="229" name="wms_ware_info">
+      <Comment>仓库信息</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="313" parent="229" name="wms_ware_order_task">
+      <Comment>库存工作单</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="314" parent="229" name="wms_ware_order_task_detail">
+      <Comment>库存工作单</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="315" parent="229" name="wms_ware_sku">
+      <Comment>商品库存</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <column id="316" parent="238" name="SCHED_NAME">
+      <DasType>varchar(120)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="317" parent="238" name="TRIGGER_NAME">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="318" parent="238" name="TRIGGER_GROUP">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="319" parent="238" name="BLOB_DATA">
+      <DasType>blob|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="320" parent="238" name="QRTZ_BLOB_TRIGGERS_ibfk_1">
+      <ColNames>SCHED_NAME
+TRIGGER_NAME
+TRIGGER_GROUP</ColNames>
+      <RefColNames>SCHED_NAME
+TRIGGER_NAME
+TRIGGER_GROUP</RefColNames>
+      <RefTableName>QRTZ_TRIGGERS</RefTableName>
+    </foreign-key>
+    <index id="321" parent="238" name="PRIMARY">
+      <ColNames>SCHED_NAME
+TRIGGER_NAME
+TRIGGER_GROUP</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="322" parent="238" name="SCHED_NAME">
+      <ColNames>SCHED_NAME
+TRIGGER_NAME
+TRIGGER_GROUP</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="323" parent="238" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="324" parent="239" name="SCHED_NAME">
+      <DasType>varchar(120)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="325" parent="239" name="CALENDAR_NAME">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="326" parent="239" name="CALENDAR">
+      <DasType>blob|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <index id="327" parent="239" name="PRIMARY">
+      <ColNames>SCHED_NAME
+CALENDAR_NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="328" parent="239" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="329" parent="240" name="SCHED_NAME">
+      <DasType>varchar(120)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="330" parent="240" name="TRIGGER_NAME">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="331" parent="240" name="TRIGGER_GROUP">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="332" parent="240" name="CRON_EXPRESSION">
+      <DasType>varchar(120)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="333" parent="240" name="TIME_ZONE_ID">
+      <DasType>varchar(80)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <foreign-key id="334" parent="240" name="QRTZ_CRON_TRIGGERS_ibfk_1">
+      <ColNames>SCHED_NAME
+TRIGGER_NAME
+TRIGGER_GROUP</ColNames>
+      <RefColNames>SCHED_NAME
+TRIGGER_NAME
+TRIGGER_GROUP</RefColNames>
+      <RefTableName>QRTZ_TRIGGERS</RefTableName>
+    </foreign-key>
+    <index id="335" parent="240" name="PRIMARY">
+      <ColNames>SCHED_NAME
+TRIGGER_NAME
+TRIGGER_GROUP</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="336" parent="240" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="337" parent="241" name="SCHED_NAME">
+      <DasType>varchar(120)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="338" parent="241" name="ENTRY_ID">
+      <DasType>varchar(95)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="339" parent="241" name="TRIGGER_NAME">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="340" parent="241" name="TRIGGER_GROUP">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="341" parent="241" name="INSTANCE_NAME">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="342" parent="241" name="FIRED_TIME">
+      <DasType>bigint(13)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="343" parent="241" name="SCHED_TIME">
+      <DasType>bigint(13)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="344" parent="241" name="PRIORITY">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="345" parent="241" name="STATE">
+      <DasType>varchar(16)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="346" parent="241" name="JOB_NAME">
+      <DasType>varchar(200)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="347" parent="241" name="JOB_GROUP">
+      <DasType>varchar(200)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="348" parent="241" name="IS_NONCONCURRENT">
+      <DasType>varchar(1)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="349" parent="241" name="REQUESTS_RECOVERY">
+      <DasType>varchar(1)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <index id="350" parent="241" name="PRIMARY">
+      <ColNames>SCHED_NAME
+ENTRY_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="351" parent="241" name="IDX_QRTZ_FT_T_G">
+      <ColNames>SCHED_NAME
+TRIGGER_NAME
+TRIGGER_GROUP</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="352" parent="241" name="IDX_QRTZ_FT_TG">
+      <ColNames>SCHED_NAME
+TRIGGER_GROUP</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="353" parent="241" name="IDX_QRTZ_FT_INST_JOB_REQ_RCVRY">
+      <ColNames>SCHED_NAME
+INSTANCE_NAME
+REQUESTS_RECOVERY</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="354" parent="241" name="IDX_QRTZ_FT_TRIG_INST_NAME">
+      <ColNames>SCHED_NAME
+INSTANCE_NAME</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="355" parent="241" name="IDX_QRTZ_FT_J_G">
+      <ColNames>SCHED_NAME
+JOB_NAME
+JOB_GROUP</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="356" parent="241" name="IDX_QRTZ_FT_JG">
+      <ColNames>SCHED_NAME
+JOB_GROUP</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="357" parent="241" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="358" parent="242" name="SCHED_NAME">
+      <DasType>varchar(120)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="359" parent="242" name="JOB_NAME">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="360" parent="242" name="JOB_GROUP">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="361" parent="242" name="DESCRIPTION">
+      <DasType>varchar(250)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="362" parent="242" name="JOB_CLASS_NAME">
+      <DasType>varchar(250)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="363" parent="242" name="IS_DURABLE">
+      <DasType>varchar(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="364" parent="242" name="IS_NONCONCURRENT">
+      <DasType>varchar(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="365" parent="242" name="IS_UPDATE_DATA">
+      <DasType>varchar(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="366" parent="242" name="REQUESTS_RECOVERY">
+      <DasType>varchar(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="367" parent="242" name="JOB_DATA">
+      <DasType>blob|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <index id="368" parent="242" name="PRIMARY">
+      <ColNames>SCHED_NAME
+JOB_NAME
+JOB_GROUP</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="369" parent="242" name="IDX_QRTZ_J_GRP">
+      <ColNames>SCHED_NAME
+JOB_GROUP</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="370" parent="242" name="IDX_QRTZ_J_REQ_RECOVERY">
+      <ColNames>SCHED_NAME
+REQUESTS_RECOVERY</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="371" parent="242" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="372" parent="243" name="SCHED_NAME">
+      <DasType>varchar(120)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="373" parent="243" name="LOCK_NAME">
+      <DasType>varchar(40)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="374" parent="243" name="PRIMARY">
+      <ColNames>SCHED_NAME
+LOCK_NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="375" parent="243" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="376" parent="244" name="SCHED_NAME">
+      <DasType>varchar(120)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="377" parent="244" name="TRIGGER_GROUP">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="378" parent="244" name="PRIMARY">
+      <ColNames>SCHED_NAME
+TRIGGER_GROUP</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="379" parent="244" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="380" parent="245" name="SCHED_NAME">
+      <DasType>varchar(120)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="381" parent="245" name="INSTANCE_NAME">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="382" parent="245" name="LAST_CHECKIN_TIME">
+      <DasType>bigint(13)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="383" parent="245" name="CHECKIN_INTERVAL">
+      <DasType>bigint(13)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <index id="384" parent="245" name="PRIMARY">
+      <ColNames>SCHED_NAME
+INSTANCE_NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="385" parent="245" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="386" parent="246" name="SCHED_NAME">
+      <DasType>varchar(120)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="387" parent="246" name="TRIGGER_NAME">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="388" parent="246" name="TRIGGER_GROUP">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="389" parent="246" name="REPEAT_COUNT">
+      <DasType>bigint(7)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="390" parent="246" name="REPEAT_INTERVAL">
+      <DasType>bigint(12)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="391" parent="246" name="TIMES_TRIGGERED">
+      <DasType>bigint(10)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <foreign-key id="392" parent="246" name="QRTZ_SIMPLE_TRIGGERS_ibfk_1">
+      <ColNames>SCHED_NAME
+TRIGGER_NAME
+TRIGGER_GROUP</ColNames>
+      <RefColNames>SCHED_NAME
+TRIGGER_NAME
+TRIGGER_GROUP</RefColNames>
+      <RefTableName>QRTZ_TRIGGERS</RefTableName>
+    </foreign-key>
+    <index id="393" parent="246" name="PRIMARY">
+      <ColNames>SCHED_NAME
+TRIGGER_NAME
+TRIGGER_GROUP</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="394" parent="246" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="395" parent="247" name="SCHED_NAME">
+      <DasType>varchar(120)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="396" parent="247" name="TRIGGER_NAME">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="397" parent="247" name="TRIGGER_GROUP">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="398" parent="247" name="STR_PROP_1">
+      <DasType>varchar(512)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="399" parent="247" name="STR_PROP_2">
+      <DasType>varchar(512)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="400" parent="247" name="STR_PROP_3">
+      <DasType>varchar(512)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="401" parent="247" name="INT_PROP_1">
+      <DasType>int(11)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="402" parent="247" name="INT_PROP_2">
+      <DasType>int(11)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="403" parent="247" name="LONG_PROP_1">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="404" parent="247" name="LONG_PROP_2">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="405" parent="247" name="DEC_PROP_1">
+      <DasType>decimal(13,4 digit)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="406" parent="247" name="DEC_PROP_2">
+      <DasType>decimal(13,4 digit)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="407" parent="247" name="BOOL_PROP_1">
+      <DasType>varchar(1)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="408" parent="247" name="BOOL_PROP_2">
+      <DasType>varchar(1)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <foreign-key id="409" parent="247" name="QRTZ_SIMPROP_TRIGGERS_ibfk_1">
+      <ColNames>SCHED_NAME
+TRIGGER_NAME
+TRIGGER_GROUP</ColNames>
+      <RefColNames>SCHED_NAME
+TRIGGER_NAME
+TRIGGER_GROUP</RefColNames>
+      <RefTableName>QRTZ_TRIGGERS</RefTableName>
+    </foreign-key>
+    <index id="410" parent="247" name="PRIMARY">
+      <ColNames>SCHED_NAME
+TRIGGER_NAME
+TRIGGER_GROUP</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="411" parent="247" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="412" parent="248" name="SCHED_NAME">
+      <DasType>varchar(120)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="413" parent="248" name="TRIGGER_NAME">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="414" parent="248" name="TRIGGER_GROUP">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="415" parent="248" name="JOB_NAME">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="416" parent="248" name="JOB_GROUP">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="417" parent="248" name="DESCRIPTION">
+      <DasType>varchar(250)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="418" parent="248" name="NEXT_FIRE_TIME">
+      <DasType>bigint(13)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="419" parent="248" name="PREV_FIRE_TIME">
+      <DasType>bigint(13)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="420" parent="248" name="PRIORITY">
+      <DasType>int(11)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="421" parent="248" name="TRIGGER_STATE">
+      <DasType>varchar(16)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+    </column>
+    <column id="422" parent="248" name="TRIGGER_TYPE">
+      <DasType>varchar(8)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>11</Position>
+    </column>
+    <column id="423" parent="248" name="START_TIME">
+      <DasType>bigint(13)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>12</Position>
+    </column>
+    <column id="424" parent="248" name="END_TIME">
+      <DasType>bigint(13)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="425" parent="248" name="CALENDAR_NAME">
+      <DasType>varchar(200)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="426" parent="248" name="MISFIRE_INSTR">
+      <DasType>smallint(2)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="427" parent="248" name="JOB_DATA">
+      <DasType>blob|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <foreign-key id="428" parent="248" name="QRTZ_TRIGGERS_ibfk_1">
+      <ColNames>SCHED_NAME
+JOB_NAME
+JOB_GROUP</ColNames>
+      <RefColNames>SCHED_NAME
+JOB_NAME
+JOB_GROUP</RefColNames>
+      <RefTableName>QRTZ_JOB_DETAILS</RefTableName>
+    </foreign-key>
+    <index id="429" parent="248" name="PRIMARY">
+      <ColNames>SCHED_NAME
+TRIGGER_NAME
+TRIGGER_GROUP</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="430" parent="248" name="IDX_QRTZ_T_N_STATE">
+      <ColNames>SCHED_NAME
+TRIGGER_NAME
+TRIGGER_GROUP
+TRIGGER_STATE</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="431" parent="248" name="IDX_QRTZ_T_N_G_STATE">
+      <ColNames>SCHED_NAME
+TRIGGER_GROUP
+TRIGGER_STATE</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="432" parent="248" name="IDX_QRTZ_T_G">
+      <ColNames>SCHED_NAME
+TRIGGER_GROUP</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="433" parent="248" name="IDX_QRTZ_T_J">
+      <ColNames>SCHED_NAME
+JOB_NAME
+JOB_GROUP</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="434" parent="248" name="IDX_QRTZ_T_JG">
+      <ColNames>SCHED_NAME
+JOB_GROUP</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="435" parent="248" name="IDX_QRTZ_T_NEXT_FIRE_TIME">
+      <ColNames>SCHED_NAME
+NEXT_FIRE_TIME</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="436" parent="248" name="IDX_QRTZ_T_NFT_ST">
+      <ColNames>SCHED_NAME
+TRIGGER_STATE
+NEXT_FIRE_TIME</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="437" parent="248" name="IDX_QRTZ_T_STATE">
+      <ColNames>SCHED_NAME
+TRIGGER_STATE</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="438" parent="248" name="IDX_QRTZ_T_C">
+      <ColNames>SCHED_NAME
+CALENDAR_NAME</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="439" parent="248" name="IDX_QRTZ_T_NFT_ST_MISFIRE_GRP">
+      <ColNames>SCHED_NAME
+MISFIRE_INSTR
+NEXT_FIRE_TIME
+TRIGGER_GROUP
+TRIGGER_STATE</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="440" parent="248" name="IDX_QRTZ_T_NFT_ST_MISFIRE">
+      <ColNames>SCHED_NAME
+MISFIRE_INSTR
+NEXT_FIRE_TIME
+TRIGGER_STATE</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="441" parent="248" name="IDX_QRTZ_T_NFT_MISFIRE">
+      <ColNames>SCHED_NAME
+MISFIRE_INSTR
+NEXT_FIRE_TIME</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="442" parent="248" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="443" parent="249" name="job_id">
+      <AutoIncrement>2</AutoIncrement>
+      <Comment>任务id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="444" parent="249" name="bean_name">
+      <Comment>spring bean名称</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="445" parent="249" name="params">
+      <Comment>参数</Comment>
+      <DasType>varchar(2000)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="446" parent="249" name="cron_expression">
+      <Comment>cron表达式</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="447" parent="249" name="status">
+      <Comment>任务状态  0：正常  1：暂停</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="448" parent="249" name="remark">
+      <Comment>备注</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="449" parent="249" name="create_time">
+      <Comment>创建时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <index id="450" parent="249" name="PRIMARY">
+      <ColNames>job_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="451" parent="249" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="452" parent="250" name="log_id">
+      <AutoIncrement>88</AutoIncrement>
+      <Comment>任务日志id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="453" parent="250" name="job_id">
+      <Comment>任务id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="454" parent="250" name="bean_name">
+      <Comment>spring bean名称</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="455" parent="250" name="params">
+      <Comment>参数</Comment>
+      <DasType>varchar(2000)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="456" parent="250" name="status">
+      <Comment>任务状态    0：成功    1：失败</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="457" parent="250" name="error">
+      <Comment>失败信息</Comment>
+      <DasType>varchar(2000)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="458" parent="250" name="times">
+      <Comment>耗时(单位：毫秒)</Comment>
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="459" parent="250" name="create_time">
+      <Comment>创建时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <index id="460" parent="250" name="PRIMARY">
+      <ColNames>log_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="461" parent="250" name="job_id">
+      <ColNames>job_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="462" parent="250" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="463" parent="251" name="uuid">
+      <Comment>uuid</Comment>
+      <DasType>char(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="464" parent="251" name="code">
+      <Comment>验证码</Comment>
+      <DasType>varchar(6)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="465" parent="251" name="expire_time">
+      <Comment>过期时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <index id="466" parent="251" name="PRIMARY">
+      <ColNames>uuid</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="467" parent="251" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="468" parent="252" name="id">
+      <AutoIncrement>2</AutoIncrement>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="469" parent="252" name="param_key">
+      <Comment>key</Comment>
+      <DasType>varchar(50)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="470" parent="252" name="param_value">
+      <Comment>value</Comment>
+      <DasType>varchar(2000)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="471" parent="252" name="status">
+      <Comment>状态   0：隐藏   1：显示</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <DefaultExpression>1</DefaultExpression>
+      <Position>4</Position>
+    </column>
+    <column id="472" parent="252" name="remark">
+      <Comment>备注</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <index id="473" parent="252" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="474" parent="252" name="param_key">
+      <ColNames>param_key</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="475" parent="252" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="476" parent="252" name="param_key">
+      <UnderlyingIndexName>param_key</UnderlyingIndexName>
+    </key>
+    <column id="477" parent="253" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="478" parent="253" name="username">
+      <Comment>用户名</Comment>
+      <DasType>varchar(50)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="479" parent="253" name="operation">
+      <Comment>用户操作</Comment>
+      <DasType>varchar(50)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="480" parent="253" name="method">
+      <Comment>请求方法</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="481" parent="253" name="params">
+      <Comment>请求参数</Comment>
+      <DasType>varchar(5000)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="482" parent="253" name="time">
+      <Comment>执行时长(毫秒)</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="483" parent="253" name="ip">
+      <Comment>IP地址</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="484" parent="253" name="create_date">
+      <Comment>创建时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <index id="485" parent="253" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="486" parent="253" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="487" parent="254" name="menu_id">
+      <AutoIncrement>31</AutoIncrement>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="488" parent="254" name="parent_id">
+      <Comment>父菜单ID，一级菜单为0</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="489" parent="254" name="name">
+      <Comment>菜单名称</Comment>
+      <DasType>varchar(50)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="490" parent="254" name="url">
+      <Comment>菜单URL</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="491" parent="254" name="perms">
+      <Comment>授权(多个用逗号分隔，如：user:list,user:create)</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="492" parent="254" name="type">
+      <Comment>类型   0：目录   1：菜单   2：按钮</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="493" parent="254" name="icon">
+      <Comment>菜单图标</Comment>
+      <DasType>varchar(50)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="494" parent="254" name="order_num">
+      <Comment>排序</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <index id="495" parent="254" name="PRIMARY">
+      <ColNames>menu_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="496" parent="254" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="497" parent="255" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="498" parent="255" name="url">
+      <Comment>URL地址</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="499" parent="255" name="create_date">
+      <Comment>创建时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <index id="500" parent="255" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="501" parent="255" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="502" parent="256" name="role_id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="503" parent="256" name="role_name">
+      <Comment>角色名称</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="504" parent="256" name="remark">
+      <Comment>备注</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="505" parent="256" name="create_user_id">
+      <Comment>创建者ID</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="506" parent="256" name="create_time">
+      <Comment>创建时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <index id="507" parent="256" name="PRIMARY">
+      <ColNames>role_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="508" parent="256" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="509" parent="257" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="510" parent="257" name="role_id">
+      <Comment>角色ID</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="511" parent="257" name="menu_id">
+      <Comment>菜单ID</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <index id="512" parent="257" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="513" parent="257" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="514" parent="258" name="user_id">
+      <AutoIncrement>2</AutoIncrement>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="515" parent="258" name="username">
+      <Comment>用户名</Comment>
+      <DasType>varchar(50)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="516" parent="258" name="password">
+      <Comment>密码</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="517" parent="258" name="salt">
+      <Comment>盐</Comment>
+      <DasType>varchar(20)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="518" parent="258" name="email">
+      <Comment>邮箱</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="519" parent="258" name="mobile">
+      <Comment>手机号</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="520" parent="258" name="status">
+      <Comment>状态  0：禁用   1：正常</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="521" parent="258" name="create_user_id">
+      <Comment>创建者ID</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="522" parent="258" name="create_time">
+      <Comment>创建时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <index id="523" parent="258" name="PRIMARY">
+      <ColNames>user_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="524" parent="258" name="username">
+      <ColNames>username</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="525" parent="258" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="526" parent="258" name="username">
+      <UnderlyingIndexName>username</UnderlyingIndexName>
+    </key>
+    <column id="527" parent="259" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="528" parent="259" name="user_id">
+      <Comment>用户ID</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="529" parent="259" name="role_id">
+      <Comment>角色ID</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <index id="530" parent="259" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="531" parent="259" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="532" parent="260" name="user_id">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="533" parent="260" name="token">
+      <Comment>token</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="534" parent="260" name="expire_time">
+      <Comment>过期时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="535" parent="260" name="update_time">
+      <Comment>更新时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="536" parent="260" name="PRIMARY">
+      <ColNames>user_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="537" parent="260" name="token">
+      <ColNames>token</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="538" parent="260" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="539" parent="260" name="token">
+      <UnderlyingIndexName>token</UnderlyingIndexName>
+    </key>
+    <column id="540" parent="261" name="user_id">
+      <AutoIncrement>2</AutoIncrement>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="541" parent="261" name="username">
+      <Comment>用户名</Comment>
+      <DasType>varchar(50)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="542" parent="261" name="mobile">
+      <Comment>手机号</Comment>
+      <DasType>varchar(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="543" parent="261" name="password">
+      <Comment>密码</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="544" parent="261" name="create_time">
+      <Comment>创建时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <index id="545" parent="261" name="PRIMARY">
+      <ColNames>user_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="546" parent="261" name="username">
+      <ColNames>username</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="547" parent="261" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="548" parent="261" name="username">
+      <UnderlyingIndexName>username</UnderlyingIndexName>
+    </key>
+    <column id="549" parent="262" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="550" parent="262" name="member_id">
+      <Comment>member_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="551" parent="262" name="order_sn">
+      <Comment>������</Comment>
+      <DasType>char(32)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="552" parent="262" name="coupon_id">
+      <Comment>ʹ�õ��Ż�ȯ</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="553" parent="262" name="create_time">
+      <Comment>create_time</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="554" parent="262" name="member_username">
+      <Comment>�û���</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="555" parent="262" name="total_amount">
+      <Comment>�����ܶ�</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="556" parent="262" name="pay_amount">
+      <Comment>Ӧ���ܶ�</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="557" parent="262" name="freight_amount">
+      <Comment>�˷ѽ��</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="558" parent="262" name="promotion_amount">
+      <Comment>�����Ż��������ۡ����������ݼۣ�</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="559" parent="262" name="integration_amount">
+      <Comment>���ֵֿ۽��</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="560" parent="262" name="coupon_amount">
+      <Comment>�Ż�ȯ�ֿ۽��</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="561" parent="262" name="discount_amount">
+      <Comment>��̨��������ʹ�õ��ۿ۽��</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="562" parent="262" name="pay_type">
+      <Comment>֧����ʽ��1-&gt;֧������2-&gt;&#x3a2;�ţ�3-&gt;������ 4-&gt;���������</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="563" parent="262" name="source_type">
+      <Comment>������Դ[0-&gt;PC������1-&gt;app����]</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="564" parent="262" name="status">
+      <Comment>����״̬��0-&gt;�����1-&gt;��������2-&gt;�ѷ�����3-&gt;����ɣ�4-&gt;�ѹرգ�5-&gt;��Ч������</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="565" parent="262" name="delivery_company">
+      <Comment>������˾(���ͷ�ʽ)</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="566" parent="262" name="delivery_sn">
+      <Comment>��������</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <Position>18</Position>
+    </column>
+    <column id="567" parent="262" name="auto_confirm_day">
+      <Comment>�Զ�ȷ��ʱ�䣨�죩</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="568" parent="262" name="integration">
+      <Comment>���Ի�õĻ���</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>20</Position>
+    </column>
+    <column id="569" parent="262" name="growth">
+      <Comment>���Ի�õĳɳ�ֵ</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>21</Position>
+    </column>
+    <column id="570" parent="262" name="bill_type">
+      <Comment>��Ʊ����[0-&gt;������Ʊ��1-&gt;���ӷ�Ʊ��2-&gt;ֽ�ʷ�Ʊ]</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>22</Position>
+    </column>
+    <column id="571" parent="262" name="bill_header">
+      <Comment>��Ʊ̧ͷ</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>23</Position>
+    </column>
+    <column id="572" parent="262" name="bill_content">
+      <Comment>��Ʊ����</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>24</Position>
+    </column>
+    <column id="573" parent="262" name="bill_receiver_phone">
+      <Comment>��Ʊ�˵绰</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <Position>25</Position>
+    </column>
+    <column id="574" parent="262" name="bill_receiver_email">
+      <Comment>��Ʊ������</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <Position>26</Position>
+    </column>
+    <column id="575" parent="262" name="receiver_name">
+      <Comment>�ջ�������</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>27</Position>
+    </column>
+    <column id="576" parent="262" name="receiver_phone">
+      <Comment>�ջ��˵绰</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <Position>28</Position>
+    </column>
+    <column id="577" parent="262" name="receiver_post_code">
+      <Comment>�ջ����ʱ�</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <Position>29</Position>
+    </column>
+    <column id="578" parent="262" name="receiver_province">
+      <Comment>ʡ��/ֱϽ��</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <Position>30</Position>
+    </column>
+    <column id="579" parent="262" name="receiver_city">
+      <Comment>����</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <Position>31</Position>
+    </column>
+    <column id="580" parent="262" name="receiver_region">
+      <Comment>��</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <Position>32</Position>
+    </column>
+    <column id="581" parent="262" name="receiver_detail_address">
+      <Comment>��ϸ��ַ</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>33</Position>
+    </column>
+    <column id="582" parent="262" name="note">
+      <Comment>������ע</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>34</Position>
+    </column>
+    <column id="583" parent="262" name="confirm_status">
+      <Comment>ȷ���ջ�״̬[0-&gt;δȷ�ϣ�1-&gt;��ȷ��]</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>35</Position>
+    </column>
+    <column id="584" parent="262" name="delete_status">
+      <Comment>ɾ��״̬��0-&gt;δɾ����1-&gt;��ɾ����</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>36</Position>
+    </column>
+    <column id="585" parent="262" name="use_integration">
+      <Comment>�µ�ʱʹ�õĻ���</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>37</Position>
+    </column>
+    <column id="586" parent="262" name="payment_time">
+      <Comment>֧��ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>38</Position>
+    </column>
+    <column id="587" parent="262" name="delivery_time">
+      <Comment>����ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>39</Position>
+    </column>
+    <column id="588" parent="262" name="receive_time">
+      <Comment>ȷ���ջ�ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>40</Position>
+    </column>
+    <column id="589" parent="262" name="comment_time">
+      <Comment>����ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>41</Position>
+    </column>
+    <column id="590" parent="262" name="modify_time">
+      <Comment>�&#x7b8;�ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>42</Position>
+    </column>
+    <index id="591" parent="262" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="592" parent="262" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="593" parent="263" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="594" parent="263" name="order_id">
+      <Comment>order_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="595" parent="263" name="order_sn">
+      <Comment>order_sn</Comment>
+      <DasType>char(32)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="596" parent="263" name="spu_id">
+      <Comment>spu_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="597" parent="263" name="spu_name">
+      <Comment>spu_name</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="598" parent="263" name="spu_pic">
+      <Comment>spu_pic</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="599" parent="263" name="spu_brand">
+      <Comment>Ʒ��</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="600" parent="263" name="category_id">
+      <Comment>��Ʒ����id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="601" parent="263" name="sku_id">
+      <Comment>��Ʒsku���</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="602" parent="263" name="sku_name">
+      <Comment>��Ʒsku����</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="603" parent="263" name="sku_pic">
+      <Comment>��ƷskuͼƬ</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="604" parent="263" name="sku_price">
+      <Comment>��Ʒsku�۸�</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="605" parent="263" name="sku_quantity">
+      <Comment>��Ʒ���������</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="606" parent="263" name="sku_attrs_vals">
+      <Comment>��Ʒ����������ϣ�JSON��</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="607" parent="263" name="promotion_amount">
+      <Comment>��Ʒ�����ֽ���</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="608" parent="263" name="coupon_amount">
+      <Comment>�Ż�ȯ�Żݷֽ���</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="609" parent="263" name="integration_amount">
+      <Comment>�����Żݷֽ���</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="610" parent="263" name="real_amount">
+      <Comment>����Ʒ�����Żݺ�ķֽ���</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>18</Position>
+    </column>
+    <column id="611" parent="263" name="gift_integration">
+      <Comment>���ͻ���</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="612" parent="263" name="gift_growth">
+      <Comment>���ͳɳ�ֵ</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>20</Position>
+    </column>
+    <index id="613" parent="263" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="614" parent="263" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="615" parent="264" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="616" parent="264" name="order_id">
+      <Comment>����id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="617" parent="264" name="operate_man">
+      <Comment>������[�û���ϵͳ����̨����Ա]</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="618" parent="264" name="create_time">
+      <Comment>����ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="619" parent="264" name="order_status">
+      <Comment>����״̬��0-&gt;�����1-&gt;��������2-&gt;�ѷ�����3-&gt;����ɣ�4-&gt;�ѹرգ�5-&gt;��Ч������</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="620" parent="264" name="note">
+      <Comment>��ע</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <index id="621" parent="264" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="622" parent="264" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="623" parent="265" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="624" parent="265" name="order_id">
+      <Comment>order_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="625" parent="265" name="sku_id">
+      <Comment>�˻���Ʒid</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="626" parent="265" name="order_sn">
+      <Comment>�������</Comment>
+      <DasType>char(32)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="627" parent="265" name="create_time">
+      <Comment>����ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="628" parent="265" name="member_username">
+      <Comment>��Ա�û���</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="629" parent="265" name="return_amount">
+      <Comment>�˿���</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="630" parent="265" name="return_name">
+      <Comment>�˻�������</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="631" parent="265" name="return_phone">
+      <Comment>�˻��˵绰</Comment>
+      <DasType>varchar(20)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="632" parent="265" name="status">
+      <Comment>����״̬[0-&gt;��������1-&gt;�˻��У�2-&gt;����ɣ�3-&gt;�Ѿܾ�]</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="633" parent="265" name="handle_time">
+      <Comment>����ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="634" parent="265" name="sku_img">
+      <Comment>��ƷͼƬ</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="635" parent="265" name="sku_name">
+      <Comment>��Ʒ����</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="636" parent="265" name="sku_brand">
+      <Comment>��ƷƷ��</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="637" parent="265" name="sku_attrs_vals">
+      <Comment>��Ʒ��������(JSON)</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="638" parent="265" name="sku_count">
+      <Comment>�˻�����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="639" parent="265" name="sku_price">
+      <Comment>��Ʒ����</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="640" parent="265" name="sku_real_price">
+      <Comment>��Ʒʵ��֧������</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>18</Position>
+    </column>
+    <column id="641" parent="265" name="reason">
+      <Comment>ԭ��</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="642" parent="265" name="description��">
+      <Comment>����</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>20</Position>
+    </column>
+    <column id="643" parent="265" name="desc_pics">
+      <Comment>ƾ֤ͼƬ���Զ��Ÿ���</Comment>
+      <DasType>varchar(2000)|0s</DasType>
+      <Position>21</Position>
+    </column>
+    <column id="644" parent="265" name="handle_note">
+      <Comment>������ע</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>22</Position>
+    </column>
+    <column id="645" parent="265" name="handle_man">
+      <Comment>������Ա</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>23</Position>
+    </column>
+    <column id="646" parent="265" name="receive_man">
+      <Comment>�ջ���</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>24</Position>
+    </column>
+    <column id="647" parent="265" name="receive_time">
+      <Comment>�ջ�ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>25</Position>
+    </column>
+    <column id="648" parent="265" name="receive_note">
+      <Comment>�ջ���ע</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>26</Position>
+    </column>
+    <column id="649" parent="265" name="receive_phone">
+      <Comment>�ջ��绰</Comment>
+      <DasType>varchar(20)|0s</DasType>
+      <Position>27</Position>
+    </column>
+    <column id="650" parent="265" name="company_address">
+      <Comment>��˾�ջ���ַ</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>28</Position>
+    </column>
+    <index id="651" parent="265" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="652" parent="265" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="653" parent="266" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="654" parent="266" name="name">
+      <Comment>�˻�ԭ����</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="655" parent="266" name="sort">
+      <Comment>����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="656" parent="266" name="status">
+      <Comment>����״̬</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="657" parent="266" name="create_time">
+      <Comment>create_time</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <index id="658" parent="266" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="659" parent="266" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="660" parent="267" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="661" parent="267" name="flash_order_overtime">
+      <Comment>��ɱ������ʱ�ر�ʱ��(��)</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="662" parent="267" name="normal_order_overtime">
+      <Comment>����������ʱʱ��(��)</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="663" parent="267" name="confirm_overtime">
+      <Comment>�������Զ�ȷ���ջ�ʱ�䣨�죩</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="664" parent="267" name="finish_overtime">
+      <Comment>�Զ���ɽ���ʱ�䣬���������˻����죩</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="665" parent="267" name="comment_overtime">
+      <Comment>������ɺ��Զ�����ʱ�䣨�죩</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="666" parent="267" name="member_level">
+      <Comment>��Ա�ȼ���0-���&#x7bb;�Ա�ȼ���ȫ��ͨ�ã�����-��Ӧ��������Ա�ȼ���</Comment>
+      <DasType>tinyint(2)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <index id="667" parent="267" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="668" parent="267" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="669" parent="268" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="670" parent="268" name="order_sn">
+      <Comment>�����ţ�����ҵ��ţ�</Comment>
+      <DasType>char(32)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="671" parent="268" name="order_id">
+      <Comment>����id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="672" parent="268" name="alipay_trade_no">
+      <Comment>֧����������ˮ��</Comment>
+      <DasType>varchar(50)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="673" parent="268" name="total_amount">
+      <Comment>֧���ܽ��</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="674" parent="268" name="subject">
+      <Comment>��������</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="675" parent="268" name="payment_status">
+      <Comment>֧��״̬</Comment>
+      <DasType>varchar(20)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="676" parent="268" name="create_time">
+      <Comment>����ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="677" parent="268" name="confirm_time">
+      <Comment>ȷ��ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="678" parent="268" name="callback_content">
+      <Comment>�ص�����</Comment>
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="679" parent="268" name="callback_time">
+      <Comment>�ص�ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <index id="680" parent="268" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="681" parent="268" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="682" parent="269" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="683" parent="269" name="order_return_id">
+      <Comment>�˿�Ķ���</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="684" parent="269" name="refund">
+      <Comment>�˿���</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="685" parent="269" name="refund_sn">
+      <Comment>�˿����ˮ��</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="686" parent="269" name="refund_status">
+      <Comment>�˿�״̬</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="687" parent="269" name="refund_channel">
+      <Comment>�˿�����[1-֧������2-&#x3a2;�ţ�3-������4-���]</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="688" parent="269" name="refund_content">
+      <DasType>varchar(5000)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <index id="689" parent="269" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="690" parent="269" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="691" parent="270" name="attr_id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>����id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="692" parent="270" name="attr_name">
+      <Comment>������</Comment>
+      <DasType>char(30)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="693" parent="270" name="search_type">
+      <Comment>�Ƿ���Ҫ����[0-����Ҫ��1-��Ҫ]</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="694" parent="270" name="icon">
+      <Comment>����ͼ��</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="695" parent="270" name="value_select">
+      <Comment>��ѡֵ�б�[�ö��ŷָ�]</Comment>
+      <DasType>char(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="696" parent="270" name="attr_type">
+      <Comment>��������[0-�������ԣ�1-�������ԣ�2-���������������ǻ�������]</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="697" parent="270" name="enable">
+      <Comment>����״̬[0 - ���ã�1 - ����]</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="698" parent="270" name="catelog_id">
+      <Comment>��������</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="699" parent="270" name="show_desc">
+      <Comment>����չʾ���Ƿ�չʾ�ڽ����ϣ�0-�� 1-�ǡ�����sku����Ȼ���Ե���</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <index id="700" parent="270" name="PRIMARY">
+      <ColNames>attr_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="701" parent="270" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="702" parent="271" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="703" parent="271" name="attr_id">
+      <Comment>����id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="704" parent="271" name="attr_group_id">
+      <Comment>���Է���id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="705" parent="271" name="attr_sort">
+      <Comment>������������</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="706" parent="271" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="707" parent="271" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="708" parent="272" name="attr_group_id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>����id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="709" parent="272" name="attr_group_name">
+      <Comment>����</Comment>
+      <DasType>char(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="710" parent="272" name="sort">
+      <Comment>����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="711" parent="272" name="descript">
+      <Comment>����</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="712" parent="272" name="icon">
+      <Comment>��ͼ��</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="713" parent="272" name="catelog_id">
+      <Comment>��������id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <index id="714" parent="272" name="PRIMARY">
+      <ColNames>attr_group_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="715" parent="272" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="716" parent="273" name="brand_id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>Ʒ��id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="717" parent="273" name="name">
+      <Comment>Ʒ����</Comment>
+      <DasType>char(50)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="718" parent="273" name="logo">
+      <Comment>Ʒ��logo��ַ</Comment>
+      <DasType>varchar(2000)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="719" parent="273" name="descript">
+      <Comment>����</Comment>
+      <DasType>longtext|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="720" parent="273" name="show_status">
+      <Comment>��ʾ״̬[0-����ʾ��1-��ʾ]</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="721" parent="273" name="first_letter">
+      <Comment>��������ĸ</Comment>
+      <DasType>char(1)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="722" parent="273" name="sort">
+      <Comment>����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <index id="723" parent="273" name="PRIMARY">
+      <ColNames>brand_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="724" parent="273" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="725" parent="274" name="cat_id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>����id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="726" parent="274" name="name">
+      <Comment>��������</Comment>
+      <DasType>char(50)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="727" parent="274" name="parent_cid">
+      <Comment>������id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="728" parent="274" name="cat_level">
+      <Comment>�㼶</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="729" parent="274" name="show_status">
+      <Comment>�Ƿ���ʾ[0-����ʾ��1��ʾ]</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="730" parent="274" name="sort">
+      <Comment>����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="731" parent="274" name="icon">
+      <Comment>ͼ���ַ</Comment>
+      <DasType>char(255)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="732" parent="274" name="product_unit">
+      <Comment>������λ</Comment>
+      <DasType>char(50)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="733" parent="274" name="product_count">
+      <Comment>��Ʒ����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <index id="734" parent="274" name="PRIMARY">
+      <ColNames>cat_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="735" parent="274" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="736" parent="275" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="737" parent="275" name="brand_id">
+      <Comment>Ʒ��id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="738" parent="275" name="catelog_id">
+      <Comment>����id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="739" parent="275" name="brand_name">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="740" parent="275" name="catelog_name">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <index id="741" parent="275" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="742" parent="275" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="743" parent="276" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="744" parent="276" name="comment_id">
+      <Comment>����id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="745" parent="276" name="reply_id">
+      <Comment>�ظ�id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <index id="746" parent="276" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="747" parent="276" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="748" parent="277" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="749" parent="277" name="spu_id">
+      <Comment>��Ʒid</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="750" parent="277" name="attr_id">
+      <Comment>����id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="751" parent="277" name="attr_name">
+      <Comment>������</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="752" parent="277" name="attr_value">
+      <Comment>����ֵ</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="753" parent="277" name="attr_sort">
+      <Comment>˳��</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="754" parent="277" name="quick_show">
+      <Comment>����չʾ���Ƿ�չʾ�ڽ����ϣ�0-�� 1-�ǡ�</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <index id="755" parent="277" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="756" parent="277" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="757" parent="278" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="758" parent="278" name="sku_id">
+      <Comment>sku_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="759" parent="278" name="img_url">
+      <Comment>ͼƬ��ַ</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="760" parent="278" name="img_sort">
+      <Comment>����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="761" parent="278" name="default_img">
+      <Comment>Ĭ��ͼ[0 - ����Ĭ��ͼ��1 - ��Ĭ��ͼ]</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <index id="762" parent="278" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="763" parent="278" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="764" parent="279" name="sku_id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>skuId</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="765" parent="279" name="spu_id">
+      <Comment>spuId</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="766" parent="279" name="sku_name">
+      <Comment>sku����</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="767" parent="279" name="sku_desc">
+      <Comment>sku��������</Comment>
+      <DasType>varchar(2000)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="768" parent="279" name="catalog_id">
+      <Comment>��������id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="769" parent="279" name="brand_id">
+      <Comment>Ʒ��id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="770" parent="279" name="sku_default_img">
+      <Comment>Ĭ��ͼƬ</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="771" parent="279" name="sku_title">
+      <Comment>����</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="772" parent="279" name="sku_subtitle">
+      <Comment>������</Comment>
+      <DasType>varchar(2000)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="773" parent="279" name="price">
+      <Comment>�۸�</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="774" parent="279" name="sale_count">
+      <Comment>����</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <index id="775" parent="279" name="PRIMARY">
+      <ColNames>sku_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="776" parent="279" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="777" parent="280" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="778" parent="280" name="sku_id">
+      <Comment>sku_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="779" parent="280" name="attr_id">
+      <Comment>attr_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="780" parent="280" name="attr_name">
+      <Comment>����������</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="781" parent="280" name="attr_value">
+      <Comment>��������ֵ</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="782" parent="280" name="attr_sort">
+      <Comment>˳��</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <index id="783" parent="280" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="784" parent="280" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="785" parent="281" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="786" parent="281" name="sku_id">
+      <Comment>sku_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="787" parent="281" name="spu_id">
+      <Comment>spu_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="788" parent="281" name="spu_name">
+      <Comment>��Ʒ����</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="789" parent="281" name="member_nick_name">
+      <Comment>��Ա�ǳ�</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="790" parent="281" name="star">
+      <Comment>�Ǽ�</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="791" parent="281" name="member_ip">
+      <Comment>��Աip</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="792" parent="281" name="create_time">
+      <Comment>����ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="793" parent="281" name="show_status">
+      <Comment>��ʾ״̬[0-����ʾ��1-��ʾ]</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="794" parent="281" name="spu_attributes">
+      <Comment>����ʱ�������</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="795" parent="281" name="likes_count">
+      <Comment>������</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="796" parent="281" name="reply_count">
+      <Comment>�ظ���</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="797" parent="281" name="resources">
+      <Comment>����ͼƬ/��Ƶ[json���ݣ�[{type:�ļ�����,url:��Դ·��}]]</Comment>
+      <DasType>varchar(1000)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="798" parent="281" name="content">
+      <Comment>����</Comment>
+      <DasType>text|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="799" parent="281" name="member_icon">
+      <Comment>�û�ͷ��</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="800" parent="281" name="comment_type">
+      <Comment>��������[0 - ����Ʒ��ֱ�����ۣ�1 - �����۵Ļظ�]</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <index id="801" parent="281" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="802" parent="281" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="803" parent="282" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="804" parent="282" name="spu_id">
+      <Comment>spu_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="805" parent="282" name="img_name">
+      <Comment>ͼƬ��</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="806" parent="282" name="img_url">
+      <Comment>ͼƬ��ַ</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="807" parent="282" name="img_sort">
+      <Comment>˳��</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="808" parent="282" name="default_img">
+      <Comment>�Ƿ�Ĭ��ͼ</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <index id="809" parent="282" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="810" parent="282" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="811" parent="283" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>��Ʒid</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="812" parent="283" name="spu_name">
+      <Comment>��Ʒ����</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="813" parent="283" name="spu_description">
+      <Comment>��Ʒ����</Comment>
+      <DasType>varchar(1000)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="814" parent="283" name="catalog_id">
+      <Comment>��������id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="815" parent="283" name="brand_id">
+      <Comment>Ʒ��id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="816" parent="283" name="weight">
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="817" parent="283" name="publish_status">
+      <Comment>�ϼ�״̬[0 - �¼ܣ�1 - �ϼ�]</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="818" parent="283" name="create_time">
+      <DasType>datetime|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="819" parent="283" name="update_time">
+      <DasType>datetime|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <index id="820" parent="283" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="821" parent="283" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="822" parent="284" name="spu_id">
+      <Comment>��Ʒid</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="823" parent="284" name="decript">
+      <Comment>��Ʒ����</Comment>
+      <DasType>longtext|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <index id="824" parent="284" name="PRIMARY">
+      <ColNames>spu_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="825" parent="284" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="826" parent="285" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="827" parent="285" name="coupon_type">
+      <Comment>�Żݾ�����[0-&gt;ȫ����ȯ��1-&gt;��Ա��ȯ��2-&gt;������ȯ��3-&gt;ע����ȯ]</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="828" parent="285" name="coupon_img">
+      <Comment>�Ż�ȯͼƬ</Comment>
+      <DasType>varchar(2000)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="829" parent="285" name="coupon_name">
+      <Comment>�Żݾ�����</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="830" parent="285" name="num">
+      <Comment>����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="831" parent="285" name="amount">
+      <Comment>���</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="832" parent="285" name="per_limit">
+      <Comment>ÿ����������</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="833" parent="285" name="min_point">
+      <Comment>ʹ���ż�</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="834" parent="285" name="start_time">
+      <Comment>��ʼʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="835" parent="285" name="end_time">
+      <Comment>����ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="836" parent="285" name="use_type">
+      <Comment>ʹ������[0-&gt;ȫ��ͨ�ã�1-&gt;ָ�����ࣻ2-&gt;ָ����Ʒ]</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="837" parent="285" name="note">
+      <Comment>��ע</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="838" parent="285" name="publish_count">
+      <Comment>��������</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="839" parent="285" name="use_count">
+      <Comment>��ʹ������</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="840" parent="285" name="receive_count">
+      <Comment>��ȡ����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="841" parent="285" name="enable_start_time">
+      <Comment>������ȡ�Ŀ�ʼ����</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="842" parent="285" name="enable_end_time">
+      <Comment>������ȡ�Ľ�������</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="843" parent="285" name="code">
+      <Comment>�Ż���</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <Position>18</Position>
+    </column>
+    <column id="844" parent="285" name="member_level">
+      <Comment>������ȡ�Ļ�Ա�ȼ�[0-&gt;���&#x7b5;ȼ�������-��Ӧ�ȼ�]</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="845" parent="285" name="publish">
+      <Comment>����״̬[0-δ������1-�ѷ���]</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>20</Position>
+    </column>
+    <index id="846" parent="285" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="847" parent="285" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="848" parent="286" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="849" parent="286" name="coupon_id">
+      <Comment>�Ż�ȯid</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="850" parent="286" name="member_id">
+      <Comment>��Աid</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="851" parent="286" name="member_nick_name">
+      <Comment>��Ա����</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="852" parent="286" name="get_type">
+      <Comment>��ȡ��ʽ[0-&gt;��̨���ͣ�1-&gt;������ȡ]</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="853" parent="286" name="create_time">
+      <Comment>����ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="854" parent="286" name="use_type">
+      <Comment>ʹ��״̬[0-&gt;δʹ�ã�1-&gt;��ʹ�ã�2-&gt;�ѹ���]</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="855" parent="286" name="use_time">
+      <Comment>ʹ��ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="856" parent="286" name="order_id">
+      <Comment>����id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="857" parent="286" name="order_sn">
+      <Comment>������</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <index id="858" parent="286" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="859" parent="286" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="860" parent="287" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="861" parent="287" name="coupon_id">
+      <Comment>�Ż�ȯid</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="862" parent="287" name="category_id">
+      <Comment>��Ʒ����id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="863" parent="287" name="category_name">
+      <Comment>��Ʒ��������</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="864" parent="287" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="865" parent="287" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="866" parent="288" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="867" parent="288" name="coupon_id">
+      <Comment>�Ż�ȯid</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="868" parent="288" name="spu_id">
+      <Comment>spu_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="869" parent="288" name="spu_name">
+      <Comment>spu_name</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="870" parent="288" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="871" parent="288" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="872" parent="289" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="873" parent="289" name="name">
+      <Comment>����</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="874" parent="289" name="pic">
+      <Comment>ͼƬ��ַ</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="875" parent="289" name="start_time">
+      <Comment>��ʼʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="876" parent="289" name="end_time">
+      <Comment>����ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="877" parent="289" name="status">
+      <Comment>״̬</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="878" parent="289" name="click_count">
+      <Comment>�����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="879" parent="289" name="url">
+      <Comment>����������ӵ�ַ</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="880" parent="289" name="note">
+      <Comment>��ע</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="881" parent="289" name="sort">
+      <Comment>����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="882" parent="289" name="publisher_id">
+      <Comment>������</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="883" parent="289" name="auth_id">
+      <Comment>�����</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <index id="884" parent="289" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="885" parent="289" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="886" parent="290" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="887" parent="290" name="name">
+      <Comment>ר������</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="888" parent="290" name="title">
+      <Comment>ר�����</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="889" parent="290" name="sub_title">
+      <Comment>ר�⸱����</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="890" parent="290" name="status">
+      <Comment>��ʾ״̬</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="891" parent="290" name="url">
+      <Comment>��������</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="892" parent="290" name="sort">
+      <Comment>����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="893" parent="290" name="img">
+      <Comment>ר��ͼƬ��ַ</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <index id="894" parent="290" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="895" parent="290" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="896" parent="291" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="897" parent="291" name="name">
+      <Comment>ר������</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="898" parent="291" name="subject_id">
+      <Comment>ר��id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="899" parent="291" name="spu_id">
+      <Comment>spu_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="900" parent="291" name="sort">
+      <Comment>����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <index id="901" parent="291" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="902" parent="291" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="903" parent="292" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="904" parent="292" name="sku_id">
+      <Comment>sku_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="905" parent="292" name="member_level_id">
+      <Comment>��Ա�ȼ�id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="906" parent="292" name="member_level_name">
+      <Comment>��Ա�ȼ���</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="907" parent="292" name="member_price">
+      <Comment>��Ա��Ӧ�۸�</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="908" parent="292" name="add_other">
+      <Comment>�ɷ���������Ż�[0-���ɵ����Żݣ�1-�ɵ���]</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <index id="909" parent="292" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="910" parent="292" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="911" parent="293" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="912" parent="293" name="title">
+      <Comment>�����</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="913" parent="293" name="start_time">
+      <Comment>��ʼ����</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="914" parent="293" name="end_time">
+      <Comment>��������</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="915" parent="293" name="status">
+      <Comment>������״̬</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="916" parent="293" name="create_time">
+      <Comment>����ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="917" parent="293" name="user_id">
+      <Comment>������</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <index id="918" parent="293" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="919" parent="293" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="920" parent="294" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="921" parent="294" name="name">
+      <Comment>��������</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="922" parent="294" name="start_time">
+      <Comment>ÿ�տ�ʼʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="923" parent="294" name="end_time">
+      <Comment>ÿ�ս���ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="924" parent="294" name="status">
+      <Comment>����״̬</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="925" parent="294" name="create_time">
+      <Comment>����ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <index id="926" parent="294" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="927" parent="294" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="928" parent="295" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="929" parent="295" name="member_id">
+      <Comment>member_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="930" parent="295" name="sku_id">
+      <Comment>sku_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="931" parent="295" name="session_id">
+      <Comment>�����id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="932" parent="295" name="subcribe_time">
+      <Comment>����ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="933" parent="295" name="send_time">
+      <Comment>����ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="934" parent="295" name="notice_type">
+      <Comment>֪ͨ��ʽ[0-���ţ�1-�ʼ�]</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <index id="935" parent="295" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="936" parent="295" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="937" parent="296" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="938" parent="296" name="promotion_id">
+      <Comment>�id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="939" parent="296" name="promotion_session_id">
+      <Comment>�����id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="940" parent="296" name="sku_id">
+      <Comment>��Ʒid</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="941" parent="296" name="seckill_price">
+      <Comment>��ɱ�۸�</Comment>
+      <DasType>decimal(10)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="942" parent="296" name="seckill_count">
+      <Comment>��ɱ����</Comment>
+      <DasType>decimal(10)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="943" parent="296" name="seckill_limit">
+      <Comment>ÿ���&#x7b9;�����</Comment>
+      <DasType>decimal(10)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="944" parent="296" name="seckill_sort">
+      <Comment>����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <index id="945" parent="296" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="946" parent="296" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="947" parent="297" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="948" parent="297" name="sku_id">
+      <Comment>spu_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="949" parent="297" name="full_price">
+      <Comment>������</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="950" parent="297" name="reduce_price">
+      <Comment>������</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="951" parent="297" name="add_other">
+      <Comment>�Ƿ���������Ż�</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <index id="952" parent="297" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="953" parent="297" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="954" parent="298" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="955" parent="298" name="sku_id">
+      <Comment>spu_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="956" parent="298" name="full_count">
+      <Comment>������</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="957" parent="298" name="discount">
+      <Comment>����</Comment>
+      <DasType>decimal(4,2 digit)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="958" parent="298" name="price">
+      <Comment>�ۺ��</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="959" parent="298" name="add_other">
+      <Comment>�Ƿ���������Ż�[0-���ɵ��ӣ�1-�ɵ���]</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <index id="960" parent="298" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="961" parent="298" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="962" parent="299" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="963" parent="299" name="spu_id">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="964" parent="299" name="grow_bounds">
+      <Comment>�ɳ�����</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="965" parent="299" name="buy_bounds">
+      <Comment>�������</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="966" parent="299" name="work">
+      <Comment>�Ż���Ч���[1111���ĸ�״̬λ�����ҵ���;0 - ���Żݣ��ɳ������Ƿ�����;1 - ���Żݣ���������Ƿ�����;2 - ���Żݣ��ɳ������Ƿ�����;3 - ���Żݣ���������Ƿ����͡�״̬λ0�������ͣ�1�����͡�]</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <index id="967" parent="299" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="968" parent="299" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="969" parent="300" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="970" parent="300" name="member_id">
+      <Comment>member_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="971" parent="300" name="create_time">
+      <Comment>create_time</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="972" parent="300" name="change_count">
+      <Comment>�ı��ֵ������������</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="973" parent="300" name="note">
+      <Comment>��ע</Comment>
+      <DasType>varchar(0)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="974" parent="300" name="source_type">
+      <Comment>������Դ[0-���1-����Ա�&#x7b8;�]</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <index id="975" parent="300" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="976" parent="300" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="977" parent="301" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="978" parent="301" name="member_id">
+      <Comment>member_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="979" parent="301" name="create_time">
+      <Comment>create_time</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="980" parent="301" name="change_count">
+      <Comment>�仯��ֵ</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="981" parent="301" name="note">
+      <Comment>��ע</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="982" parent="301" name="source_tyoe">
+      <Comment>��Դ[0-&gt;���1-&gt;����Ա�&#x7b8;�;2-&gt;�]</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <index id="983" parent="301" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="984" parent="301" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="985" parent="302" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="986" parent="302" name="level_id">
+      <Comment>��Ա�ȼ�id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="987" parent="302" name="username">
+      <Comment>�û���</Comment>
+      <DasType>char(64)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="988" parent="302" name="password">
+      <Comment>����</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="989" parent="302" name="nickname">
+      <Comment>�ǳ�</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="990" parent="302" name="mobile">
+      <Comment>�ֻ�����</Comment>
+      <DasType>varchar(20)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="991" parent="302" name="email">
+      <Comment>����</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="992" parent="302" name="header">
+      <Comment>ͷ��</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="993" parent="302" name="gender">
+      <Comment>�Ա�</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="994" parent="302" name="birth">
+      <Comment>����</Comment>
+      <DasType>date|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="995" parent="302" name="city">
+      <Comment>���ڳ���</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="996" parent="302" name="job">
+      <Comment>ְҵ</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="997" parent="302" name="sign">
+      <Comment>����ǩ��</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="998" parent="302" name="source_type">
+      <Comment>�û���Դ</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="999" parent="302" name="integration">
+      <Comment>����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="1000" parent="302" name="growth">
+      <Comment>�ɳ�ֵ</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="1001" parent="302" name="status">
+      <Comment>����״̬</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="1002" parent="302" name="create_time">
+      <Comment>ע��ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>18</Position>
+    </column>
+    <index id="1003" parent="302" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1004" parent="302" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1005" parent="303" name="id">
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1006" parent="303" name="member_id">
+      <Comment>��Աid</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="1007" parent="303" name="spu_id">
+      <Comment>spu_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1008" parent="303" name="spu_name">
+      <Comment>spu_name</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1009" parent="303" name="spu_img">
+      <Comment>spu_img</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="1010" parent="303" name="create_time">
+      <Comment>create_time</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <index id="1011" parent="303" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1012" parent="303" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1013" parent="304" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1014" parent="304" name="subject_id">
+      <Comment>subject_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="1015" parent="304" name="subject_name">
+      <Comment>subject_name</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1016" parent="304" name="subject_img">
+      <Comment>subject_img</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1017" parent="304" name="subject_urll">
+      <Comment>�url</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <index id="1018" parent="304" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1019" parent="304" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1020" parent="305" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1021" parent="305" name="name">
+      <Comment>�ȼ�����</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="1022" parent="305" name="growth_point">
+      <Comment>�ȼ���Ҫ�ĳɳ�ֵ</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1023" parent="305" name="default_status">
+      <Comment>�Ƿ�ΪĬ�ϵȼ�[0-&gt;���ǣ�1-&gt;��]</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1024" parent="305" name="free_freight_point">
+      <Comment>���˷ѱ�&#x5fc;</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="1025" parent="305" name="comment_growth_point">
+      <Comment>ÿ�����ۻ�ȡ�ĳɳ�ֵ</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="1026" parent="305" name="priviledge_free_freight">
+      <Comment>�Ƿ���������Ȩ</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="1027" parent="305" name="priviledge_member_price">
+      <Comment>�Ƿ��л�Ա�۸���Ȩ</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="1028" parent="305" name="priviledge_birthday">
+      <Comment>�Ƿ���������Ȩ</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="1029" parent="305" name="note">
+      <Comment>��ע</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <index id="1030" parent="305" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1031" parent="305" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1032" parent="306" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1033" parent="306" name="member_id">
+      <Comment>member_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="1034" parent="306" name="create_time">
+      <Comment>����ʱ��</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1035" parent="306" name="ip">
+      <Comment>ip</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1036" parent="306" name="city">
+      <Comment>city</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="1037" parent="306" name="login_type">
+      <Comment>��¼����[1-web��2-app]</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <index id="1038" parent="306" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1039" parent="306" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1040" parent="307" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1041" parent="307" name="member_id">
+      <Comment>member_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="1042" parent="307" name="name">
+      <Comment>�ջ�������</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1043" parent="307" name="phone">
+      <Comment>�绰</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1044" parent="307" name="post_code">
+      <Comment>��������</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="1045" parent="307" name="province">
+      <Comment>ʡ��/ֱϽ��</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="1046" parent="307" name="city">
+      <Comment>����</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="1047" parent="307" name="region">
+      <Comment>��</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="1048" parent="307" name="detail_address">
+      <Comment>��ϸ��ַ(�ֵ�)</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="1049" parent="307" name="areacode">
+      <Comment>ʡ��������</Comment>
+      <DasType>varchar(15)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="1050" parent="307" name="default_status">
+      <Comment>�Ƿ�Ĭ��</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <index id="1051" parent="307" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1052" parent="307" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1053" parent="308" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1054" parent="308" name="member_id">
+      <Comment>��Աid</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="1055" parent="308" name="consume_amount">
+      <Comment>�ۼ����ѽ��</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1056" parent="308" name="coupon_amount">
+      <Comment>�ۼ��Żݽ��</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1057" parent="308" name="order_count">
+      <Comment>��������</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="1058" parent="308" name="coupon_count">
+      <Comment>�Ż�ȯ����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="1059" parent="308" name="comment_count">
+      <Comment>������</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="1060" parent="308" name="return_order_count">
+      <Comment>�˻�����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="1061" parent="308" name="login_count">
+      <Comment>��¼����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="1062" parent="308" name="attend_count">
+      <Comment>��ע����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="1063" parent="308" name="fans_count">
+      <Comment>��˿����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="1064" parent="308" name="collect_product_count">
+      <Comment>�ղص���Ʒ����</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="1065" parent="308" name="collect_subject_count">
+      <Comment>�ղص�ר������</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="1066" parent="308" name="collect_comment_count">
+      <Comment>�ղص���������</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="1067" parent="308" name="invite_friend_count">
+      <Comment>�������������</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <index id="1068" parent="308" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1069" parent="308" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1070" parent="309" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1071" parent="309" name="branch_id">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="1072" parent="309" name="xid">
+      <DasType>varchar(100)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="1073" parent="309" name="context">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="1074" parent="309" name="rollback_info">
+      <DasType>longblob|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="1075" parent="309" name="log_status">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="1076" parent="309" name="log_created">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="1077" parent="309" name="log_modified">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="1078" parent="309" name="ext">
+      <DasType>varchar(100)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <index id="1079" parent="309" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1080" parent="309" name="ux_undo_log">
+      <ColNames>xid
+branch_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1081" parent="309" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="1082" parent="309" name="ux_undo_log">
+      <UnderlyingIndexName>ux_undo_log</UnderlyingIndexName>
+    </key>
+    <column id="1083" parent="310" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1084" parent="310" name="assignee_id">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="1085" parent="310" name="assignee_name">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1086" parent="310" name="phone">
+      <DasType>char(13)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1087" parent="310" name="priority">
+      <DasType>int(4)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="1088" parent="310" name="status">
+      <DasType>int(4)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="1089" parent="310" name="ware_id">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="1090" parent="310" name="amount">
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="1091" parent="310" name="create_time">
+      <DasType>datetime|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="1092" parent="310" name="update_time">
+      <DasType>datetime|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <index id="1093" parent="310" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1094" parent="310" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1095" parent="311" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1096" parent="311" name="purchase_id">
+      <Comment>采购单id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="1097" parent="311" name="sku_id">
+      <Comment>采购商品id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1098" parent="311" name="sku_num">
+      <Comment>采购数量</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1099" parent="311" name="sku_price">
+      <Comment>采购金额</Comment>
+      <DasType>decimal(18,4 digit)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="1100" parent="311" name="ware_id">
+      <Comment>仓库id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="1101" parent="311" name="status">
+      <Comment>状态[0新建，1已分配，2正在采购，3已完成，4采购失败]</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <index id="1102" parent="311" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1103" parent="311" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1104" parent="312" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1105" parent="312" name="name">
+      <Comment>仓库名</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="1106" parent="312" name="address">
+      <Comment>仓库地址</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1107" parent="312" name="areacode">
+      <Comment>区域编码</Comment>
+      <DasType>varchar(20)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="1108" parent="312" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1109" parent="312" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1110" parent="313" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1111" parent="313" name="order_id">
+      <Comment>order_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="1112" parent="313" name="order_sn">
+      <Comment>order_sn</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1113" parent="313" name="consignee">
+      <Comment>收货人</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1114" parent="313" name="consignee_tel">
+      <Comment>收货人电话</Comment>
+      <DasType>char(15)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="1115" parent="313" name="delivery_address">
+      <Comment>配送地址</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="1116" parent="313" name="order_comment">
+      <Comment>订单备注</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="1117" parent="313" name="payment_way">
+      <Comment>付款方式【 1:在线付款 2:货到付款】</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="1118" parent="313" name="task_status">
+      <Comment>任务状态</Comment>
+      <DasType>tinyint(2)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="1119" parent="313" name="order_body">
+      <Comment>订单描述</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="1120" parent="313" name="tracking_no">
+      <Comment>物流单号</Comment>
+      <DasType>char(30)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="1121" parent="313" name="create_time">
+      <Comment>create_time</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="1122" parent="313" name="ware_id">
+      <Comment>仓库id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="1123" parent="313" name="task_comment">
+      <Comment>工作单备注</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <index id="1124" parent="313" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1125" parent="313" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1126" parent="314" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1127" parent="314" name="sku_id">
+      <Comment>sku_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="1128" parent="314" name="sku_name">
+      <Comment>sku_name</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1129" parent="314" name="sku_num">
+      <Comment>购买个数</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1130" parent="314" name="task_id">
+      <Comment>工作单id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="1131" parent="314" name="ware_id">
+      <Comment>仓库id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="1132" parent="314" name="lock_status">
+      <Comment>1-已锁定  2-已解锁  3-扣减</Comment>
+      <DasType>int(1)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <index id="1133" parent="314" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1134" parent="314" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1135" parent="315" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <Comment>id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1136" parent="315" name="sku_id">
+      <Comment>sku_id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="1137" parent="315" name="ware_id">
+      <Comment>仓库id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1138" parent="315" name="stock">
+      <Comment>库存数</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1139" parent="315" name="sku_name">
+      <Comment>sku_name</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="1140" parent="315" name="stock_locked">
+      <Comment>锁定库存</Comment>
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>6</Position>
+    </column>
+    <index id="1141" parent="315" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1142" parent="315" name="sku_id">
+      <ColNames>sku_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1143" parent="315" name="ware_id">
+      <ColNames>ware_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1144" parent="315" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
   </database-model>
 </dataSource>
