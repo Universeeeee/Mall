@@ -1,0 +1,29 @@
+
+v
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(İóˆ·8úşı¦Ô1
+v
+java:S2293="YReplace the type specification in this constructor call with the diamond operator ("<>").(İóˆ·8ûşı¦Ô1
+e
+java:S1192"IDefine a constant instead of duplicating this literal "mainPath" 4 times.(‡×ç!8•»Õ¦Ô1
+n
+java:S1192"KDefine a constant instead of duplicating this literal "moduleName" 6 times.(ÇŞ‹úÿÿÿÿ8•»Õ¦Ô1
+l
+java:S1192M"JDefine a constant instead of duplicating this literal "tableName" 3 times.(ĞŒ±½ûÿÿÿÿ8•»Õ¦Ô1
+f
+java:S1192"HDefine a constant instead of duplicating this literal "package" 6 times.(¥ƒˆÿ8•»Õ¦Ô1
+j
+java:S1192"GDefine a constant instead of duplicating this literal "author" 4 times.(øäİ•şÿÿÿÿ8–»Õ¦Ô1
+d
+java:S1192™"FDefine a constant instead of duplicating this literal "UTF-8" 4 times.(¹˜§‡8–»Õ¦Ô1
+d
+java:S1192"FDefine a constant instead of duplicating this literal "email" 4 times.(Í¨‚½8–»Õ¦Ô1
+a
+java:S1192É"JDefine a constant instead of duplicating this literal "resources" 3 times.(…ÔÖé
+\
+java:S1118 ":Add a private constructor to hide the implicit public one.(œõòÌÿÿÿÿÿ8©»Õ¦Ô1
+\
+java:S4719Ÿ"9Replace charset name argument with StandardCharsets.UTF_8(Ù¾œ¿ÿÿÿÿÿ8»€ş¦Ô1
+\
+java:S4719ÿ"9Replace charset name argument with StandardCharsets.UTF_8(Ù¾œ¿ÿÿÿÿÿ8î€ş¦Ô1
+d
+java:S5361Ş"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ƒ˜Èòûÿÿÿÿ

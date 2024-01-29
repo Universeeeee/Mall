@@ -1,0 +1,11 @@
+
+_
+java:S6813""BRemove this field injection and use constructor injection instead.(êæÄŞ8‹üı¦Ô1
+S
+java:S2696&"6Make the enclosing method "static" or remove this set.(ˆ¢ˆı8 üı¦Ô1
+V
+java:S2130="9Use "Integer.parseInt" for this string-to-int conversion.(±öÖá8¨üı¦Ô1
+[
+java:S2130>"9Use "Integer.parseInt" for this string-to-int conversion.(½Íû ûÿÿÿÿ8¯üı¦Ô1
+O
+java:S1611c"2Remove the parentheses around the "name" parameter(×Èï8Ùüı¦Ô1

@@ -1,0 +1,65 @@
+
+t
+java:S2293H"YReplace the type specification in this constructor call with the diamond operator ("<>").(çÖÒøÿÿÿÿ
+n
+java:S2293I"YReplace the type specification in this constructor call with the diamond operator ("<>").(“Ò¨Q
+t
+java:S2293N"YReplace the type specification in this constructor call with the diamond operator ("<>").(âëÊ°ÿÿÿÿÿ
+t
+java:S2293o"YReplace the type specification in this constructor call with the diamond operator ("<>").(²ÃÃæıÿÿÿÿ
+t
+java:S2293t"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥Õøÿÿÿÿ
+t
+java:S2293{"YReplace the type specification in this constructor call with the diamond operator ("<>").(˜İúÔÿÿÿÿÿ
+p
+java:S2293æ"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯Ë½¤
+p
+java:S2293ç"YReplace the type specification in this constructor call with the diamond operator ("<>").(“¿¬ö
+b
+java:S1192}"GDefine a constant instead of duplicating this literal "strong" 3 times.(¾ØñÑıÿÿÿÿ
+K
+java:S1066Ğ"/Merge this if statement with the enclosing one.(‹îıØüÿÿÿÿ
+K
+java:S1066Ñ"/Merge this if statement with the enclosing one.(„–…Œûÿÿÿÿ
+k	java:S117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ÃÃæıÿÿÿÿ
+k	java:S117t"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Õøÿÿÿÿ
+k	java:S117{"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜İúÔÿÿÿÿÿ
+l	java:S117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õĞá›øÿÿÿÿ
+3
+java:S1643®"Use a StringBuilder instead.(šû¯†
+3
+java:S1643ş"Use a StringBuilder instead.(ºú·
+D
+java:S4274"(Replace this assert with a proper check.( Í¨öøÿÿÿÿ
+D
+java:S4274"(Replace this assert with a proper check.(ñŸ¦‰şÿÿÿÿ
+?
+java:S4274Ÿ"(Replace this assert with a proper check.(À«œ¾
+?
+java:S4274 "(Replace this assert with a proper check.(ÆªÀ
+?
+java:S4274¡"(Replace this assert with a proper check.(‚õÛ
+?
+java:S4274¢"(Replace this assert with a proper check.(÷Ü•º
+D
+java:S4274£"(Replace this assert with a proper check.(õÓï¡øÿÿÿÿ
+>
+java:S4274¤"(Replace this assert with a proper check.(‰¬f
+>
+java:S1125®"'Remove the unnecessary boolean literal.(¢·£Ä
+=
+java:S1125¯"'Remove the unnecessary boolean literal.(òİ•
+>
+java:S1125°"'Remove the unnecessary boolean literal.(¼¶ŞŞ
+P
+java:S2864¬"4Iterate over the "entrySet" instead of the "keySet".(”ıİîùÿÿÿÿ
+i
+java:S3776Ê"RRefactor this method to reduce its Cognitive Complexity from 50 to the 15 allowed.(‚Şÿê
+R	java:S125à"<This block of commented-out lines of code should be removed.(Ò»´
+?
+java:S1659ñ"(Declare "paramValue" on a separate line.(ŸÉÛÚ
+W	java:S125ö"<This block of commented-out lines of code should be removed.(ñç¤Üÿÿÿÿÿ
+`
+java:S6019;"EFix this reluctant quantifier that will only ever match 1 repetition.(¨á÷şÿÿÿÿ
+İ
+java:S6541Ê"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 69 to 64, Complexity from 19 to 14, Nesting Level from 5 to 2, Number of Variables from 14 to 6.(‚Şÿê

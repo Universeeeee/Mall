@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="@192.168.3.22">
+<dataSource name="@192.168.3.10">
   <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.45">
     <root id="1">
       <DefaultCasing>exact</DefaultCasing>
@@ -68,1127 +68,1127 @@ performance_schema|schema||mysql.session|localhost|SELECT|G
 sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <ServerVersion>5.7.36</ServerVersion>
     </root>
-    <collation id="2" parent="1" name="armscii8_bin">
-      <Charset>armscii8</Charset>
-    </collation>
-    <collation id="3" parent="1" name="armscii8_general_ci">
-      <Charset>armscii8</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="4" parent="1" name="ascii_bin">
-      <Charset>ascii</Charset>
-    </collation>
-    <collation id="5" parent="1" name="ascii_general_ci">
-      <Charset>ascii</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="6" parent="1" name="big5_bin">
-      <Charset>big5</Charset>
-    </collation>
-    <collation id="7" parent="1" name="big5_chinese_ci">
+    <collation id="2" parent="1" name="big5_chinese_ci">
       <Charset>big5</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="8" parent="1" name="binary">
-      <Charset>binary</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
+    <collation id="3" parent="1" name="big5_bin">
+      <Charset>big5</Charset>
     </collation>
-    <collation id="9" parent="1" name="cp1250_bin">
-      <Charset>cp1250</Charset>
-    </collation>
-    <collation id="10" parent="1" name="cp1250_croatian_ci">
-      <Charset>cp1250</Charset>
-    </collation>
-    <collation id="11" parent="1" name="cp1250_czech_cs">
-      <Charset>cp1250</Charset>
-    </collation>
-    <collation id="12" parent="1" name="cp1250_general_ci">
-      <Charset>cp1250</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="13" parent="1" name="cp1250_polish_ci">
-      <Charset>cp1250</Charset>
-    </collation>
-    <collation id="14" parent="1" name="cp1251_bin">
-      <Charset>cp1251</Charset>
-    </collation>
-    <collation id="15" parent="1" name="cp1251_bulgarian_ci">
-      <Charset>cp1251</Charset>
-    </collation>
-    <collation id="16" parent="1" name="cp1251_general_ci">
-      <Charset>cp1251</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="17" parent="1" name="cp1251_general_cs">
-      <Charset>cp1251</Charset>
-    </collation>
-    <collation id="18" parent="1" name="cp1251_ukrainian_ci">
-      <Charset>cp1251</Charset>
-    </collation>
-    <collation id="19" parent="1" name="cp1256_bin">
-      <Charset>cp1256</Charset>
-    </collation>
-    <collation id="20" parent="1" name="cp1256_general_ci">
-      <Charset>cp1256</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="21" parent="1" name="cp1257_bin">
-      <Charset>cp1257</Charset>
-    </collation>
-    <collation id="22" parent="1" name="cp1257_general_ci">
-      <Charset>cp1257</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="23" parent="1" name="cp1257_lithuanian_ci">
-      <Charset>cp1257</Charset>
-    </collation>
-    <collation id="24" parent="1" name="cp850_bin">
-      <Charset>cp850</Charset>
-    </collation>
-    <collation id="25" parent="1" name="cp850_general_ci">
-      <Charset>cp850</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="26" parent="1" name="cp852_bin">
-      <Charset>cp852</Charset>
-    </collation>
-    <collation id="27" parent="1" name="cp852_general_ci">
-      <Charset>cp852</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="28" parent="1" name="cp866_bin">
-      <Charset>cp866</Charset>
-    </collation>
-    <collation id="29" parent="1" name="cp866_general_ci">
-      <Charset>cp866</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="30" parent="1" name="cp932_bin">
-      <Charset>cp932</Charset>
-    </collation>
-    <collation id="31" parent="1" name="cp932_japanese_ci">
-      <Charset>cp932</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="32" parent="1" name="dec8_bin">
-      <Charset>dec8</Charset>
-    </collation>
-    <collation id="33" parent="1" name="dec8_swedish_ci">
+    <collation id="4" parent="1" name="dec8_swedish_ci">
       <Charset>dec8</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="34" parent="1" name="eucjpms_bin">
-      <Charset>eucjpms</Charset>
+    <collation id="5" parent="1" name="dec8_bin">
+      <Charset>dec8</Charset>
     </collation>
-    <collation id="35" parent="1" name="eucjpms_japanese_ci">
-      <Charset>eucjpms</Charset>
+    <collation id="6" parent="1" name="cp850_general_ci">
+      <Charset>cp850</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="36" parent="1" name="euckr_bin">
-      <Charset>euckr</Charset>
+    <collation id="7" parent="1" name="cp850_bin">
+      <Charset>cp850</Charset>
+    </collation>
+    <collation id="8" parent="1" name="hp8_english_ci">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="9" parent="1" name="hp8_bin">
+      <Charset>hp8</Charset>
+    </collation>
+    <collation id="10" parent="1" name="koi8r_general_ci">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="11" parent="1" name="koi8r_bin">
+      <Charset>koi8r</Charset>
+    </collation>
+    <collation id="12" parent="1" name="latin1_german1_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="13" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="14" parent="1" name="latin1_danish_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="15" parent="1" name="latin1_german2_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="16" parent="1" name="latin1_bin">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="17" parent="1" name="latin1_general_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="18" parent="1" name="latin1_general_cs">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="19" parent="1" name="latin1_spanish_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="20" parent="1" name="latin2_czech_cs">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="21" parent="1" name="latin2_general_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="22" parent="1" name="latin2_hungarian_ci">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="23" parent="1" name="latin2_croatian_ci">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="24" parent="1" name="latin2_bin">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="25" parent="1" name="swe7_swedish_ci">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="26" parent="1" name="swe7_bin">
+      <Charset>swe7</Charset>
+    </collation>
+    <collation id="27" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="28" parent="1" name="ascii_bin">
+      <Charset>ascii</Charset>
+    </collation>
+    <collation id="29" parent="1" name="ujis_japanese_ci">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="30" parent="1" name="ujis_bin">
+      <Charset>ujis</Charset>
+    </collation>
+    <collation id="31" parent="1" name="sjis_japanese_ci">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="32" parent="1" name="sjis_bin">
+      <Charset>sjis</Charset>
+    </collation>
+    <collation id="33" parent="1" name="hebrew_general_ci">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="34" parent="1" name="hebrew_bin">
+      <Charset>hebrew</Charset>
+    </collation>
+    <collation id="35" parent="1" name="tis620_thai_ci">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="36" parent="1" name="tis620_bin">
+      <Charset>tis620</Charset>
     </collation>
     <collation id="37" parent="1" name="euckr_korean_ci">
       <Charset>euckr</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="38" parent="1" name="gb18030_bin">
-      <Charset>gb18030</Charset>
+    <collation id="38" parent="1" name="euckr_bin">
+      <Charset>euckr</Charset>
     </collation>
-    <collation id="39" parent="1" name="gb18030_chinese_ci">
-      <Charset>gb18030</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="40" parent="1" name="gb18030_unicode_520_ci">
-      <Charset>gb18030</Charset>
-    </collation>
-    <collation id="41" parent="1" name="gb2312_bin">
-      <Charset>gb2312</Charset>
-    </collation>
-    <collation id="42" parent="1" name="gb2312_chinese_ci">
-      <Charset>gb2312</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="43" parent="1" name="gbk_bin">
-      <Charset>gbk</Charset>
-    </collation>
-    <collation id="44" parent="1" name="gbk_chinese_ci">
-      <Charset>gbk</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="45" parent="1" name="geostd8_bin">
-      <Charset>geostd8</Charset>
-    </collation>
-    <collation id="46" parent="1" name="geostd8_general_ci">
-      <Charset>geostd8</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="47" parent="1" name="greek_bin">
-      <Charset>greek</Charset>
-    </collation>
-    <collation id="48" parent="1" name="greek_general_ci">
-      <Charset>greek</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="49" parent="1" name="hebrew_bin">
-      <Charset>hebrew</Charset>
-    </collation>
-    <collation id="50" parent="1" name="hebrew_general_ci">
-      <Charset>hebrew</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="51" parent="1" name="hp8_bin">
-      <Charset>hp8</Charset>
-    </collation>
-    <collation id="52" parent="1" name="hp8_english_ci">
-      <Charset>hp8</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="53" parent="1" name="keybcs2_bin">
-      <Charset>keybcs2</Charset>
-    </collation>
-    <collation id="54" parent="1" name="keybcs2_general_ci">
-      <Charset>keybcs2</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="55" parent="1" name="koi8r_bin">
-      <Charset>koi8r</Charset>
-    </collation>
-    <collation id="56" parent="1" name="koi8r_general_ci">
-      <Charset>koi8r</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="57" parent="1" name="koi8u_bin">
-      <Charset>koi8u</Charset>
-    </collation>
-    <collation id="58" parent="1" name="koi8u_general_ci">
+    <collation id="39" parent="1" name="koi8u_general_ci">
       <Charset>koi8u</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="59" parent="1" name="latin1_bin">
-      <Charset>latin1</Charset>
+    <collation id="40" parent="1" name="koi8u_bin">
+      <Charset>koi8u</Charset>
     </collation>
-    <collation id="60" parent="1" name="latin1_danish_ci">
-      <Charset>latin1</Charset>
-    </collation>
-    <collation id="61" parent="1" name="latin1_general_ci">
-      <Charset>latin1</Charset>
-    </collation>
-    <collation id="62" parent="1" name="latin1_general_cs">
-      <Charset>latin1</Charset>
-    </collation>
-    <collation id="63" parent="1" name="latin1_german1_ci">
-      <Charset>latin1</Charset>
-    </collation>
-    <collation id="64" parent="1" name="latin1_german2_ci">
-      <Charset>latin1</Charset>
-    </collation>
-    <collation id="65" parent="1" name="latin1_spanish_ci">
-      <Charset>latin1</Charset>
-    </collation>
-    <collation id="66" parent="1" name="latin1_swedish_ci">
-      <Charset>latin1</Charset>
+    <collation id="41" parent="1" name="gb2312_chinese_ci">
+      <Charset>gb2312</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="67" parent="1" name="latin2_bin">
-      <Charset>latin2</Charset>
+    <collation id="42" parent="1" name="gb2312_bin">
+      <Charset>gb2312</Charset>
     </collation>
-    <collation id="68" parent="1" name="latin2_croatian_ci">
-      <Charset>latin2</Charset>
-    </collation>
-    <collation id="69" parent="1" name="latin2_czech_cs">
-      <Charset>latin2</Charset>
-    </collation>
-    <collation id="70" parent="1" name="latin2_general_ci">
-      <Charset>latin2</Charset>
+    <collation id="43" parent="1" name="greek_general_ci">
+      <Charset>greek</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="71" parent="1" name="latin2_hungarian_ci">
-      <Charset>latin2</Charset>
+    <collation id="44" parent="1" name="greek_bin">
+      <Charset>greek</Charset>
     </collation>
-    <collation id="72" parent="1" name="latin5_bin">
-      <Charset>latin5</Charset>
+    <collation id="45" parent="1" name="cp1250_general_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="73" parent="1" name="latin5_turkish_ci">
+    <collation id="46" parent="1" name="cp1250_czech_cs">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="47" parent="1" name="cp1250_croatian_ci">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="48" parent="1" name="cp1250_bin">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="49" parent="1" name="cp1250_polish_ci">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="50" parent="1" name="gbk_chinese_ci">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="51" parent="1" name="gbk_bin">
+      <Charset>gbk</Charset>
+    </collation>
+    <collation id="52" parent="1" name="latin5_turkish_ci">
       <Charset>latin5</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="74" parent="1" name="latin7_bin">
-      <Charset>latin7</Charset>
+    <collation id="53" parent="1" name="latin5_bin">
+      <Charset>latin5</Charset>
     </collation>
-    <collation id="75" parent="1" name="latin7_estonian_cs">
-      <Charset>latin7</Charset>
-    </collation>
-    <collation id="76" parent="1" name="latin7_general_ci">
-      <Charset>latin7</Charset>
+    <collation id="54" parent="1" name="armscii8_general_ci">
+      <Charset>armscii8</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="77" parent="1" name="latin7_general_cs">
-      <Charset>latin7</Charset>
+    <collation id="55" parent="1" name="armscii8_bin">
+      <Charset>armscii8</Charset>
     </collation>
-    <collation id="78" parent="1" name="macce_bin">
-      <Charset>macce</Charset>
-    </collation>
-    <collation id="79" parent="1" name="macce_general_ci">
-      <Charset>macce</Charset>
+    <collation id="56" parent="1" name="utf8_general_ci">
+      <Charset>utf8</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="80" parent="1" name="macroman_bin">
-      <Charset>macroman</Charset>
+    <collation id="57" parent="1" name="utf8_bin">
+      <Charset>utf8</Charset>
     </collation>
-    <collation id="81" parent="1" name="macroman_general_ci">
-      <Charset>macroman</Charset>
+    <collation id="58" parent="1" name="utf8_unicode_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="59" parent="1" name="utf8_icelandic_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="60" parent="1" name="utf8_latvian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="61" parent="1" name="utf8_romanian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="62" parent="1" name="utf8_slovenian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="63" parent="1" name="utf8_polish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="64" parent="1" name="utf8_estonian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="65" parent="1" name="utf8_spanish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="66" parent="1" name="utf8_swedish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="67" parent="1" name="utf8_turkish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="68" parent="1" name="utf8_czech_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="69" parent="1" name="utf8_danish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="70" parent="1" name="utf8_lithuanian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="71" parent="1" name="utf8_slovak_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="72" parent="1" name="utf8_spanish2_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="73" parent="1" name="utf8_roman_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="74" parent="1" name="utf8_persian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="75" parent="1" name="utf8_esperanto_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="76" parent="1" name="utf8_hungarian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="77" parent="1" name="utf8_sinhala_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="78" parent="1" name="utf8_german2_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="79" parent="1" name="utf8_croatian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="80" parent="1" name="utf8_unicode_520_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="81" parent="1" name="utf8_vietnamese_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="82" parent="1" name="utf8_general_mysql500_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="83" parent="1" name="ucs2_general_ci">
+      <Charset>ucs2</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="82" parent="1" name="sjis_bin">
-      <Charset>sjis</Charset>
-    </collation>
-    <collation id="83" parent="1" name="sjis_japanese_ci">
-      <Charset>sjis</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="84" parent="1" name="swe7_bin">
-      <Charset>swe7</Charset>
-    </collation>
-    <collation id="85" parent="1" name="swe7_swedish_ci">
-      <Charset>swe7</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="86" parent="1" name="tis620_bin">
-      <Charset>tis620</Charset>
-    </collation>
-    <collation id="87" parent="1" name="tis620_thai_ci">
-      <Charset>tis620</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="88" parent="1" name="ucs2_bin">
+    <collation id="84" parent="1" name="ucs2_bin">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="89" parent="1" name="ucs2_croatian_ci">
+    <collation id="85" parent="1" name="ucs2_unicode_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="90" parent="1" name="ucs2_czech_ci">
+    <collation id="86" parent="1" name="ucs2_icelandic_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="91" parent="1" name="ucs2_danish_ci">
+    <collation id="87" parent="1" name="ucs2_latvian_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="92" parent="1" name="ucs2_esperanto_ci">
+    <collation id="88" parent="1" name="ucs2_romanian_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="93" parent="1" name="ucs2_estonian_ci">
+    <collation id="89" parent="1" name="ucs2_slovenian_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="94" parent="1" name="ucs2_general_ci">
-      <Charset>ucs2</Charset>
-      <DefaultForCharset>1</DefaultForCharset>
-    </collation>
-    <collation id="95" parent="1" name="ucs2_general_mysql500_ci">
+    <collation id="90" parent="1" name="ucs2_polish_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="96" parent="1" name="ucs2_german2_ci">
+    <collation id="91" parent="1" name="ucs2_estonian_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="97" parent="1" name="ucs2_hungarian_ci">
+    <collation id="92" parent="1" name="ucs2_spanish_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="98" parent="1" name="ucs2_icelandic_ci">
+    <collation id="93" parent="1" name="ucs2_swedish_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="99" parent="1" name="ucs2_latvian_ci">
+    <collation id="94" parent="1" name="ucs2_turkish_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="100" parent="1" name="ucs2_lithuanian_ci">
+    <collation id="95" parent="1" name="ucs2_czech_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="96" parent="1" name="ucs2_danish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="97" parent="1" name="ucs2_lithuanian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="98" parent="1" name="ucs2_slovak_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="99" parent="1" name="ucs2_spanish2_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="100" parent="1" name="ucs2_roman_ci">
       <Charset>ucs2</Charset>
     </collation>
     <collation id="101" parent="1" name="ucs2_persian_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="102" parent="1" name="ucs2_polish_ci">
+    <collation id="102" parent="1" name="ucs2_esperanto_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="103" parent="1" name="ucs2_roman_ci">
+    <collation id="103" parent="1" name="ucs2_hungarian_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="104" parent="1" name="ucs2_romanian_ci">
+    <collation id="104" parent="1" name="ucs2_sinhala_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="105" parent="1" name="ucs2_sinhala_ci">
+    <collation id="105" parent="1" name="ucs2_german2_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="106" parent="1" name="ucs2_slovak_ci">
+    <collation id="106" parent="1" name="ucs2_croatian_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="107" parent="1" name="ucs2_slovenian_ci">
+    <collation id="107" parent="1" name="ucs2_unicode_520_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="108" parent="1" name="ucs2_spanish2_ci">
+    <collation id="108" parent="1" name="ucs2_vietnamese_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="109" parent="1" name="ucs2_spanish_ci">
+    <collation id="109" parent="1" name="ucs2_general_mysql500_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="110" parent="1" name="ucs2_swedish_ci">
-      <Charset>ucs2</Charset>
-    </collation>
-    <collation id="111" parent="1" name="ucs2_turkish_ci">
-      <Charset>ucs2</Charset>
-    </collation>
-    <collation id="112" parent="1" name="ucs2_unicode_520_ci">
-      <Charset>ucs2</Charset>
-    </collation>
-    <collation id="113" parent="1" name="ucs2_unicode_ci">
-      <Charset>ucs2</Charset>
-    </collation>
-    <collation id="114" parent="1" name="ucs2_vietnamese_ci">
-      <Charset>ucs2</Charset>
-    </collation>
-    <collation id="115" parent="1" name="ujis_bin">
-      <Charset>ujis</Charset>
-    </collation>
-    <collation id="116" parent="1" name="ujis_japanese_ci">
-      <Charset>ujis</Charset>
+    <collation id="110" parent="1" name="cp866_general_ci">
+      <Charset>cp866</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="117" parent="1" name="utf16_bin">
-      <Charset>utf16</Charset>
+    <collation id="111" parent="1" name="cp866_bin">
+      <Charset>cp866</Charset>
     </collation>
-    <collation id="118" parent="1" name="utf16_croatian_ci">
-      <Charset>utf16</Charset>
+    <collation id="112" parent="1" name="keybcs2_general_ci">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="119" parent="1" name="utf16_czech_ci">
-      <Charset>utf16</Charset>
+    <collation id="113" parent="1" name="keybcs2_bin">
+      <Charset>keybcs2</Charset>
     </collation>
-    <collation id="120" parent="1" name="utf16_danish_ci">
-      <Charset>utf16</Charset>
+    <collation id="114" parent="1" name="macce_general_ci">
+      <Charset>macce</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="121" parent="1" name="utf16_esperanto_ci">
-      <Charset>utf16</Charset>
+    <collation id="115" parent="1" name="macce_bin">
+      <Charset>macce</Charset>
     </collation>
-    <collation id="122" parent="1" name="utf16_estonian_ci">
-      <Charset>utf16</Charset>
+    <collation id="116" parent="1" name="macroman_general_ci">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="123" parent="1" name="utf16_general_ci">
+    <collation id="117" parent="1" name="macroman_bin">
+      <Charset>macroman</Charset>
+    </collation>
+    <collation id="118" parent="1" name="cp852_general_ci">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="119" parent="1" name="cp852_bin">
+      <Charset>cp852</Charset>
+    </collation>
+    <collation id="120" parent="1" name="latin7_estonian_cs">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="121" parent="1" name="latin7_general_ci">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="122" parent="1" name="latin7_general_cs">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="123" parent="1" name="latin7_bin">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="124" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="125" parent="1" name="utf8mb4_bin">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="126" parent="1" name="utf8mb4_unicode_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="127" parent="1" name="utf8mb4_icelandic_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="128" parent="1" name="utf8mb4_latvian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="129" parent="1" name="utf8mb4_romanian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="130" parent="1" name="utf8mb4_slovenian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="131" parent="1" name="utf8mb4_polish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="132" parent="1" name="utf8mb4_estonian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="133" parent="1" name="utf8mb4_spanish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="134" parent="1" name="utf8mb4_swedish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="135" parent="1" name="utf8mb4_turkish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="136" parent="1" name="utf8mb4_czech_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="137" parent="1" name="utf8mb4_danish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="138" parent="1" name="utf8mb4_lithuanian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="139" parent="1" name="utf8mb4_slovak_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="140" parent="1" name="utf8mb4_spanish2_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="141" parent="1" name="utf8mb4_roman_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="142" parent="1" name="utf8mb4_persian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="143" parent="1" name="utf8mb4_esperanto_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="144" parent="1" name="utf8mb4_hungarian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="145" parent="1" name="utf8mb4_sinhala_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="146" parent="1" name="utf8mb4_german2_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="147" parent="1" name="utf8mb4_croatian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="148" parent="1" name="utf8mb4_unicode_520_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="149" parent="1" name="utf8mb4_vietnamese_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="150" parent="1" name="cp1251_bulgarian_ci">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="151" parent="1" name="cp1251_ukrainian_ci">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="152" parent="1" name="cp1251_bin">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="153" parent="1" name="cp1251_general_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="154" parent="1" name="cp1251_general_cs">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="155" parent="1" name="utf16_general_ci">
       <Charset>utf16</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="124" parent="1" name="utf16_german2_ci">
+    <collation id="156" parent="1" name="utf16_bin">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="125" parent="1" name="utf16_hungarian_ci">
+    <collation id="157" parent="1" name="utf16_unicode_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="126" parent="1" name="utf16_icelandic_ci">
+    <collation id="158" parent="1" name="utf16_icelandic_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="127" parent="1" name="utf16_latvian_ci">
+    <collation id="159" parent="1" name="utf16_latvian_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="128" parent="1" name="utf16_lithuanian_ci">
+    <collation id="160" parent="1" name="utf16_romanian_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="129" parent="1" name="utf16_persian_ci">
+    <collation id="161" parent="1" name="utf16_slovenian_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="130" parent="1" name="utf16_polish_ci">
+    <collation id="162" parent="1" name="utf16_polish_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="131" parent="1" name="utf16_roman_ci">
+    <collation id="163" parent="1" name="utf16_estonian_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="132" parent="1" name="utf16_romanian_ci">
+    <collation id="164" parent="1" name="utf16_spanish_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="133" parent="1" name="utf16_sinhala_ci">
+    <collation id="165" parent="1" name="utf16_swedish_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="134" parent="1" name="utf16_slovak_ci">
+    <collation id="166" parent="1" name="utf16_turkish_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="135" parent="1" name="utf16_slovenian_ci">
+    <collation id="167" parent="1" name="utf16_czech_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="136" parent="1" name="utf16_spanish2_ci">
+    <collation id="168" parent="1" name="utf16_danish_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="137" parent="1" name="utf16_spanish_ci">
+    <collation id="169" parent="1" name="utf16_lithuanian_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="138" parent="1" name="utf16_swedish_ci">
+    <collation id="170" parent="1" name="utf16_slovak_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="139" parent="1" name="utf16_turkish_ci">
+    <collation id="171" parent="1" name="utf16_spanish2_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="140" parent="1" name="utf16_unicode_520_ci">
+    <collation id="172" parent="1" name="utf16_roman_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="141" parent="1" name="utf16_unicode_ci">
+    <collation id="173" parent="1" name="utf16_persian_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="142" parent="1" name="utf16_vietnamese_ci">
+    <collation id="174" parent="1" name="utf16_esperanto_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="143" parent="1" name="utf16le_bin">
+    <collation id="175" parent="1" name="utf16_hungarian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="176" parent="1" name="utf16_sinhala_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="177" parent="1" name="utf16_german2_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="178" parent="1" name="utf16_croatian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="179" parent="1" name="utf16_unicode_520_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="180" parent="1" name="utf16_vietnamese_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="181" parent="1" name="utf16le_general_ci">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="182" parent="1" name="utf16le_bin">
       <Charset>utf16le</Charset>
     </collation>
-    <collation id="144" parent="1" name="utf16le_general_ci">
-      <Charset>utf16le</Charset>
+    <collation id="183" parent="1" name="cp1256_general_ci">
+      <Charset>cp1256</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="145" parent="1" name="utf32_bin">
-      <Charset>utf32</Charset>
+    <collation id="184" parent="1" name="cp1256_bin">
+      <Charset>cp1256</Charset>
     </collation>
-    <collation id="146" parent="1" name="utf32_croatian_ci">
-      <Charset>utf32</Charset>
+    <collation id="185" parent="1" name="cp1257_lithuanian_ci">
+      <Charset>cp1257</Charset>
     </collation>
-    <collation id="147" parent="1" name="utf32_czech_ci">
-      <Charset>utf32</Charset>
+    <collation id="186" parent="1" name="cp1257_bin">
+      <Charset>cp1257</Charset>
     </collation>
-    <collation id="148" parent="1" name="utf32_danish_ci">
-      <Charset>utf32</Charset>
+    <collation id="187" parent="1" name="cp1257_general_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="149" parent="1" name="utf32_esperanto_ci">
-      <Charset>utf32</Charset>
-    </collation>
-    <collation id="150" parent="1" name="utf32_estonian_ci">
-      <Charset>utf32</Charset>
-    </collation>
-    <collation id="151" parent="1" name="utf32_general_ci">
+    <collation id="188" parent="1" name="utf32_general_ci">
       <Charset>utf32</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="152" parent="1" name="utf32_german2_ci">
+    <collation id="189" parent="1" name="utf32_bin">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="153" parent="1" name="utf32_hungarian_ci">
+    <collation id="190" parent="1" name="utf32_unicode_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="154" parent="1" name="utf32_icelandic_ci">
+    <collation id="191" parent="1" name="utf32_icelandic_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="155" parent="1" name="utf32_latvian_ci">
+    <collation id="192" parent="1" name="utf32_latvian_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="156" parent="1" name="utf32_lithuanian_ci">
+    <collation id="193" parent="1" name="utf32_romanian_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="157" parent="1" name="utf32_persian_ci">
+    <collation id="194" parent="1" name="utf32_slovenian_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="158" parent="1" name="utf32_polish_ci">
+    <collation id="195" parent="1" name="utf32_polish_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="159" parent="1" name="utf32_roman_ci">
+    <collation id="196" parent="1" name="utf32_estonian_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="160" parent="1" name="utf32_romanian_ci">
+    <collation id="197" parent="1" name="utf32_spanish_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="161" parent="1" name="utf32_sinhala_ci">
+    <collation id="198" parent="1" name="utf32_swedish_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="162" parent="1" name="utf32_slovak_ci">
+    <collation id="199" parent="1" name="utf32_turkish_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="163" parent="1" name="utf32_slovenian_ci">
+    <collation id="200" parent="1" name="utf32_czech_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="164" parent="1" name="utf32_spanish2_ci">
+    <collation id="201" parent="1" name="utf32_danish_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="165" parent="1" name="utf32_spanish_ci">
+    <collation id="202" parent="1" name="utf32_lithuanian_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="166" parent="1" name="utf32_swedish_ci">
+    <collation id="203" parent="1" name="utf32_slovak_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="167" parent="1" name="utf32_turkish_ci">
+    <collation id="204" parent="1" name="utf32_spanish2_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="168" parent="1" name="utf32_unicode_520_ci">
+    <collation id="205" parent="1" name="utf32_roman_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="169" parent="1" name="utf32_unicode_ci">
+    <collation id="206" parent="1" name="utf32_persian_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="170" parent="1" name="utf32_vietnamese_ci">
+    <collation id="207" parent="1" name="utf32_esperanto_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="171" parent="1" name="utf8_bin">
-      <Charset>utf8</Charset>
+    <collation id="208" parent="1" name="utf32_hungarian_ci">
+      <Charset>utf32</Charset>
     </collation>
-    <collation id="172" parent="1" name="utf8_croatian_ci">
-      <Charset>utf8</Charset>
+    <collation id="209" parent="1" name="utf32_sinhala_ci">
+      <Charset>utf32</Charset>
     </collation>
-    <collation id="173" parent="1" name="utf8_czech_ci">
-      <Charset>utf8</Charset>
+    <collation id="210" parent="1" name="utf32_german2_ci">
+      <Charset>utf32</Charset>
     </collation>
-    <collation id="174" parent="1" name="utf8_danish_ci">
-      <Charset>utf8</Charset>
+    <collation id="211" parent="1" name="utf32_croatian_ci">
+      <Charset>utf32</Charset>
     </collation>
-    <collation id="175" parent="1" name="utf8_esperanto_ci">
-      <Charset>utf8</Charset>
+    <collation id="212" parent="1" name="utf32_unicode_520_ci">
+      <Charset>utf32</Charset>
     </collation>
-    <collation id="176" parent="1" name="utf8_estonian_ci">
-      <Charset>utf8</Charset>
+    <collation id="213" parent="1" name="utf32_vietnamese_ci">
+      <Charset>utf32</Charset>
     </collation>
-    <collation id="177" parent="1" name="utf8_general_ci">
-      <Charset>utf8</Charset>
+    <collation id="214" parent="1" name="binary">
+      <Charset>binary</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="178" parent="1" name="utf8_general_mysql500_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="179" parent="1" name="utf8_german2_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="180" parent="1" name="utf8_hungarian_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="181" parent="1" name="utf8_icelandic_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="182" parent="1" name="utf8_latvian_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="183" parent="1" name="utf8_lithuanian_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="184" parent="1" name="utf8_persian_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="185" parent="1" name="utf8_polish_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="186" parent="1" name="utf8_roman_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="187" parent="1" name="utf8_romanian_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="188" parent="1" name="utf8_sinhala_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="189" parent="1" name="utf8_slovak_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="190" parent="1" name="utf8_slovenian_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="191" parent="1" name="utf8_spanish2_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="192" parent="1" name="utf8_spanish_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="193" parent="1" name="utf8_swedish_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="194" parent="1" name="utf8_turkish_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="195" parent="1" name="utf8_unicode_520_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="196" parent="1" name="utf8_unicode_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="197" parent="1" name="utf8_vietnamese_ci">
-      <Charset>utf8</Charset>
-    </collation>
-    <collation id="198" parent="1" name="utf8mb4_bin">
-      <Charset>utf8mb4</Charset>
-    </collation>
-    <collation id="199" parent="1" name="utf8mb4_croatian_ci">
-      <Charset>utf8mb4</Charset>
-    </collation>
-    <collation id="200" parent="1" name="utf8mb4_czech_ci">
-      <Charset>utf8mb4</Charset>
-    </collation>
-    <collation id="201" parent="1" name="utf8mb4_danish_ci">
-      <Charset>utf8mb4</Charset>
-    </collation>
-    <collation id="202" parent="1" name="utf8mb4_esperanto_ci">
-      <Charset>utf8mb4</Charset>
-    </collation>
-    <collation id="203" parent="1" name="utf8mb4_estonian_ci">
-      <Charset>utf8mb4</Charset>
-    </collation>
-    <collation id="204" parent="1" name="utf8mb4_general_ci">
-      <Charset>utf8mb4</Charset>
+    <collation id="215" parent="1" name="geostd8_general_ci">
+      <Charset>geostd8</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="205" parent="1" name="utf8mb4_german2_ci">
-      <Charset>utf8mb4</Charset>
+    <collation id="216" parent="1" name="geostd8_bin">
+      <Charset>geostd8</Charset>
     </collation>
-    <collation id="206" parent="1" name="utf8mb4_hungarian_ci">
-      <Charset>utf8mb4</Charset>
+    <collation id="217" parent="1" name="cp932_japanese_ci">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="207" parent="1" name="utf8mb4_icelandic_ci">
-      <Charset>utf8mb4</Charset>
+    <collation id="218" parent="1" name="cp932_bin">
+      <Charset>cp932</Charset>
     </collation>
-    <collation id="208" parent="1" name="utf8mb4_latvian_ci">
-      <Charset>utf8mb4</Charset>
+    <collation id="219" parent="1" name="eucjpms_japanese_ci">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="209" parent="1" name="utf8mb4_lithuanian_ci">
-      <Charset>utf8mb4</Charset>
+    <collation id="220" parent="1" name="eucjpms_bin">
+      <Charset>eucjpms</Charset>
     </collation>
-    <collation id="210" parent="1" name="utf8mb4_persian_ci">
-      <Charset>utf8mb4</Charset>
+    <collation id="221" parent="1" name="gb18030_chinese_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="211" parent="1" name="utf8mb4_polish_ci">
-      <Charset>utf8mb4</Charset>
+    <collation id="222" parent="1" name="gb18030_bin">
+      <Charset>gb18030</Charset>
     </collation>
-    <collation id="212" parent="1" name="utf8mb4_roman_ci">
-      <Charset>utf8mb4</Charset>
+    <collation id="223" parent="1" name="gb18030_unicode_520_ci">
+      <Charset>gb18030</Charset>
     </collation>
-    <collation id="213" parent="1" name="utf8mb4_romanian_ci">
-      <Charset>utf8mb4</Charset>
-    </collation>
-    <collation id="214" parent="1" name="utf8mb4_sinhala_ci">
-      <Charset>utf8mb4</Charset>
-    </collation>
-    <collation id="215" parent="1" name="utf8mb4_slovak_ci">
-      <Charset>utf8mb4</Charset>
-    </collation>
-    <collation id="216" parent="1" name="utf8mb4_slovenian_ci">
-      <Charset>utf8mb4</Charset>
-    </collation>
-    <collation id="217" parent="1" name="utf8mb4_spanish2_ci">
-      <Charset>utf8mb4</Charset>
-    </collation>
-    <collation id="218" parent="1" name="utf8mb4_spanish_ci">
-      <Charset>utf8mb4</Charset>
-    </collation>
-    <collation id="219" parent="1" name="utf8mb4_swedish_ci">
-      <Charset>utf8mb4</Charset>
-    </collation>
-    <collation id="220" parent="1" name="utf8mb4_turkish_ci">
-      <Charset>utf8mb4</Charset>
-    </collation>
-    <collation id="221" parent="1" name="utf8mb4_unicode_520_ci">
-      <Charset>utf8mb4</Charset>
-    </collation>
-    <collation id="222" parent="1" name="utf8mb4_unicode_ci">
-      <Charset>utf8mb4</Charset>
-    </collation>
-    <collation id="223" parent="1" name="utf8mb4_vietnamese_ci">
-      <Charset>utf8mb4</Charset>
-    </collation>
-    <schema id="224" parent="1" name="gulimall_admin">
+    <schema id="224" parent="1" name="information_schema">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="225" parent="1" name="mysql">
+      <CollationName>latin1_swedish_ci</CollationName>
+    </schema>
+    <schema id="226" parent="1" name="performance_schema">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="227" parent="1" name="sys">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="228" parent="1" name="gulimall_admin">
       <Current>1</Current>
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="225" parent="1" name="gulimall_oms">
+    <schema id="229" parent="1" name="gulimall_oms">
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="226" parent="1" name="gulimall_pms">
+    <schema id="230" parent="1" name="gulimall_pms">
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="227" parent="1" name="gulimall_sms">
+    <schema id="231" parent="1" name="gulimall_sms">
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="228" parent="1" name="gulimall_ums">
+    <schema id="232" parent="1" name="gulimall_ums">
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="229" parent="1" name="gulimall_wms">
+    <schema id="233" parent="1" name="gulimall_wms">
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="230" parent="1" name="information_schema">
-      <CollationName>utf8_general_ci</CollationName>
-    </schema>
-    <schema id="231" parent="1" name="mysql">
-      <CollationName>latin1_swedish_ci</CollationName>
-    </schema>
-    <schema id="232" parent="1" name="performance_schema">
-      <CollationName>utf8_general_ci</CollationName>
-    </schema>
-    <schema id="233" parent="1" name="sys">
-      <CollationName>utf8_general_ci</CollationName>
-    </schema>
-    <user id="234" parent="1" name="mysql.session">
+    <user id="234" parent="1" name="root">
       <Host>localhost</Host>
     </user>
-    <user id="235" parent="1" name="mysql.sys">
+    <user id="235" parent="1" name="mysql.session">
       <Host>localhost</Host>
     </user>
-    <user id="236" parent="1" name="root"/>
-    <user id="237" parent="1" name="root">
+    <user id="236" parent="1" name="mysql.sys">
       <Host>localhost</Host>
     </user>
-    <table id="238" parent="224" name="QRTZ_BLOB_TRIGGERS">
+    <user id="237" parent="1" name="root"/>
+    <table id="238" parent="228" name="QRTZ_BLOB_TRIGGERS">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="239" parent="224" name="QRTZ_CALENDARS">
+    <table id="239" parent="228" name="QRTZ_CALENDARS">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="240" parent="224" name="QRTZ_CRON_TRIGGERS">
+    <table id="240" parent="228" name="QRTZ_CRON_TRIGGERS">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="241" parent="224" name="QRTZ_FIRED_TRIGGERS">
+    <table id="241" parent="228" name="QRTZ_FIRED_TRIGGERS">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="242" parent="224" name="QRTZ_JOB_DETAILS">
+    <table id="242" parent="228" name="QRTZ_JOB_DETAILS">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="243" parent="224" name="QRTZ_LOCKS">
+    <table id="243" parent="228" name="QRTZ_LOCKS">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="244" parent="224" name="QRTZ_PAUSED_TRIGGER_GRPS">
+    <table id="244" parent="228" name="QRTZ_PAUSED_TRIGGER_GRPS">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="245" parent="224" name="QRTZ_SCHEDULER_STATE">
+    <table id="245" parent="228" name="QRTZ_SCHEDULER_STATE">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="246" parent="224" name="QRTZ_SIMPLE_TRIGGERS">
+    <table id="246" parent="228" name="QRTZ_SIMPLE_TRIGGERS">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="247" parent="224" name="QRTZ_SIMPROP_TRIGGERS">
+    <table id="247" parent="228" name="QRTZ_SIMPROP_TRIGGERS">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="248" parent="224" name="QRTZ_TRIGGERS">
+    <table id="248" parent="228" name="QRTZ_TRIGGERS">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="249" parent="224" name="schedule_job">
+    <table id="249" parent="228" name="schedule_job">
       <Comment>定时任务</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="250" parent="224" name="schedule_job_log">
+    <table id="250" parent="228" name="schedule_job_log">
       <Comment>定时任务日志</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="251" parent="224" name="sys_captcha">
+    <table id="251" parent="228" name="sys_captcha">
       <Comment>系统验证码</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="252" parent="224" name="sys_config">
+    <table id="252" parent="228" name="sys_config">
       <Comment>系统配置信息表</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="253" parent="224" name="sys_log">
+    <table id="253" parent="228" name="sys_log">
       <Comment>系统日志</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="254" parent="224" name="sys_menu">
+    <table id="254" parent="228" name="sys_menu">
       <Comment>菜单管理</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="255" parent="224" name="sys_oss">
+    <table id="255" parent="228" name="sys_oss">
       <Comment>文件上传</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="256" parent="224" name="sys_role">
+    <table id="256" parent="228" name="sys_role">
       <Comment>角色</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="257" parent="224" name="sys_role_menu">
+    <table id="257" parent="228" name="sys_role_menu">
       <Comment>角色与菜单对应关系</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="258" parent="224" name="sys_user">
+    <table id="258" parent="228" name="sys_user">
       <Comment>系统用户</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="259" parent="224" name="sys_user_role">
+    <table id="259" parent="228" name="sys_user_role">
       <Comment>用户与角色对应关系</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="260" parent="224" name="sys_user_token">
+    <table id="260" parent="228" name="sys_user_token">
       <Comment>系统用户Token</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="261" parent="224" name="tb_user">
+    <table id="261" parent="228" name="tb_user">
       <Comment>用户</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="262" parent="225" name="oms_order">
-      <Comment>����</Comment>
+    <table id="262" parent="229" name="oms_order">
+      <Comment>订单</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="263" parent="225" name="oms_order_item">
-      <Comment>��������Ϣ</Comment>
+    <table id="263" parent="229" name="oms_order_item">
+      <Comment>订单项信息</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="264" parent="225" name="oms_order_operate_history">
-      <Comment>����������ʷ��¼</Comment>
+    <table id="264" parent="229" name="oms_order_operate_history">
+      <Comment>订单操作历史记录</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="265" parent="225" name="oms_order_return_apply">
-      <Comment>�����˻�����</Comment>
+    <table id="265" parent="229" name="oms_order_return_apply">
+      <Comment>订单退货申请</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="266" parent="225" name="oms_order_return_reason">
-      <Comment>�˻�ԭ��</Comment>
+    <table id="266" parent="229" name="oms_order_return_reason">
+      <Comment>退货原因</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="267" parent="225" name="oms_order_setting">
-      <Comment>����������Ϣ</Comment>
+    <table id="267" parent="229" name="oms_order_setting">
+      <Comment>订单配置信息</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="268" parent="225" name="oms_payment_info">
-      <Comment>֧����Ϣ��</Comment>
+    <table id="268" parent="229" name="oms_payment_info">
+      <Comment>支付信息表</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="269" parent="225" name="oms_refund_info">
-      <Comment>�˿���Ϣ</Comment>
+    <table id="269" parent="229" name="oms_refund_info">
+      <Comment>退款信息</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="270" parent="226" name="pms_attr">
-      <Comment>��Ʒ����</Comment>
+    <table id="270" parent="230" name="pms_attr">
+      <Comment>商品属性</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="271" parent="226" name="pms_attr_attrgroup_relation">
-      <Comment>����&amp;���Է������</Comment>
+    <table id="271" parent="230" name="pms_attr_attrgroup_relation">
+      <Comment>属性&amp;属性分组关联</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="272" parent="226" name="pms_attr_group">
-      <Comment>���Է���</Comment>
+    <table id="272" parent="230" name="pms_attr_group">
+      <Comment>属性分组</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="273" parent="226" name="pms_brand">
-      <Comment>Ʒ��</Comment>
+    <table id="273" parent="230" name="pms_brand">
+      <Comment>品牌</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="274" parent="226" name="pms_category">
-      <Comment>��Ʒ��������</Comment>
+    <table id="274" parent="230" name="pms_category">
+      <Comment>商品三级分类</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="275" parent="226" name="pms_category_brand_relation">
-      <Comment>Ʒ�Ʒ������</Comment>
+    <table id="275" parent="230" name="pms_category_brand_relation">
+      <Comment>品牌分类关联</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="276" parent="226" name="pms_comment_replay">
-      <Comment>��Ʒ���ۻظ���ϵ</Comment>
+    <table id="276" parent="230" name="pms_comment_replay">
+      <Comment>商品评价回复关系</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="277" parent="226" name="pms_product_attr_value">
-      <Comment>spu����ֵ</Comment>
+    <table id="277" parent="230" name="pms_product_attr_value">
+      <Comment>spu属性值</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="278" parent="226" name="pms_sku_images">
-      <Comment>skuͼƬ</Comment>
+    <table id="278" parent="230" name="pms_sku_images">
+      <Comment>sku图片</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="279" parent="226" name="pms_sku_info">
-      <Comment>sku��Ϣ</Comment>
+    <table id="279" parent="230" name="pms_sku_info">
+      <Comment>sku信息</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="280" parent="226" name="pms_sku_sale_attr_value">
-      <Comment>sku��������&amp;ֵ</Comment>
+    <table id="280" parent="230" name="pms_sku_sale_attr_value">
+      <Comment>sku销售属性&amp;值</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="281" parent="226" name="pms_spu_comment">
-      <Comment>��Ʒ����</Comment>
+    <table id="281" parent="230" name="pms_spu_comment">
+      <Comment>商品评价</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="282" parent="226" name="pms_spu_images">
-      <Comment>spuͼƬ</Comment>
+    <table id="282" parent="230" name="pms_spu_images">
+      <Comment>spu图片</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="283" parent="226" name="pms_spu_info">
-      <Comment>spu��Ϣ</Comment>
+    <table id="283" parent="230" name="pms_spu_info">
+      <Comment>spu信息</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="284" parent="226" name="pms_spu_info_desc">
-      <Comment>spu��Ϣ����</Comment>
+    <table id="284" parent="230" name="pms_spu_info_desc">
+      <Comment>spu信息介绍</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="285" parent="227" name="sms_coupon">
-      <Comment>�Ż�ȯ��Ϣ</Comment>
+    <table id="285" parent="231" name="sms_coupon">
+      <Comment>优惠券信息</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="286" parent="227" name="sms_coupon_history">
-      <Comment>�Ż�ȯ��ȡ��ʷ��¼</Comment>
+    <table id="286" parent="231" name="sms_coupon_history">
+      <Comment>优惠券领取历史记录</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="287" parent="227" name="sms_coupon_spu_category_relation">
-      <Comment>�Ż�ȯ�������</Comment>
+    <table id="287" parent="231" name="sms_coupon_spu_category_relation">
+      <Comment>优惠券分类关联</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="288" parent="227" name="sms_coupon_spu_relation">
-      <Comment>�Ż�ȯ���Ʒ����</Comment>
+    <table id="288" parent="231" name="sms_coupon_spu_relation">
+      <Comment>优惠券与产品关联</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="289" parent="227" name="sms_home_adv">
-      <Comment>��ҳ�ֲ����</Comment>
+    <table id="289" parent="231" name="sms_home_adv">
+      <Comment>首页轮播广告</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="290" parent="227" name="sms_home_subject">
-      <Comment>��ҳר�����jd��ҳ����ܶ�ר�⣬ÿ��ר�������µ�ҳ�棬չʾר����Ʒ��Ϣ��</Comment>
+    <table id="290" parent="231" name="sms_home_subject">
+      <Comment>首页专题表【jd首页下面很多专题，每个专题链接新的页面，展示专题商品信息】</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="291" parent="227" name="sms_home_subject_spu">
-      <Comment>ר����Ʒ</Comment>
+    <table id="291" parent="231" name="sms_home_subject_spu">
+      <Comment>专题商品</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="292" parent="227" name="sms_member_price">
-      <Comment>��Ʒ��Ա�۸�</Comment>
+    <table id="292" parent="231" name="sms_member_price">
+      <Comment>商品会员价格</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="293" parent="227" name="sms_seckill_promotion">
-      <Comment>��ɱ�</Comment>
+    <table id="293" parent="231" name="sms_seckill_promotion">
+      <Comment>秒杀活动</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="294" parent="227" name="sms_seckill_session">
-      <Comment>��ɱ�����</Comment>
+    <table id="294" parent="231" name="sms_seckill_session">
+      <Comment>秒杀活动场次</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="295" parent="227" name="sms_seckill_sku_notice">
-      <Comment>��ɱ��Ʒ֪ͨ����</Comment>
+    <table id="295" parent="231" name="sms_seckill_sku_notice">
+      <Comment>秒杀商品通知订阅</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="296" parent="227" name="sms_seckill_sku_relation">
-      <Comment>��ɱ���Ʒ����</Comment>
+    <table id="296" parent="231" name="sms_seckill_sku_relation">
+      <Comment>秒杀活动商品关联</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="297" parent="227" name="sms_sku_full_reduction">
-      <Comment>��Ʒ������Ϣ</Comment>
+    <table id="297" parent="231" name="sms_sku_full_reduction">
+      <Comment>商品满减信息</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="298" parent="227" name="sms_sku_ladder">
-      <Comment>��Ʒ���ݼ۸�</Comment>
+    <table id="298" parent="231" name="sms_sku_ladder">
+      <Comment>商品阶梯价格</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="299" parent="227" name="sms_spu_bounds">
-      <Comment>��Ʒspu��������</Comment>
+    <table id="299" parent="231" name="sms_spu_bounds">
+      <Comment>商品spu积分设置</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="300" parent="228" name="ums_growth_change_history">
-      <Comment>�ɳ�ֵ�仯��ʷ��¼</Comment>
+    <table id="300" parent="232" name="ums_growth_change_history">
+      <Comment>成长值变化历史记录</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="301" parent="228" name="ums_integration_change_history">
-      <Comment>���ֱ仯��ʷ��¼</Comment>
+    <table id="301" parent="232" name="ums_integration_change_history">
+      <Comment>积分变化历史记录</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="302" parent="228" name="ums_member">
-      <Comment>��Ա</Comment>
+    <table id="302" parent="232" name="ums_member">
+      <Comment>会员</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="303" parent="228" name="ums_member_collect_spu">
-      <Comment>��Ա�ղص���Ʒ</Comment>
+    <table id="303" parent="232" name="ums_member_collect_spu">
+      <Comment>会员收藏的商品</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="304" parent="228" name="ums_member_collect_subject">
-      <Comment>��Ա�ղص�ר��</Comment>
+    <table id="304" parent="232" name="ums_member_collect_subject">
+      <Comment>会员收藏的专题活动</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="305" parent="228" name="ums_member_level">
-      <Comment>��Ա�ȼ�</Comment>
+    <table id="305" parent="232" name="ums_member_level">
+      <Comment>会员等级</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="306" parent="228" name="ums_member_login_log">
-      <Comment>��Ա��¼��¼</Comment>
+    <table id="306" parent="232" name="ums_member_login_log">
+      <Comment>会员登录记录</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="307" parent="228" name="ums_member_receive_address">
-      <Comment>��Ա�ջ���ַ</Comment>
+    <table id="307" parent="232" name="ums_member_receive_address">
+      <Comment>会员收货地址</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="308" parent="228" name="ums_member_statistics_info">
-      <Comment>��Աͳ����Ϣ</Comment>
+    <table id="308" parent="232" name="ums_member_statistics_info">
+      <Comment>会员统计信息</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="309" parent="229" name="undo_log">
+    <table id="309" parent="233" name="undo_log">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="310" parent="229" name="wms_purchase">
+    <table id="310" parent="233" name="wms_purchase">
       <Comment>采购信息</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="311" parent="229" name="wms_purchase_detail">
+    <table id="311" parent="233" name="wms_purchase_detail">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="312" parent="229" name="wms_ware_info">
+    <table id="312" parent="233" name="wms_ware_info">
       <Comment>仓库信息</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="313" parent="229" name="wms_ware_order_task">
+    <table id="313" parent="233" name="wms_ware_order_task">
       <Comment>库存工作单</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="314" parent="229" name="wms_ware_order_task_detail">
+    <table id="314" parent="233" name="wms_ware_order_task_detail">
       <Comment>库存工作单</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="315" parent="229" name="wms_ware_sku">
+    <table id="315" parent="233" name="wms_ware_sku">
       <Comment>商品库存</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
@@ -1901,7 +1901,7 @@ NEXT_FIRE_TIME</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="452" parent="250" name="log_id">
-      <AutoIncrement>88</AutoIncrement>
+      <AutoIncrement>295</AutoIncrement>
       <Comment>任务日志id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <NotNull>1</NotNull>
@@ -2411,12 +2411,12 @@ NEXT_FIRE_TIME</ColNames>
       <Position>2</Position>
     </column>
     <column id="551" parent="262" name="order_sn">
-      <Comment>������</Comment>
+      <Comment>订单号</Comment>
       <DasType>char(32)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="552" parent="262" name="coupon_id">
-      <Comment>ʹ�õ��Ż�ȯ</Comment>
+      <Comment>使用的优惠券</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>4</Position>
     </column>
@@ -2426,187 +2426,187 @@ NEXT_FIRE_TIME</ColNames>
       <Position>5</Position>
     </column>
     <column id="554" parent="262" name="member_username">
-      <Comment>�û���</Comment>
+      <Comment>用户名</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="555" parent="262" name="total_amount">
-      <Comment>�����ܶ�</Comment>
+      <Comment>订单总额</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>7</Position>
     </column>
     <column id="556" parent="262" name="pay_amount">
-      <Comment>Ӧ���ܶ�</Comment>
+      <Comment>应付总额</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>8</Position>
     </column>
     <column id="557" parent="262" name="freight_amount">
-      <Comment>�˷ѽ��</Comment>
+      <Comment>运费金额</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>9</Position>
     </column>
     <column id="558" parent="262" name="promotion_amount">
-      <Comment>�����Ż��������ۡ����������ݼۣ�</Comment>
+      <Comment>促销优化金额（促销价、满减、阶梯价）</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>10</Position>
     </column>
     <column id="559" parent="262" name="integration_amount">
-      <Comment>���ֵֿ۽��</Comment>
+      <Comment>积分抵扣金额</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>11</Position>
     </column>
     <column id="560" parent="262" name="coupon_amount">
-      <Comment>�Ż�ȯ�ֿ۽��</Comment>
+      <Comment>优惠券抵扣金额</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>12</Position>
     </column>
     <column id="561" parent="262" name="discount_amount">
-      <Comment>��̨��������ʹ�õ��ۿ۽��</Comment>
+      <Comment>后台调整订单使用的折扣金额</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>13</Position>
     </column>
     <column id="562" parent="262" name="pay_type">
-      <Comment>֧����ʽ��1-&gt;֧������2-&gt;&#x3a2;�ţ�3-&gt;������ 4-&gt;���������</Comment>
+      <Comment>支付方式【1-&gt;支付宝；2-&gt;微信；3-&gt;银联； 4-&gt;货到付款；】</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>14</Position>
     </column>
     <column id="563" parent="262" name="source_type">
-      <Comment>������Դ[0-&gt;PC������1-&gt;app����]</Comment>
+      <Comment>订单来源[0-&gt;PC订单；1-&gt;app订单]</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>15</Position>
     </column>
     <column id="564" parent="262" name="status">
-      <Comment>����״̬��0-&gt;�����1-&gt;��������2-&gt;�ѷ�����3-&gt;����ɣ�4-&gt;�ѹرգ�5-&gt;��Ч������</Comment>
+      <Comment>订单状态【0-&gt;待付款；1-&gt;待发货；2-&gt;已发货；3-&gt;已完成；4-&gt;已关闭；5-&gt;无效订单】</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>16</Position>
     </column>
     <column id="565" parent="262" name="delivery_company">
-      <Comment>������˾(���ͷ�ʽ)</Comment>
+      <Comment>物流公司(配送方式)</Comment>
       <DasType>varchar(64)|0s</DasType>
       <Position>17</Position>
     </column>
     <column id="566" parent="262" name="delivery_sn">
-      <Comment>��������</Comment>
+      <Comment>物流单号</Comment>
       <DasType>varchar(64)|0s</DasType>
       <Position>18</Position>
     </column>
     <column id="567" parent="262" name="auto_confirm_day">
-      <Comment>�Զ�ȷ��ʱ�䣨�죩</Comment>
+      <Comment>自动确认时间（天）</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>19</Position>
     </column>
     <column id="568" parent="262" name="integration">
-      <Comment>���Ի�õĻ���</Comment>
+      <Comment>可以获得的积分</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>20</Position>
     </column>
     <column id="569" parent="262" name="growth">
-      <Comment>���Ի�õĳɳ�ֵ</Comment>
+      <Comment>可以获得的成长值</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>21</Position>
     </column>
     <column id="570" parent="262" name="bill_type">
-      <Comment>��Ʊ����[0-&gt;������Ʊ��1-&gt;���ӷ�Ʊ��2-&gt;ֽ�ʷ�Ʊ]</Comment>
+      <Comment>发票类型[0-&gt;不开发票；1-&gt;电子发票；2-&gt;纸质发票]</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>22</Position>
     </column>
     <column id="571" parent="262" name="bill_header">
-      <Comment>��Ʊ̧ͷ</Comment>
+      <Comment>发票抬头</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>23</Position>
     </column>
     <column id="572" parent="262" name="bill_content">
-      <Comment>��Ʊ����</Comment>
+      <Comment>发票内容</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>24</Position>
     </column>
     <column id="573" parent="262" name="bill_receiver_phone">
-      <Comment>��Ʊ�˵绰</Comment>
+      <Comment>收票人电话</Comment>
       <DasType>varchar(32)|0s</DasType>
       <Position>25</Position>
     </column>
     <column id="574" parent="262" name="bill_receiver_email">
-      <Comment>��Ʊ������</Comment>
+      <Comment>收票人邮箱</Comment>
       <DasType>varchar(64)|0s</DasType>
       <Position>26</Position>
     </column>
     <column id="575" parent="262" name="receiver_name">
-      <Comment>�ջ�������</Comment>
+      <Comment>收货人姓名</Comment>
       <DasType>varchar(100)|0s</DasType>
       <Position>27</Position>
     </column>
     <column id="576" parent="262" name="receiver_phone">
-      <Comment>�ջ��˵绰</Comment>
+      <Comment>收货人电话</Comment>
       <DasType>varchar(32)|0s</DasType>
       <Position>28</Position>
     </column>
     <column id="577" parent="262" name="receiver_post_code">
-      <Comment>�ջ����ʱ�</Comment>
+      <Comment>收货人邮编</Comment>
       <DasType>varchar(32)|0s</DasType>
       <Position>29</Position>
     </column>
     <column id="578" parent="262" name="receiver_province">
-      <Comment>ʡ��/ֱϽ��</Comment>
+      <Comment>省份/直辖市</Comment>
       <DasType>varchar(32)|0s</DasType>
       <Position>30</Position>
     </column>
     <column id="579" parent="262" name="receiver_city">
-      <Comment>����</Comment>
+      <Comment>城市</Comment>
       <DasType>varchar(32)|0s</DasType>
       <Position>31</Position>
     </column>
     <column id="580" parent="262" name="receiver_region">
-      <Comment>��</Comment>
+      <Comment>区</Comment>
       <DasType>varchar(32)|0s</DasType>
       <Position>32</Position>
     </column>
     <column id="581" parent="262" name="receiver_detail_address">
-      <Comment>��ϸ��ַ</Comment>
+      <Comment>详细地址</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>33</Position>
     </column>
     <column id="582" parent="262" name="note">
-      <Comment>������ע</Comment>
+      <Comment>订单备注</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>34</Position>
     </column>
     <column id="583" parent="262" name="confirm_status">
-      <Comment>ȷ���ջ�״̬[0-&gt;δȷ�ϣ�1-&gt;��ȷ��]</Comment>
+      <Comment>确认收货状态[0-&gt;未确认；1-&gt;已确认]</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>35</Position>
     </column>
     <column id="584" parent="262" name="delete_status">
-      <Comment>ɾ��״̬��0-&gt;δɾ����1-&gt;��ɾ����</Comment>
+      <Comment>删除状态【0-&gt;未删除；1-&gt;已删除】</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>36</Position>
     </column>
     <column id="585" parent="262" name="use_integration">
-      <Comment>�µ�ʱʹ�õĻ���</Comment>
+      <Comment>下单时使用的积分</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>37</Position>
     </column>
     <column id="586" parent="262" name="payment_time">
-      <Comment>֧��ʱ��</Comment>
+      <Comment>支付时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>38</Position>
     </column>
     <column id="587" parent="262" name="delivery_time">
-      <Comment>����ʱ��</Comment>
+      <Comment>发货时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>39</Position>
     </column>
     <column id="588" parent="262" name="receive_time">
-      <Comment>ȷ���ջ�ʱ��</Comment>
+      <Comment>确认收货时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>40</Position>
     </column>
     <column id="589" parent="262" name="comment_time">
-      <Comment>����ʱ��</Comment>
+      <Comment>评价时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>41</Position>
     </column>
     <column id="590" parent="262" name="modify_time">
-      <Comment>�&#x7b8;�ʱ��</Comment>
+      <Comment>修改时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>42</Position>
     </column>
@@ -2653,72 +2653,72 @@ NEXT_FIRE_TIME</ColNames>
       <Position>6</Position>
     </column>
     <column id="599" parent="263" name="spu_brand">
-      <Comment>Ʒ��</Comment>
+      <Comment>品牌</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>7</Position>
     </column>
     <column id="600" parent="263" name="category_id">
-      <Comment>��Ʒ����id</Comment>
+      <Comment>商品分类id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>8</Position>
     </column>
     <column id="601" parent="263" name="sku_id">
-      <Comment>��Ʒsku���</Comment>
+      <Comment>商品sku编号</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>9</Position>
     </column>
     <column id="602" parent="263" name="sku_name">
-      <Comment>��Ʒsku����</Comment>
+      <Comment>商品sku名字</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>10</Position>
     </column>
     <column id="603" parent="263" name="sku_pic">
-      <Comment>��ƷskuͼƬ</Comment>
+      <Comment>商品sku图片</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>11</Position>
     </column>
     <column id="604" parent="263" name="sku_price">
-      <Comment>��Ʒsku�۸�</Comment>
+      <Comment>商品sku价格</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>12</Position>
     </column>
     <column id="605" parent="263" name="sku_quantity">
-      <Comment>��Ʒ���������</Comment>
+      <Comment>商品购买的数量</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>13</Position>
     </column>
     <column id="606" parent="263" name="sku_attrs_vals">
-      <Comment>��Ʒ����������ϣ�JSON��</Comment>
+      <Comment>商品销售属性组合（JSON）</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>14</Position>
     </column>
     <column id="607" parent="263" name="promotion_amount">
-      <Comment>��Ʒ�����ֽ���</Comment>
+      <Comment>商品促销分解金额</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>15</Position>
     </column>
     <column id="608" parent="263" name="coupon_amount">
-      <Comment>�Ż�ȯ�Żݷֽ���</Comment>
+      <Comment>优惠券优惠分解金额</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>16</Position>
     </column>
     <column id="609" parent="263" name="integration_amount">
-      <Comment>�����Żݷֽ���</Comment>
+      <Comment>积分优惠分解金额</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>17</Position>
     </column>
     <column id="610" parent="263" name="real_amount">
-      <Comment>����Ʒ�����Żݺ�ķֽ���</Comment>
+      <Comment>该商品经过优惠后的分解金额</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>18</Position>
     </column>
     <column id="611" parent="263" name="gift_integration">
-      <Comment>���ͻ���</Comment>
+      <Comment>赠送积分</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>19</Position>
     </column>
     <column id="612" parent="263" name="gift_growth">
-      <Comment>���ͳɳ�ֵ</Comment>
+      <Comment>赠送成长值</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>20</Position>
     </column>
@@ -2740,27 +2740,27 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="616" parent="264" name="order_id">
-      <Comment>����id</Comment>
+      <Comment>订单id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="617" parent="264" name="operate_man">
-      <Comment>������[�û���ϵͳ����̨����Ա]</Comment>
+      <Comment>操作人[用户；系统；后台管理员]</Comment>
       <DasType>varchar(100)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="618" parent="264" name="create_time">
-      <Comment>����ʱ��</Comment>
+      <Comment>操作时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="619" parent="264" name="order_status">
-      <Comment>����״̬��0-&gt;�����1-&gt;��������2-&gt;�ѷ�����3-&gt;����ɣ�4-&gt;�ѹرգ�5-&gt;��Ч������</Comment>
+      <Comment>订单状态【0-&gt;待付款；1-&gt;待发货；2-&gt;已发货；3-&gt;已完成；4-&gt;已关闭；5-&gt;无效订单】</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="620" parent="264" name="note">
-      <Comment>��ע</Comment>
+      <Comment>备注</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>6</Position>
     </column>
@@ -2787,132 +2787,132 @@ NEXT_FIRE_TIME</ColNames>
       <Position>2</Position>
     </column>
     <column id="625" parent="265" name="sku_id">
-      <Comment>�˻���Ʒid</Comment>
+      <Comment>退货商品id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="626" parent="265" name="order_sn">
-      <Comment>�������</Comment>
+      <Comment>订单编号</Comment>
       <DasType>char(32)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="627" parent="265" name="create_time">
-      <Comment>����ʱ��</Comment>
+      <Comment>申请时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="628" parent="265" name="member_username">
-      <Comment>��Ա�û���</Comment>
+      <Comment>会员用户名</Comment>
       <DasType>varchar(64)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="629" parent="265" name="return_amount">
-      <Comment>�˿���</Comment>
+      <Comment>退款金额</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>7</Position>
     </column>
     <column id="630" parent="265" name="return_name">
-      <Comment>�˻�������</Comment>
+      <Comment>退货人姓名</Comment>
       <DasType>varchar(100)|0s</DasType>
       <Position>8</Position>
     </column>
     <column id="631" parent="265" name="return_phone">
-      <Comment>�˻��˵绰</Comment>
+      <Comment>退货人电话</Comment>
       <DasType>varchar(20)|0s</DasType>
       <Position>9</Position>
     </column>
     <column id="632" parent="265" name="status">
-      <Comment>����״̬[0-&gt;��������1-&gt;�˻��У�2-&gt;����ɣ�3-&gt;�Ѿܾ�]</Comment>
+      <Comment>申请状态[0-&gt;待处理；1-&gt;退货中；2-&gt;已完成；3-&gt;已拒绝]</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>10</Position>
     </column>
     <column id="633" parent="265" name="handle_time">
-      <Comment>����ʱ��</Comment>
+      <Comment>处理时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>11</Position>
     </column>
     <column id="634" parent="265" name="sku_img">
-      <Comment>��ƷͼƬ</Comment>
+      <Comment>商品图片</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>12</Position>
     </column>
     <column id="635" parent="265" name="sku_name">
-      <Comment>��Ʒ����</Comment>
+      <Comment>商品名称</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>13</Position>
     </column>
     <column id="636" parent="265" name="sku_brand">
-      <Comment>��ƷƷ��</Comment>
+      <Comment>商品品牌</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>14</Position>
     </column>
     <column id="637" parent="265" name="sku_attrs_vals">
-      <Comment>��Ʒ��������(JSON)</Comment>
+      <Comment>商品销售属性(JSON)</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>15</Position>
     </column>
     <column id="638" parent="265" name="sku_count">
-      <Comment>�˻�����</Comment>
+      <Comment>退货数量</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>16</Position>
     </column>
     <column id="639" parent="265" name="sku_price">
-      <Comment>��Ʒ����</Comment>
+      <Comment>商品单价</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>17</Position>
     </column>
     <column id="640" parent="265" name="sku_real_price">
-      <Comment>��Ʒʵ��֧������</Comment>
+      <Comment>商品实际支付单价</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>18</Position>
     </column>
     <column id="641" parent="265" name="reason">
-      <Comment>ԭ��</Comment>
+      <Comment>原因</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>19</Position>
     </column>
-    <column id="642" parent="265" name="description��">
-      <Comment>����</Comment>
+    <column id="642" parent="265" name="description述">
+      <Comment>描述</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>20</Position>
     </column>
     <column id="643" parent="265" name="desc_pics">
-      <Comment>ƾ֤ͼƬ���Զ��Ÿ���</Comment>
+      <Comment>凭证图片，以逗号隔开</Comment>
       <DasType>varchar(2000)|0s</DasType>
       <Position>21</Position>
     </column>
     <column id="644" parent="265" name="handle_note">
-      <Comment>������ע</Comment>
+      <Comment>处理备注</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>22</Position>
     </column>
     <column id="645" parent="265" name="handle_man">
-      <Comment>������Ա</Comment>
+      <Comment>处理人员</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>23</Position>
     </column>
     <column id="646" parent="265" name="receive_man">
-      <Comment>�ջ���</Comment>
+      <Comment>收货人</Comment>
       <DasType>varchar(100)|0s</DasType>
       <Position>24</Position>
     </column>
     <column id="647" parent="265" name="receive_time">
-      <Comment>�ջ�ʱ��</Comment>
+      <Comment>收货时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>25</Position>
     </column>
     <column id="648" parent="265" name="receive_note">
-      <Comment>�ջ���ע</Comment>
+      <Comment>收货备注</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>26</Position>
     </column>
     <column id="649" parent="265" name="receive_phone">
-      <Comment>�ջ��绰</Comment>
+      <Comment>收货电话</Comment>
       <DasType>varchar(20)|0s</DasType>
       <Position>27</Position>
     </column>
     <column id="650" parent="265" name="company_address">
-      <Comment>��˾�ջ���ַ</Comment>
+      <Comment>公司收货地址</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>28</Position>
     </column>
@@ -2934,17 +2934,17 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="654" parent="266" name="name">
-      <Comment>�˻�ԭ����</Comment>
+      <Comment>退货原因名</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="655" parent="266" name="sort">
-      <Comment>����</Comment>
+      <Comment>排序</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="656" parent="266" name="status">
-      <Comment>����״̬</Comment>
+      <Comment>启用状态</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>4</Position>
     </column>
@@ -2971,32 +2971,32 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="661" parent="267" name="flash_order_overtime">
-      <Comment>��ɱ������ʱ�ر�ʱ��(��)</Comment>
+      <Comment>秒杀订单超时关闭时间(分)</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="662" parent="267" name="normal_order_overtime">
-      <Comment>����������ʱʱ��(��)</Comment>
+      <Comment>正常订单超时时间(分)</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="663" parent="267" name="confirm_overtime">
-      <Comment>�������Զ�ȷ���ջ�ʱ�䣨�죩</Comment>
+      <Comment>发货后自动确认收货时间（天）</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="664" parent="267" name="finish_overtime">
-      <Comment>�Զ���ɽ���ʱ�䣬���������˻����죩</Comment>
+      <Comment>自动完成交易时间，不能申请退货（天）</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="665" parent="267" name="comment_overtime">
-      <Comment>������ɺ��Զ�����ʱ�䣨�죩</Comment>
+      <Comment>订单完成后自动好评时间（天）</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="666" parent="267" name="member_level">
-      <Comment>��Ա�ȼ���0-���&#x7bb;�Ա�ȼ���ȫ��ͨ�ã�����-��Ӧ��������Ա�ȼ���</Comment>
+      <Comment>会员等级【0-不限会员等级，全部通用；其他-对应的其他会员等级】</Comment>
       <DasType>tinyint(2)|0s</DasType>
       <Position>7</Position>
     </column>
@@ -3018,52 +3018,52 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="670" parent="268" name="order_sn">
-      <Comment>�����ţ�����ҵ��ţ�</Comment>
+      <Comment>订单号（对外业务号）</Comment>
       <DasType>char(32)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="671" parent="268" name="order_id">
-      <Comment>����id</Comment>
+      <Comment>订单id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="672" parent="268" name="alipay_trade_no">
-      <Comment>֧����������ˮ��</Comment>
+      <Comment>支付宝交易流水号</Comment>
       <DasType>varchar(50)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="673" parent="268" name="total_amount">
-      <Comment>֧���ܽ��</Comment>
+      <Comment>支付总金额</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="674" parent="268" name="subject">
-      <Comment>��������</Comment>
+      <Comment>交易内容</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="675" parent="268" name="payment_status">
-      <Comment>֧��״̬</Comment>
+      <Comment>支付状态</Comment>
       <DasType>varchar(20)|0s</DasType>
       <Position>7</Position>
     </column>
     <column id="676" parent="268" name="create_time">
-      <Comment>����ʱ��</Comment>
+      <Comment>创建时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>8</Position>
     </column>
     <column id="677" parent="268" name="confirm_time">
-      <Comment>ȷ��ʱ��</Comment>
+      <Comment>确认时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>9</Position>
     </column>
     <column id="678" parent="268" name="callback_content">
-      <Comment>�ص�����</Comment>
+      <Comment>回调内容</Comment>
       <DasType>varchar(4000)|0s</DasType>
       <Position>10</Position>
     </column>
     <column id="679" parent="268" name="callback_time">
-      <Comment>�ص�ʱ��</Comment>
+      <Comment>回调时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>11</Position>
     </column>
@@ -3085,27 +3085,27 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="683" parent="269" name="order_return_id">
-      <Comment>�˿�Ķ���</Comment>
+      <Comment>退款的订单</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="684" parent="269" name="refund">
-      <Comment>�˿���</Comment>
+      <Comment>退款金额</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="685" parent="269" name="refund_sn">
-      <Comment>�˿����ˮ��</Comment>
+      <Comment>退款交易流水号</Comment>
       <DasType>varchar(64)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="686" parent="269" name="refund_status">
-      <Comment>�˿�״̬</Comment>
+      <Comment>退款状态</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="687" parent="269" name="refund_channel">
-      <Comment>�˿�����[1-֧������2-&#x3a2;�ţ�3-������4-���]</Comment>
+      <Comment>退款渠道[1-支付宝，2-微信，3-银联，4-汇款]</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>6</Position>
     </column>
@@ -3125,48 +3125,48 @@ NEXT_FIRE_TIME</ColNames>
     </key>
     <column id="691" parent="270" name="attr_id">
       <AutoIncrement>1</AutoIncrement>
-      <Comment>����id</Comment>
+      <Comment>属性id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="692" parent="270" name="attr_name">
-      <Comment>������</Comment>
+      <Comment>属性名</Comment>
       <DasType>char(30)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="693" parent="270" name="search_type">
-      <Comment>�Ƿ���Ҫ����[0-����Ҫ��1-��Ҫ]</Comment>
+      <Comment>是否需要检索[0-不需要，1-需要]</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="694" parent="270" name="icon">
-      <Comment>����ͼ��</Comment>
+      <Comment>属性图标</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="695" parent="270" name="value_select">
-      <Comment>��ѡֵ�б�[�ö��ŷָ�]</Comment>
+      <Comment>可选值列表[用逗号分隔]</Comment>
       <DasType>char(255)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="696" parent="270" name="attr_type">
-      <Comment>��������[0-�������ԣ�1-�������ԣ�2-���������������ǻ�������]</Comment>
+      <Comment>属性类型[0-销售属性，1-基本属性，2-既是销售属性又是基本属性]</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="697" parent="270" name="enable">
-      <Comment>����״̬[0 - ���ã�1 - ����]</Comment>
+      <Comment>启用状态[0 - 禁用，1 - 启用]</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>7</Position>
     </column>
     <column id="698" parent="270" name="catelog_id">
-      <Comment>��������</Comment>
+      <Comment>所属分类</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>8</Position>
     </column>
     <column id="699" parent="270" name="show_desc">
-      <Comment>����չʾ���Ƿ�չʾ�ڽ����ϣ�0-�� 1-�ǡ�����sku����Ȼ���Ե���</Comment>
+      <Comment>快速展示【是否展示在介绍上；0-否 1-是】，在sku中仍然可以调整</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>9</Position>
     </column>
@@ -3188,17 +3188,17 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="703" parent="271" name="attr_id">
-      <Comment>����id</Comment>
+      <Comment>属性id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="704" parent="271" name="attr_group_id">
-      <Comment>���Է���id</Comment>
+      <Comment>属性分组id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="705" parent="271" name="attr_sort">
-      <Comment>������������</Comment>
+      <Comment>属性组内排序</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>4</Position>
     </column>
@@ -3214,33 +3214,33 @@ NEXT_FIRE_TIME</ColNames>
     </key>
     <column id="708" parent="272" name="attr_group_id">
       <AutoIncrement>1</AutoIncrement>
-      <Comment>����id</Comment>
+      <Comment>分组id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="709" parent="272" name="attr_group_name">
-      <Comment>����</Comment>
+      <Comment>组名</Comment>
       <DasType>char(20)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="710" parent="272" name="sort">
-      <Comment>����</Comment>
+      <Comment>排序</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="711" parent="272" name="descript">
-      <Comment>����</Comment>
+      <Comment>描述</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="712" parent="272" name="icon">
-      <Comment>��ͼ��</Comment>
+      <Comment>组图标</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="713" parent="272" name="catelog_id">
-      <Comment>��������id</Comment>
+      <Comment>所属分类id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>6</Position>
     </column>
@@ -3256,38 +3256,38 @@ NEXT_FIRE_TIME</ColNames>
     </key>
     <column id="716" parent="273" name="brand_id">
       <AutoIncrement>1</AutoIncrement>
-      <Comment>Ʒ��id</Comment>
+      <Comment>品牌id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="717" parent="273" name="name">
-      <Comment>Ʒ����</Comment>
+      <Comment>品牌名</Comment>
       <DasType>char(50)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="718" parent="273" name="logo">
-      <Comment>Ʒ��logo��ַ</Comment>
+      <Comment>品牌logo地址</Comment>
       <DasType>varchar(2000)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="719" parent="273" name="descript">
-      <Comment>����</Comment>
+      <Comment>介绍</Comment>
       <DasType>longtext|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="720" parent="273" name="show_status">
-      <Comment>��ʾ״̬[0-����ʾ��1-��ʾ]</Comment>
+      <Comment>显示状态[0-不显示；1-显示]</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="721" parent="273" name="first_letter">
-      <Comment>��������ĸ</Comment>
+      <Comment>检索首字母</Comment>
       <DasType>char(1)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="722" parent="273" name="sort">
-      <Comment>����</Comment>
+      <Comment>排序</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>7</Position>
     </column>
@@ -3303,48 +3303,48 @@ NEXT_FIRE_TIME</ColNames>
     </key>
     <column id="725" parent="274" name="cat_id">
       <AutoIncrement>1</AutoIncrement>
-      <Comment>����id</Comment>
+      <Comment>分类id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="726" parent="274" name="name">
-      <Comment>��������</Comment>
+      <Comment>分类名称</Comment>
       <DasType>char(50)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="727" parent="274" name="parent_cid">
-      <Comment>������id</Comment>
+      <Comment>父分类id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="728" parent="274" name="cat_level">
-      <Comment>�㼶</Comment>
+      <Comment>层级</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="729" parent="274" name="show_status">
-      <Comment>�Ƿ���ʾ[0-����ʾ��1��ʾ]</Comment>
+      <Comment>是否显示[0-不显示，1显示]</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="730" parent="274" name="sort">
-      <Comment>����</Comment>
+      <Comment>排序</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="731" parent="274" name="icon">
-      <Comment>ͼ���ַ</Comment>
+      <Comment>图标地址</Comment>
       <DasType>char(255)|0s</DasType>
       <Position>7</Position>
     </column>
     <column id="732" parent="274" name="product_unit">
-      <Comment>������λ</Comment>
+      <Comment>计量单位</Comment>
       <DasType>char(50)|0s</DasType>
       <Position>8</Position>
     </column>
     <column id="733" parent="274" name="product_count">
-      <Comment>��Ʒ����</Comment>
+      <Comment>商品数量</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>9</Position>
     </column>
@@ -3365,12 +3365,12 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="737" parent="275" name="brand_id">
-      <Comment>Ʒ��id</Comment>
+      <Comment>品牌id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="738" parent="275" name="catelog_id">
-      <Comment>����id</Comment>
+      <Comment>分类id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>3</Position>
     </column>
@@ -3400,12 +3400,12 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="744" parent="276" name="comment_id">
-      <Comment>����id</Comment>
+      <Comment>评论id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="745" parent="276" name="reply_id">
-      <Comment>�ظ�id</Comment>
+      <Comment>回复id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>3</Position>
     </column>
@@ -3427,32 +3427,32 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="749" parent="277" name="spu_id">
-      <Comment>��Ʒid</Comment>
+      <Comment>商品id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="750" parent="277" name="attr_id">
-      <Comment>����id</Comment>
+      <Comment>属性id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="751" parent="277" name="attr_name">
-      <Comment>������</Comment>
+      <Comment>属性名</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="752" parent="277" name="attr_value">
-      <Comment>����ֵ</Comment>
+      <Comment>属性值</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="753" parent="277" name="attr_sort">
-      <Comment>˳��</Comment>
+      <Comment>顺序</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="754" parent="277" name="quick_show">
-      <Comment>����չʾ���Ƿ�չʾ�ڽ����ϣ�0-�� 1-�ǡ�</Comment>
+      <Comment>快速展示【是否展示在介绍上；0-否 1-是】</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>7</Position>
     </column>
@@ -3479,17 +3479,17 @@ NEXT_FIRE_TIME</ColNames>
       <Position>2</Position>
     </column>
     <column id="759" parent="278" name="img_url">
-      <Comment>ͼƬ��ַ</Comment>
+      <Comment>图片地址</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="760" parent="278" name="img_sort">
-      <Comment>����</Comment>
+      <Comment>排序</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="761" parent="278" name="default_img">
-      <Comment>Ĭ��ͼ[0 - ����Ĭ��ͼ��1 - ��Ĭ��ͼ]</Comment>
+      <Comment>默认图[0 - 不是默认图，1 - 是默认图]</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>5</Position>
     </column>
@@ -3516,47 +3516,47 @@ NEXT_FIRE_TIME</ColNames>
       <Position>2</Position>
     </column>
     <column id="766" parent="279" name="sku_name">
-      <Comment>sku����</Comment>
+      <Comment>sku名称</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="767" parent="279" name="sku_desc">
-      <Comment>sku��������</Comment>
+      <Comment>sku介绍描述</Comment>
       <DasType>varchar(2000)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="768" parent="279" name="catalog_id">
-      <Comment>��������id</Comment>
+      <Comment>所属分类id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="769" parent="279" name="brand_id">
-      <Comment>Ʒ��id</Comment>
+      <Comment>品牌id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="770" parent="279" name="sku_default_img">
-      <Comment>Ĭ��ͼƬ</Comment>
+      <Comment>默认图片</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>7</Position>
     </column>
     <column id="771" parent="279" name="sku_title">
-      <Comment>����</Comment>
+      <Comment>标题</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>8</Position>
     </column>
     <column id="772" parent="279" name="sku_subtitle">
-      <Comment>������</Comment>
+      <Comment>副标题</Comment>
       <DasType>varchar(2000)|0s</DasType>
       <Position>9</Position>
     </column>
     <column id="773" parent="279" name="price">
-      <Comment>�۸�</Comment>
+      <Comment>价格</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>10</Position>
     </column>
     <column id="774" parent="279" name="sale_count">
-      <Comment>����</Comment>
+      <Comment>销量</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>11</Position>
     </column>
@@ -3588,17 +3588,17 @@ NEXT_FIRE_TIME</ColNames>
       <Position>3</Position>
     </column>
     <column id="780" parent="280" name="attr_name">
-      <Comment>����������</Comment>
+      <Comment>销售属性名</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="781" parent="280" name="attr_value">
-      <Comment>��������ֵ</Comment>
+      <Comment>销售属性值</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="782" parent="280" name="attr_sort">
-      <Comment>˳��</Comment>
+      <Comment>顺序</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>6</Position>
     </column>
@@ -3630,67 +3630,67 @@ NEXT_FIRE_TIME</ColNames>
       <Position>3</Position>
     </column>
     <column id="788" parent="281" name="spu_name">
-      <Comment>��Ʒ����</Comment>
+      <Comment>商品名字</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="789" parent="281" name="member_nick_name">
-      <Comment>��Ա�ǳ�</Comment>
+      <Comment>会员昵称</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="790" parent="281" name="star">
-      <Comment>�Ǽ�</Comment>
+      <Comment>星级</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="791" parent="281" name="member_ip">
-      <Comment>��Աip</Comment>
+      <Comment>会员ip</Comment>
       <DasType>varchar(64)|0s</DasType>
       <Position>7</Position>
     </column>
     <column id="792" parent="281" name="create_time">
-      <Comment>����ʱ��</Comment>
+      <Comment>创建时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>8</Position>
     </column>
     <column id="793" parent="281" name="show_status">
-      <Comment>��ʾ״̬[0-����ʾ��1-��ʾ]</Comment>
+      <Comment>显示状态[0-不显示，1-显示]</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>9</Position>
     </column>
     <column id="794" parent="281" name="spu_attributes">
-      <Comment>����ʱ�������</Comment>
+      <Comment>购买时属性组合</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>10</Position>
     </column>
     <column id="795" parent="281" name="likes_count">
-      <Comment>������</Comment>
+      <Comment>点赞数</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>11</Position>
     </column>
     <column id="796" parent="281" name="reply_count">
-      <Comment>�ظ���</Comment>
+      <Comment>回复数</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>12</Position>
     </column>
     <column id="797" parent="281" name="resources">
-      <Comment>����ͼƬ/��Ƶ[json���ݣ�[{type:�ļ�����,url:��Դ·��}]]</Comment>
+      <Comment>评论图片/视频[json数据；[{type:文件类型,url:资源路径}]]</Comment>
       <DasType>varchar(1000)|0s</DasType>
       <Position>13</Position>
     </column>
     <column id="798" parent="281" name="content">
-      <Comment>����</Comment>
+      <Comment>内容</Comment>
       <DasType>text|0s</DasType>
       <Position>14</Position>
     </column>
     <column id="799" parent="281" name="member_icon">
-      <Comment>�û�ͷ��</Comment>
+      <Comment>用户头像</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>15</Position>
     </column>
     <column id="800" parent="281" name="comment_type">
-      <Comment>��������[0 - ����Ʒ��ֱ�����ۣ�1 - �����۵Ļظ�]</Comment>
+      <Comment>评论类型[0 - 对商品的直接评论，1 - 对评论的回复]</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>16</Position>
     </column>
@@ -3717,22 +3717,22 @@ NEXT_FIRE_TIME</ColNames>
       <Position>2</Position>
     </column>
     <column id="805" parent="282" name="img_name">
-      <Comment>ͼƬ��</Comment>
+      <Comment>图片名</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="806" parent="282" name="img_url">
-      <Comment>ͼƬ��ַ</Comment>
+      <Comment>图片地址</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="807" parent="282" name="img_sort">
-      <Comment>˳��</Comment>
+      <Comment>顺序</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="808" parent="282" name="default_img">
-      <Comment>�Ƿ�Ĭ��ͼ</Comment>
+      <Comment>是否默认图</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>6</Position>
     </column>
@@ -3748,28 +3748,28 @@ NEXT_FIRE_TIME</ColNames>
     </key>
     <column id="811" parent="283" name="id">
       <AutoIncrement>1</AutoIncrement>
-      <Comment>��Ʒid</Comment>
+      <Comment>商品id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="812" parent="283" name="spu_name">
-      <Comment>��Ʒ����</Comment>
+      <Comment>商品名称</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="813" parent="283" name="spu_description">
-      <Comment>��Ʒ����</Comment>
+      <Comment>商品描述</Comment>
       <DasType>varchar(1000)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="814" parent="283" name="catalog_id">
-      <Comment>��������id</Comment>
+      <Comment>所属分类id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="815" parent="283" name="brand_id">
-      <Comment>Ʒ��id</Comment>
+      <Comment>品牌id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>5</Position>
     </column>
@@ -3778,7 +3778,7 @@ NEXT_FIRE_TIME</ColNames>
       <Position>6</Position>
     </column>
     <column id="817" parent="283" name="publish_status">
-      <Comment>�ϼ�״̬[0 - �¼ܣ�1 - �ϼ�]</Comment>
+      <Comment>上架状态[0 - 下架，1 - 上架]</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>7</Position>
     </column>
@@ -3801,13 +3801,13 @@ NEXT_FIRE_TIME</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="822" parent="284" name="spu_id">
-      <Comment>��Ʒid</Comment>
+      <Comment>商品id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="823" parent="284" name="decript">
-      <Comment>��Ʒ����</Comment>
+      <Comment>商品介绍</Comment>
       <DasType>longtext|0s</DasType>
       <Position>2</Position>
     </column>
@@ -3829,97 +3829,97 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="827" parent="285" name="coupon_type">
-      <Comment>�Żݾ�����[0-&gt;ȫ����ȯ��1-&gt;��Ա��ȯ��2-&gt;������ȯ��3-&gt;ע����ȯ]</Comment>
+      <Comment>优惠卷类型[0-&gt;全场赠券；1-&gt;会员赠券；2-&gt;购物赠券；3-&gt;注册赠券]</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="828" parent="285" name="coupon_img">
-      <Comment>�Ż�ȯͼƬ</Comment>
+      <Comment>优惠券图片</Comment>
       <DasType>varchar(2000)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="829" parent="285" name="coupon_name">
-      <Comment>�Żݾ�����</Comment>
+      <Comment>优惠卷名字</Comment>
       <DasType>varchar(100)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="830" parent="285" name="num">
-      <Comment>����</Comment>
+      <Comment>数量</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="831" parent="285" name="amount">
-      <Comment>���</Comment>
+      <Comment>金额</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="832" parent="285" name="per_limit">
-      <Comment>ÿ����������</Comment>
+      <Comment>每人限领张数</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>7</Position>
     </column>
     <column id="833" parent="285" name="min_point">
-      <Comment>ʹ���ż�</Comment>
+      <Comment>使用门槛</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>8</Position>
     </column>
     <column id="834" parent="285" name="start_time">
-      <Comment>��ʼʱ��</Comment>
+      <Comment>开始时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>9</Position>
     </column>
     <column id="835" parent="285" name="end_time">
-      <Comment>����ʱ��</Comment>
+      <Comment>结束时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>10</Position>
     </column>
     <column id="836" parent="285" name="use_type">
-      <Comment>ʹ������[0-&gt;ȫ��ͨ�ã�1-&gt;ָ�����ࣻ2-&gt;ָ����Ʒ]</Comment>
+      <Comment>使用类型[0-&gt;全场通用；1-&gt;指定分类；2-&gt;指定商品]</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>11</Position>
     </column>
     <column id="837" parent="285" name="note">
-      <Comment>��ע</Comment>
+      <Comment>备注</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>12</Position>
     </column>
     <column id="838" parent="285" name="publish_count">
-      <Comment>��������</Comment>
+      <Comment>发行数量</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>13</Position>
     </column>
     <column id="839" parent="285" name="use_count">
-      <Comment>��ʹ������</Comment>
+      <Comment>已使用数量</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>14</Position>
     </column>
     <column id="840" parent="285" name="receive_count">
-      <Comment>��ȡ����</Comment>
+      <Comment>领取数量</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>15</Position>
     </column>
     <column id="841" parent="285" name="enable_start_time">
-      <Comment>������ȡ�Ŀ�ʼ����</Comment>
+      <Comment>可以领取的开始日期</Comment>
       <DasType>datetime|0s</DasType>
       <Position>16</Position>
     </column>
     <column id="842" parent="285" name="enable_end_time">
-      <Comment>������ȡ�Ľ�������</Comment>
+      <Comment>可以领取的结束日期</Comment>
       <DasType>datetime|0s</DasType>
       <Position>17</Position>
     </column>
     <column id="843" parent="285" name="code">
-      <Comment>�Ż���</Comment>
+      <Comment>优惠码</Comment>
       <DasType>varchar(64)|0s</DasType>
       <Position>18</Position>
     </column>
     <column id="844" parent="285" name="member_level">
-      <Comment>������ȡ�Ļ�Ա�ȼ�[0-&gt;���&#x7b5;ȼ�������-��Ӧ�ȼ�]</Comment>
+      <Comment>可以领取的会员等级[0-&gt;不限等级，其他-对应等级]</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>19</Position>
     </column>
     <column id="845" parent="285" name="publish">
-      <Comment>����״̬[0-δ������1-�ѷ���]</Comment>
+      <Comment>发布状态[0-未发布，1-已发布]</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>20</Position>
     </column>
@@ -3941,47 +3941,47 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="849" parent="286" name="coupon_id">
-      <Comment>�Ż�ȯid</Comment>
+      <Comment>优惠券id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="850" parent="286" name="member_id">
-      <Comment>��Աid</Comment>
+      <Comment>会员id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="851" parent="286" name="member_nick_name">
-      <Comment>��Ա����</Comment>
+      <Comment>会员名字</Comment>
       <DasType>varchar(64)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="852" parent="286" name="get_type">
-      <Comment>��ȡ��ʽ[0-&gt;��̨���ͣ�1-&gt;������ȡ]</Comment>
+      <Comment>获取方式[0-&gt;后台赠送；1-&gt;主动领取]</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="853" parent="286" name="create_time">
-      <Comment>����ʱ��</Comment>
+      <Comment>创建时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="854" parent="286" name="use_type">
-      <Comment>ʹ��״̬[0-&gt;δʹ�ã�1-&gt;��ʹ�ã�2-&gt;�ѹ���]</Comment>
+      <Comment>使用状态[0-&gt;未使用；1-&gt;已使用；2-&gt;已过期]</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>7</Position>
     </column>
     <column id="855" parent="286" name="use_time">
-      <Comment>ʹ��ʱ��</Comment>
+      <Comment>使用时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>8</Position>
     </column>
     <column id="856" parent="286" name="order_id">
-      <Comment>����id</Comment>
+      <Comment>订单id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>9</Position>
     </column>
     <column id="857" parent="286" name="order_sn">
-      <Comment>������</Comment>
+      <Comment>订单号</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>10</Position>
     </column>
@@ -4003,17 +4003,17 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="861" parent="287" name="coupon_id">
-      <Comment>�Ż�ȯid</Comment>
+      <Comment>优惠券id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="862" parent="287" name="category_id">
-      <Comment>��Ʒ����id</Comment>
+      <Comment>产品分类id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="863" parent="287" name="category_name">
-      <Comment>��Ʒ��������</Comment>
+      <Comment>产品分类名称</Comment>
       <DasType>varchar(64)|0s</DasType>
       <Position>4</Position>
     </column>
@@ -4035,7 +4035,7 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="867" parent="288" name="coupon_id">
-      <Comment>�Ż�ȯid</Comment>
+      <Comment>优惠券id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>2</Position>
     </column>
@@ -4067,57 +4067,57 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="873" parent="289" name="name">
-      <Comment>����</Comment>
+      <Comment>名字</Comment>
       <DasType>varchar(100)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="874" parent="289" name="pic">
-      <Comment>ͼƬ��ַ</Comment>
+      <Comment>图片地址</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="875" parent="289" name="start_time">
-      <Comment>��ʼʱ��</Comment>
+      <Comment>开始时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="876" parent="289" name="end_time">
-      <Comment>����ʱ��</Comment>
+      <Comment>结束时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="877" parent="289" name="status">
-      <Comment>״̬</Comment>
+      <Comment>状态</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="878" parent="289" name="click_count">
-      <Comment>�����</Comment>
+      <Comment>点击数</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>7</Position>
     </column>
     <column id="879" parent="289" name="url">
-      <Comment>����������ӵ�ַ</Comment>
+      <Comment>广告详情连接地址</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>8</Position>
     </column>
     <column id="880" parent="289" name="note">
-      <Comment>��ע</Comment>
+      <Comment>备注</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>9</Position>
     </column>
     <column id="881" parent="289" name="sort">
-      <Comment>����</Comment>
+      <Comment>排序</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>10</Position>
     </column>
     <column id="882" parent="289" name="publisher_id">
-      <Comment>������</Comment>
+      <Comment>发布者</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>11</Position>
     </column>
     <column id="883" parent="289" name="auth_id">
-      <Comment>�����</Comment>
+      <Comment>审核者</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>12</Position>
     </column>
@@ -4139,37 +4139,37 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="887" parent="290" name="name">
-      <Comment>ר������</Comment>
+      <Comment>专题名字</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="888" parent="290" name="title">
-      <Comment>ר�����</Comment>
+      <Comment>专题标题</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="889" parent="290" name="sub_title">
-      <Comment>ר�⸱����</Comment>
+      <Comment>专题副标题</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="890" parent="290" name="status">
-      <Comment>��ʾ״̬</Comment>
+      <Comment>显示状态</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="891" parent="290" name="url">
-      <Comment>��������</Comment>
+      <Comment>详情连接</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="892" parent="290" name="sort">
-      <Comment>����</Comment>
+      <Comment>排序</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>7</Position>
     </column>
     <column id="893" parent="290" name="img">
-      <Comment>ר��ͼƬ��ַ</Comment>
+      <Comment>专题图片地址</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>8</Position>
     </column>
@@ -4191,12 +4191,12 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="897" parent="291" name="name">
-      <Comment>ר������</Comment>
+      <Comment>专题名字</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="898" parent="291" name="subject_id">
-      <Comment>ר��id</Comment>
+      <Comment>专题id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>3</Position>
     </column>
@@ -4206,7 +4206,7 @@ NEXT_FIRE_TIME</ColNames>
       <Position>4</Position>
     </column>
     <column id="900" parent="291" name="sort">
-      <Comment>����</Comment>
+      <Comment>排序</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>5</Position>
     </column>
@@ -4233,22 +4233,22 @@ NEXT_FIRE_TIME</ColNames>
       <Position>2</Position>
     </column>
     <column id="905" parent="292" name="member_level_id">
-      <Comment>��Ա�ȼ�id</Comment>
+      <Comment>会员等级id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="906" parent="292" name="member_level_name">
-      <Comment>��Ա�ȼ���</Comment>
+      <Comment>会员等级名</Comment>
       <DasType>varchar(100)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="907" parent="292" name="member_price">
-      <Comment>��Ա��Ӧ�۸�</Comment>
+      <Comment>会员对应价格</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="908" parent="292" name="add_other">
-      <Comment>�ɷ���������Ż�[0-���ɵ����Żݣ�1-�ɵ���]</Comment>
+      <Comment>可否叠加其他优惠[0-不可叠加优惠，1-可叠加]</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>6</Position>
     </column>
@@ -4270,32 +4270,32 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="912" parent="293" name="title">
-      <Comment>�����</Comment>
+      <Comment>活动标题</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="913" parent="293" name="start_time">
-      <Comment>��ʼ����</Comment>
+      <Comment>开始日期</Comment>
       <DasType>datetime|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="914" parent="293" name="end_time">
-      <Comment>��������</Comment>
+      <Comment>结束日期</Comment>
       <DasType>datetime|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="915" parent="293" name="status">
-      <Comment>������״̬</Comment>
+      <Comment>上下线状态</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="916" parent="293" name="create_time">
-      <Comment>����ʱ��</Comment>
+      <Comment>创建时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="917" parent="293" name="user_id">
-      <Comment>������</Comment>
+      <Comment>创建人</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>7</Position>
     </column>
@@ -4317,27 +4317,27 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="921" parent="294" name="name">
-      <Comment>��������</Comment>
+      <Comment>场次名称</Comment>
       <DasType>varchar(200)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="922" parent="294" name="start_time">
-      <Comment>ÿ�տ�ʼʱ��</Comment>
+      <Comment>每日开始时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="923" parent="294" name="end_time">
-      <Comment>ÿ�ս���ʱ��</Comment>
+      <Comment>每日结束时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="924" parent="294" name="status">
-      <Comment>����״̬</Comment>
+      <Comment>启用状态</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="925" parent="294" name="create_time">
-      <Comment>����ʱ��</Comment>
+      <Comment>创建时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>6</Position>
     </column>
@@ -4369,22 +4369,22 @@ NEXT_FIRE_TIME</ColNames>
       <Position>3</Position>
     </column>
     <column id="931" parent="295" name="session_id">
-      <Comment>�����id</Comment>
+      <Comment>活动场次id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="932" parent="295" name="subcribe_time">
-      <Comment>����ʱ��</Comment>
+      <Comment>订阅时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="933" parent="295" name="send_time">
-      <Comment>����ʱ��</Comment>
+      <Comment>发送时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="934" parent="295" name="notice_type">
-      <Comment>֪ͨ��ʽ[0-���ţ�1-�ʼ�]</Comment>
+      <Comment>通知方式[0-短信，1-邮件]</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>7</Position>
     </column>
@@ -4406,37 +4406,37 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="938" parent="296" name="promotion_id">
-      <Comment>�id</Comment>
+      <Comment>活动id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="939" parent="296" name="promotion_session_id">
-      <Comment>�����id</Comment>
+      <Comment>活动场次id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="940" parent="296" name="sku_id">
-      <Comment>��Ʒid</Comment>
+      <Comment>商品id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="941" parent="296" name="seckill_price">
-      <Comment>��ɱ�۸�</Comment>
+      <Comment>秒杀价格</Comment>
       <DasType>decimal(10)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="942" parent="296" name="seckill_count">
-      <Comment>��ɱ����</Comment>
+      <Comment>秒杀总量</Comment>
       <DasType>decimal(10)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="943" parent="296" name="seckill_limit">
-      <Comment>ÿ���&#x7b9;�����</Comment>
+      <Comment>每人限购数量</Comment>
       <DasType>decimal(10)|0s</DasType>
       <Position>7</Position>
     </column>
     <column id="944" parent="296" name="seckill_sort">
-      <Comment>����</Comment>
+      <Comment>排序</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>8</Position>
     </column>
@@ -4463,17 +4463,17 @@ NEXT_FIRE_TIME</ColNames>
       <Position>2</Position>
     </column>
     <column id="949" parent="297" name="full_price">
-      <Comment>������</Comment>
+      <Comment>满多少</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="950" parent="297" name="reduce_price">
-      <Comment>������</Comment>
+      <Comment>减多少</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="951" parent="297" name="add_other">
-      <Comment>�Ƿ���������Ż�</Comment>
+      <Comment>是否参与其他优惠</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>5</Position>
     </column>
@@ -4500,22 +4500,22 @@ NEXT_FIRE_TIME</ColNames>
       <Position>2</Position>
     </column>
     <column id="956" parent="298" name="full_count">
-      <Comment>������</Comment>
+      <Comment>满几件</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="957" parent="298" name="discount">
-      <Comment>����</Comment>
+      <Comment>打几折</Comment>
       <DasType>decimal(4,2 digit)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="958" parent="298" name="price">
-      <Comment>�ۺ��</Comment>
+      <Comment>折后价</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="959" parent="298" name="add_other">
-      <Comment>�Ƿ���������Ż�[0-���ɵ��ӣ�1-�ɵ���]</Comment>
+      <Comment>是否叠加其他优惠[0-不可叠加，1-可叠加]</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>6</Position>
     </column>
@@ -4541,17 +4541,17 @@ NEXT_FIRE_TIME</ColNames>
       <Position>2</Position>
     </column>
     <column id="964" parent="299" name="grow_bounds">
-      <Comment>�ɳ�����</Comment>
+      <Comment>成长积分</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="965" parent="299" name="buy_bounds">
-      <Comment>�������</Comment>
+      <Comment>购物积分</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="966" parent="299" name="work">
-      <Comment>�Ż���Ч���[1111���ĸ�״̬λ�����ҵ���;0 - ���Żݣ��ɳ������Ƿ�����;1 - ���Żݣ���������Ƿ�����;2 - ���Żݣ��ɳ������Ƿ�����;3 - ���Żݣ���������Ƿ����͡�״̬λ0�������ͣ�1�����͡�]</Comment>
+      <Comment>优惠生效情况[1111（四个状态位，从右到左）;0 - 无优惠，成长积分是否赠送;1 - 无优惠，购物积分是否赠送;2 - 有优惠，成长积分是否赠送;3 - 有优惠，购物积分是否赠送【状态位0：不赠送，1：赠送】]</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>5</Position>
     </column>
@@ -4583,17 +4583,17 @@ NEXT_FIRE_TIME</ColNames>
       <Position>3</Position>
     </column>
     <column id="972" parent="300" name="change_count">
-      <Comment>�ı��ֵ������������</Comment>
+      <Comment>改变的值（正负计数）</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="973" parent="300" name="note">
-      <Comment>��ע</Comment>
+      <Comment>备注</Comment>
       <DasType>varchar(0)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="974" parent="300" name="source_type">
-      <Comment>������Դ[0-���1-����Ա�&#x7b8;�]</Comment>
+      <Comment>积分来源[0-购物，1-管理员修改]</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>6</Position>
     </column>
@@ -4625,17 +4625,17 @@ NEXT_FIRE_TIME</ColNames>
       <Position>3</Position>
     </column>
     <column id="980" parent="301" name="change_count">
-      <Comment>�仯��ֵ</Comment>
+      <Comment>变化的值</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="981" parent="301" name="note">
-      <Comment>��ע</Comment>
+      <Comment>备注</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="982" parent="301" name="source_tyoe">
-      <Comment>��Դ[0-&gt;���1-&gt;����Ա�&#x7b8;�;2-&gt;�]</Comment>
+      <Comment>来源[0-&gt;购物；1-&gt;管理员修改;2-&gt;活动]</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>6</Position>
     </column>
@@ -4657,87 +4657,87 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="986" parent="302" name="level_id">
-      <Comment>��Ա�ȼ�id</Comment>
+      <Comment>会员等级id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="987" parent="302" name="username">
-      <Comment>�û���</Comment>
+      <Comment>用户名</Comment>
       <DasType>char(64)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="988" parent="302" name="password">
-      <Comment>����</Comment>
+      <Comment>密码</Comment>
       <DasType>varchar(64)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="989" parent="302" name="nickname">
-      <Comment>�ǳ�</Comment>
+      <Comment>昵称</Comment>
       <DasType>varchar(64)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="990" parent="302" name="mobile">
-      <Comment>�ֻ�����</Comment>
+      <Comment>手机号码</Comment>
       <DasType>varchar(20)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="991" parent="302" name="email">
-      <Comment>����</Comment>
+      <Comment>邮箱</Comment>
       <DasType>varchar(64)|0s</DasType>
       <Position>7</Position>
     </column>
     <column id="992" parent="302" name="header">
-      <Comment>ͷ��</Comment>
+      <Comment>头像</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>8</Position>
     </column>
     <column id="993" parent="302" name="gender">
-      <Comment>�Ա�</Comment>
+      <Comment>性别</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>9</Position>
     </column>
     <column id="994" parent="302" name="birth">
-      <Comment>����</Comment>
+      <Comment>生日</Comment>
       <DasType>date|0s</DasType>
       <Position>10</Position>
     </column>
     <column id="995" parent="302" name="city">
-      <Comment>���ڳ���</Comment>
+      <Comment>所在城市</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>11</Position>
     </column>
     <column id="996" parent="302" name="job">
-      <Comment>ְҵ</Comment>
+      <Comment>职业</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>12</Position>
     </column>
     <column id="997" parent="302" name="sign">
-      <Comment>����ǩ��</Comment>
+      <Comment>个性签名</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>13</Position>
     </column>
     <column id="998" parent="302" name="source_type">
-      <Comment>�û���Դ</Comment>
+      <Comment>用户来源</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>14</Position>
     </column>
     <column id="999" parent="302" name="integration">
-      <Comment>����</Comment>
+      <Comment>积分</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>15</Position>
     </column>
     <column id="1000" parent="302" name="growth">
-      <Comment>�ɳ�ֵ</Comment>
+      <Comment>成长值</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>16</Position>
     </column>
     <column id="1001" parent="302" name="status">
-      <Comment>����״̬</Comment>
+      <Comment>启用状态</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>17</Position>
     </column>
     <column id="1002" parent="302" name="create_time">
-      <Comment>ע��ʱ��</Comment>
+      <Comment>注册时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>18</Position>
     </column>
@@ -4758,7 +4758,7 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="1006" parent="303" name="member_id">
-      <Comment>��Աid</Comment>
+      <Comment>会员id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>2</Position>
     </column>
@@ -4815,7 +4815,7 @@ NEXT_FIRE_TIME</ColNames>
       <Position>4</Position>
     </column>
     <column id="1017" parent="304" name="subject_urll">
-      <Comment>�url</Comment>
+      <Comment>活动url</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>5</Position>
     </column>
@@ -4837,47 +4837,47 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="1021" parent="305" name="name">
-      <Comment>�ȼ�����</Comment>
+      <Comment>等级名称</Comment>
       <DasType>varchar(100)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="1022" parent="305" name="growth_point">
-      <Comment>�ȼ���Ҫ�ĳɳ�ֵ</Comment>
+      <Comment>等级需要的成长值</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="1023" parent="305" name="default_status">
-      <Comment>�Ƿ�ΪĬ�ϵȼ�[0-&gt;���ǣ�1-&gt;��]</Comment>
+      <Comment>是否为默认等级[0-&gt;不是；1-&gt;是]</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="1024" parent="305" name="free_freight_point">
-      <Comment>���˷ѱ�&#x5fc;</Comment>
+      <Comment>免运费标准</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="1025" parent="305" name="comment_growth_point">
-      <Comment>ÿ�����ۻ�ȡ�ĳɳ�ֵ</Comment>
+      <Comment>每次评价获取的成长值</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="1026" parent="305" name="priviledge_free_freight">
-      <Comment>�Ƿ���������Ȩ</Comment>
+      <Comment>是否有免邮特权</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>7</Position>
     </column>
     <column id="1027" parent="305" name="priviledge_member_price">
-      <Comment>�Ƿ��л�Ա�۸���Ȩ</Comment>
+      <Comment>是否有会员价格特权</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>8</Position>
     </column>
     <column id="1028" parent="305" name="priviledge_birthday">
-      <Comment>�Ƿ���������Ȩ</Comment>
+      <Comment>是否有生日特权</Comment>
       <DasType>tinyint(4)|0s</DasType>
       <Position>9</Position>
     </column>
     <column id="1029" parent="305" name="note">
-      <Comment>��ע</Comment>
+      <Comment>备注</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>10</Position>
     </column>
@@ -4904,7 +4904,7 @@ NEXT_FIRE_TIME</ColNames>
       <Position>2</Position>
     </column>
     <column id="1034" parent="306" name="create_time">
-      <Comment>����ʱ��</Comment>
+      <Comment>创建时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>3</Position>
     </column>
@@ -4919,7 +4919,7 @@ NEXT_FIRE_TIME</ColNames>
       <Position>5</Position>
     </column>
     <column id="1037" parent="306" name="login_type">
-      <Comment>��¼����[1-web��2-app]</Comment>
+      <Comment>登录类型[1-web，2-app]</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>6</Position>
     </column>
@@ -4946,47 +4946,47 @@ NEXT_FIRE_TIME</ColNames>
       <Position>2</Position>
     </column>
     <column id="1042" parent="307" name="name">
-      <Comment>�ջ�������</Comment>
+      <Comment>收货人姓名</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="1043" parent="307" name="phone">
-      <Comment>�绰</Comment>
+      <Comment>电话</Comment>
       <DasType>varchar(64)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="1044" parent="307" name="post_code">
-      <Comment>��������</Comment>
+      <Comment>邮政编码</Comment>
       <DasType>varchar(64)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="1045" parent="307" name="province">
-      <Comment>ʡ��/ֱϽ��</Comment>
+      <Comment>省份/直辖市</Comment>
       <DasType>varchar(100)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="1046" parent="307" name="city">
-      <Comment>����</Comment>
+      <Comment>城市</Comment>
       <DasType>varchar(100)|0s</DasType>
       <Position>7</Position>
     </column>
     <column id="1047" parent="307" name="region">
-      <Comment>��</Comment>
+      <Comment>区</Comment>
       <DasType>varchar(100)|0s</DasType>
       <Position>8</Position>
     </column>
     <column id="1048" parent="307" name="detail_address">
-      <Comment>��ϸ��ַ(�ֵ�)</Comment>
+      <Comment>详细地址(街道)</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>9</Position>
     </column>
     <column id="1049" parent="307" name="areacode">
-      <Comment>ʡ��������</Comment>
+      <Comment>省市区代码</Comment>
       <DasType>varchar(15)|0s</DasType>
       <Position>10</Position>
     </column>
     <column id="1050" parent="307" name="default_status">
-      <Comment>�Ƿ�Ĭ��</Comment>
+      <Comment>是否默认</Comment>
       <DasType>tinyint(1)|0s</DasType>
       <Position>11</Position>
     </column>
@@ -5008,72 +5008,72 @@ NEXT_FIRE_TIME</ColNames>
       <Position>1</Position>
     </column>
     <column id="1054" parent="308" name="member_id">
-      <Comment>��Աid</Comment>
+      <Comment>会员id</Comment>
       <DasType>bigint(20)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="1055" parent="308" name="consume_amount">
-      <Comment>�ۼ����ѽ��</Comment>
+      <Comment>累计消费金额</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="1056" parent="308" name="coupon_amount">
-      <Comment>�ۼ��Żݽ��</Comment>
+      <Comment>累计优惠金额</Comment>
       <DasType>decimal(18,4 digit)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="1057" parent="308" name="order_count">
-      <Comment>��������</Comment>
+      <Comment>订单数量</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="1058" parent="308" name="coupon_count">
-      <Comment>�Ż�ȯ����</Comment>
+      <Comment>优惠券数量</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="1059" parent="308" name="comment_count">
-      <Comment>������</Comment>
+      <Comment>评价数</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>7</Position>
     </column>
     <column id="1060" parent="308" name="return_order_count">
-      <Comment>�˻�����</Comment>
+      <Comment>退货数量</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>8</Position>
     </column>
     <column id="1061" parent="308" name="login_count">
-      <Comment>��¼����</Comment>
+      <Comment>登录次数</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>9</Position>
     </column>
     <column id="1062" parent="308" name="attend_count">
-      <Comment>��ע����</Comment>
+      <Comment>关注数量</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>10</Position>
     </column>
     <column id="1063" parent="308" name="fans_count">
-      <Comment>��˿����</Comment>
+      <Comment>粉丝数量</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>11</Position>
     </column>
     <column id="1064" parent="308" name="collect_product_count">
-      <Comment>�ղص���Ʒ����</Comment>
+      <Comment>收藏的商品数量</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>12</Position>
     </column>
     <column id="1065" parent="308" name="collect_subject_count">
-      <Comment>�ղص�ר������</Comment>
+      <Comment>收藏的专题活动数量</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>13</Position>
     </column>
     <column id="1066" parent="308" name="collect_comment_count">
-      <Comment>�ղص���������</Comment>
+      <Comment>收藏的评论数量</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>14</Position>
     </column>
     <column id="1067" parent="308" name="invite_friend_count">
-      <Comment>�������������</Comment>
+      <Comment>邀请的朋友数量</Comment>
       <DasType>int(11)|0s</DasType>
       <Position>15</Position>
     </column>
