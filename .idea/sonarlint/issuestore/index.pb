@@ -121,3 +121,9 @@ x
 Hcoupon/src/main/java/com/guli/coupon/controller/SkuLadderController.java,6\c\6cd09cc56394b604293cfdbd1d241466e5c08d3a
 x
 Hcoupon/src/main/java/com/guli/coupon/controller/SpuBoundsController.java,d\d\dd4edbcb3d4965672c9a1217ac92ff6235c62788
+>
+member/pom.xml,5\c\5cead6db3da95b5814033fc5034e7f00780e9e55
+‚
+Rmember/src/main/java/com/guli/member/controller/GrowthChangeHistoryController.java,8\8\886e6d23f8fda5179c308de65df96706632f11e5
+k
+;member/src/main/java/com/guli/member/MemberApplication.java,6\5\653c4fd9d21067b058ee829da4d394f5de3f26ac
