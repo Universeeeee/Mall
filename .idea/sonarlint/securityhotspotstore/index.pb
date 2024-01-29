@@ -127,3 +127,11 @@ Hcoupon/src/main/java/com/guli/coupon/controller/SpuBoundsController.java,d\d\d
 Rmember/src/main/java/com/guli/member/controller/GrowthChangeHistoryController.java,8\8\886e6d23f8fda5179c308de65df96706632f11e5
 k
 ;member/src/main/java/com/guli/member/MemberApplication.java,6\5\653c4fd9d21067b058ee829da4d394f5de3f26ac
+=
+order/pom.xml,2\7\27ca9127fd75386d2b0342cfd7de9e3e93791f5b
+d
+4order/src/main/java/com/guli/order/dao/OrderDao.java,9\2\92edd1dc1f27a87310e3c4ca14b6513d416af150
+h
+8order/src/main/java/com/guli/order/OrderApplication.java,d\f\df1cac46472b9b2ac4909f4434e389ffad95b656
+r
+Border/src/main/java/com/guli/order/controller/OrderController.java,9\a\9a2147c14b57eab1bb424b092f5f309b555d2411
