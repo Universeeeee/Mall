@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6acd0d4-0ad2-409a-89fc-6eaf15236b75" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware/src/main/java/com/guli/ware/WareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware/src/main/java/com/guli/ware/WareApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="f6acd0d4-0ad2-409a-89fc-6eaf15236b75" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +41,7 @@
   </component>
   <component name="ProjectId" id="2a79LDnlQoPpxDsqHolUIyoO4Mi" />
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -208,7 +203,7 @@
       <workItem from="1706076008072" duration="2340000" />
       <workItem from="1706172053820" duration="6152000" />
       <workItem from="1706257331250" duration="7808000" />
-      <workItem from="1706508198733" duration="6279000" />
+      <workItem from="1706508198733" duration="6964000" />
     </task>
     <servers />
   </component>

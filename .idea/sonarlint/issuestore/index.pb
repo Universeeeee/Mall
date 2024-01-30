@@ -145,3 +145,5 @@ j
 :ware/src/main/java/com/guli/ware/entity/UndoLogEntity.java,d\4\d48daef46c3d78bc14d0f356f32aa61627dda70e
 s
 Cware/src/main/java/com/guli/ware/controller/PurchaseController.java,8\6\86c2b3578a09a88503eac2bb1b23c09bfd37920d
+x
+Hproduct/src/main/java/com/guli/product/dao/AttrAttrgroupRelationDao.java,d\0\d003195acb6a2c4798bca56b68eb49c6d94346c1
