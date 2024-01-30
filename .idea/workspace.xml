@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6acd0d4-0ad2-409a-89fc-6eaf15236b75" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/guli/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/guli/order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ware/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ware/src/main/java/com/guli/ware/WareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware/src/main/java/com/guli/ware/WareApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ware/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,22 +91,7 @@
       <recent name="D:\lea\Mall\common\src\main\java\com\guli\common\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderApplication">
-    <configuration name="ProductApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="product" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.guli.product.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.guli.product" />
-      <option name="MAIN_CLASS_NAME" value="com.guli.product.ProductApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.WareApplication">
     <configuration name="ProductApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="product" />
       <extension name="coverage">
@@ -188,13 +168,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ware" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guli.ware.WareApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guli.ware.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.WareApplication" />
         <item itemvalue="Spring Boot.OrderApplication" />
         <item itemvalue="Spring Boot.MemberApplication" />
         <item itemvalue="Spring Boot.CouponApplication" />
         <item itemvalue="JUnit.ProductApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.ProductApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +208,7 @@
       <workItem from="1706076008072" duration="2340000" />
       <workItem from="1706172053820" duration="6152000" />
       <workItem from="1706257331250" duration="7808000" />
-      <workItem from="1706508198733" duration="3453000" />
+      <workItem from="1706508198733" duration="6279000" />
     </task>
     <servers />
   </component>

@@ -135,3 +135,13 @@ h
 8order/src/main/java/com/guli/order/OrderApplication.java,d\f\df1cac46472b9b2ac4909f4434e389ffad95b656
 r
 Border/src/main/java/com/guli/order/controller/OrderController.java,9\a\9a2147c14b57eab1bb424b092f5f309b555d2411
+<
+ware/pom.xml,9\c\9c4b4faecac6ad3df40de72c7293ea37b0fc5bef
+y
+Iware/src/main/java/com/guli/ware/controller/PurchaseDetailController.java,b\b\bbb91563f7b4af2fa0c5c76581465f04632cb3d0
+e
+5ware/src/main/java/com/guli/ware/WareApplication.java,5\9\597b8bdb4dd6e3cf9e01627583e3aaa83541f5f8
+j
+:ware/src/main/java/com/guli/ware/entity/UndoLogEntity.java,d\4\d48daef46c3d78bc14d0f356f32aa61627dda70e
+s
+Cware/src/main/java/com/guli/ware/controller/PurchaseController.java,8\6\86c2b3578a09a88503eac2bb1b23c09bfd37920d
