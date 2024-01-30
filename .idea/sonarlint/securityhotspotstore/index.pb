@@ -147,3 +147,11 @@ s
 Cware/src/main/java/com/guli/ware/controller/PurchaseController.java,8\6\86c2b3578a09a88503eac2bb1b23c09bfd37920d
 x
 Hproduct/src/main/java/com/guli/product/dao/AttrAttrgroupRelationDao.java,d\0\d003195acb6a2c4798bca56b68eb49c6d94346c1
+a
+1common/src/main/java/com/guli/common/utils/R.java,a\b\ab5ef8027f41f044ef4f5bc871f7df09efc0e388
+Y
+)common/src/main/resources/application.yml,f\b\fb1aee6624735d903f1f287a69135f6af404756e
+r
+Bcoupon/src/main/java/com/guli/coupon/dao/CouponSpuRelationDao.java,f\a\fa8cd7c0e8d9055092ecf0350fa0b77825bd96b0
+k
+;common/src/main/java/com/guli/common/CommonApplication.java,4\1\4167ecaebce9525487ab0571adb0d9c24e7d11dc

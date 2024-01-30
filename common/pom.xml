@@ -6,21 +6,8 @@
         <groupId>com.guli</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>common</artifactId>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>7</source>
-                    <target>7</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
     <modelVersion>4.0.0</modelVersion>
+    <artifactId>common</artifactId>
 
     <description>公共依赖</description>
 
@@ -29,7 +16,7 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.3.2</version>
+            <version>3.3.1</version>
         </dependency>
         <!--简化实体类，用@Data代替getset方法-->
         <dependency>

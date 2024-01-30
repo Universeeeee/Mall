@@ -18,7 +18,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="common" target="1.7" />
+      <module name="common" target="1.8" />
       <module name="coupon" target="1.8" />
       <module name="Mall" target="1.8" />
       <module name="member" target="1.8" />
