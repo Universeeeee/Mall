@@ -155,3 +155,7 @@ r
 Bcoupon/src/main/java/com/guli/coupon/dao/CouponSpuRelationDao.java,f\a\fa8cd7c0e8d9055092ecf0350fa0b77825bd96b0
 k
 ;common/src/main/java/com/guli/common/CommonApplication.java,4\1\4167ecaebce9525487ab0571adb0d9c24e7d11dc
+s
+Crenren-fast/src/main/java/io/renren/common/aspect/SysLogAspect.java,a\7\a79ea5e7112370df8294ec0f5bace82ebc674bea
+n
+>coupon/src/main/java/com/guli/coupon/dao/CouponHistoryDao.java,6\b\6b203f72e2cb452578bd7a7785911076c8933af6

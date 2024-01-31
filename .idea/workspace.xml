@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6acd0d4-0ad2-409a-89fc-6eaf15236b75" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/guli/common/utils/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/guli/common/utils/Query.java" afterDir="false" />
-    </list>
+    <list default="true" id="f6acd0d4-0ad2-409a-89fc-6eaf15236b75" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +69,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.packagesearch.PackageSearchGeneralConfigurable",
-    "spring.configuration.checksum": "5e59a8644d13f973b25c5aac7daa6a73",
+    "spring.configuration.checksum": "2df566c6bd709605ddea3bc4ad7f0a04",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -214,6 +211,7 @@
       <workItem from="1706597470136" duration="643000" />
       <workItem from="1706598126698" duration="901000" />
       <workItem from="1706599040703" duration="1203000" />
+      <workItem from="1706672014931" duration="320000" />
     </task>
     <servers />
   </component>
