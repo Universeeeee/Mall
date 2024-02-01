@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f6acd0d4-0ad2-409a-89fc-6eaf15236b75" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/guli/common/utils/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/guli/common/utils/Query.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon/src/main/java/com/guli/coupon/CouponApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/src/main/java/com/guli/coupon/CouponApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,6 @@
   </component>
   <component name="ProjectId" id="2a79LDnlQoPpxDsqHolUIyoO4Mi" />
   <component name="ProjectViewState">
-    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -71,7 +73,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.packagesearch.PackageSearchGeneralConfigurable",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
     "spring.configuration.checksum": "5e59a8644d13f973b25c5aac7daa6a73",
     "vue.rearranger.settings.migration": "true"
   },
@@ -93,7 +95,7 @@
       <recent name="D:\lea\Mall\common\src\main\java\com\guli\common\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderApplication">
+  <component name="RunManager" selected="Spring Boot.CouponApplication">
     <configuration name="ProductApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="product" />
       <extension name="coverage">
@@ -185,10 +187,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.OrderApplication" />
-        <item itemvalue="Spring Boot.WareApplication" />
-        <item itemvalue="Spring Boot.MemberApplication" />
         <item itemvalue="Spring Boot.CouponApplication" />
+        <item itemvalue="Spring Boot.WareApplication" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.MemberApplication" />
         <item itemvalue="JUnit.ProductApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
@@ -214,6 +216,7 @@
       <workItem from="1706597470136" duration="643000" />
       <workItem from="1706598126698" duration="901000" />
       <workItem from="1706599040703" duration="1203000" />
+      <workItem from="1706684492369" duration="11171000" />
     </task>
     <servers />
   </component>

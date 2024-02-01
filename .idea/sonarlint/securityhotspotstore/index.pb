@@ -155,3 +155,7 @@ r
 Bcoupon/src/main/java/com/guli/coupon/dao/CouponSpuRelationDao.java,f\a\fa8cd7c0e8d9055092ecf0350fa0b77825bd96b0
 k
 ;common/src/main/java/com/guli/common/CommonApplication.java,4\1\4167ecaebce9525487ab0571adb0d9c24e7d11dc
+h
+8coupon/src/main/java/com/guli/coupon/dao/HomeAdvDao.java,0\2\02ce8421a24401e265d8294a9c756cfcfba9598a
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
