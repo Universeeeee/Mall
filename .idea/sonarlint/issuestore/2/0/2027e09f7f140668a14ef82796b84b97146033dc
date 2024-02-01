@@ -1,19 +1,0 @@
-
-X
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ
-X
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ
-X
-java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄÞ
-X
-java:S6813#"BRemove this field injection and use constructor injection instead.(êæÄÞ
-l
-java:S3305""VInject this field value directly into "getGeneratorDao", the only method that uses it.(¼‰õ²
-l
-java:S3305"VInject this field value directly into "getGeneratorDao", the only method that uses it.(äÝ»¬
-q
-java:S3305 "VInject this field value directly into "getGeneratorDao", the only method that uses it.(«ÀÀÇüÿÿÿÿ
-l
-java:S3305$"VInject this field value directly into "getGeneratorDao", the only method that uses it.(øúÇ™
-L
-java:S2696="6Make the enclosing method "static" or remove this set.(£‡Ü’

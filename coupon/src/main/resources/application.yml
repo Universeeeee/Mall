@@ -4,6 +4,12 @@ spring:
     password: root
     url: jdbc:mysql://192.168.3.10:3306/gulimall_sms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: coupon
 
 # MapperScan
 # sql映射文件位置
