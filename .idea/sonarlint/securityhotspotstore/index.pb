@@ -9,3 +9,17 @@ k
 ;coupon/src/main/java/com/guli/coupon/CouponApplication.java,e\b\eb191b42726abd4cdb10858aa3b363727bf95f5f
 e
 5common/src/main/java/com/guli/common/utils/Query.java,0\8\08fcf2735e14dbe8a0468409a7c876fe5356fb8b
+k
+;member/src/main/java/com/guli/member/MemberApplication.java,6\5\653c4fd9d21067b058ee829da4d394f5de3f26ac
+h
+8order/src/main/java/com/guli/order/OrderApplication.java,d\f\df1cac46472b9b2ac4909f4434e389ffad95b656
+>
+member/pom.xml,5\c\5cead6db3da95b5814033fc5034e7f00780e9e55
+u
+Ecoupon/src/main/java/com/guli/coupon/controller/CouponController.java,f\6\f6b6c81cac7defd388284980ae05dd536f11ac69
+r
+Bmember/src/main/java/com/guli/member/feign/CouponFeignService.java,3\5\3501a30a1b68c203fa0637e189b5daea200f774f
+u
+Emember/src/main/java/com/guli/member/controller/MemberController.java,3\a\3a717eefdc4a356ab1ca403eb234aef74788b5da
+>
+coupon/pom.xml,4\8\48cfd1db8b4b8a21674217284209f74ffcd415c8
