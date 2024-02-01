@@ -159,3 +159,5 @@ s
 Crenren-fast/src/main/java/io/renren/common/aspect/SysLogAspect.java,a\7\a79ea5e7112370df8294ec0f5bace82ebc674bea
 n
 >coupon/src/main/java/com/guli/coupon/dao/CouponHistoryDao.java,6\b\6b203f72e2cb452578bd7a7785911076c8933af6
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
