@@ -23,3 +23,7 @@ u
 Emember/src/main/java/com/guli/member/controller/MemberController.java,3\a\3a717eefdc4a356ab1ca403eb234aef74788b5da
 >
 coupon/pom.xml,4\8\48cfd1db8b4b8a21674217284209f74ffcd415c8
+n
+>gateway/src/main/java/com/guli/gateway/GatewayApplication.java,d\f\df505f70e888cbafc26875857b0a10839bd96935
+?
+gateway/pom.xml,4\b\4b316bc60d1cfae51045f6fc8e58a8ae31f03ff3

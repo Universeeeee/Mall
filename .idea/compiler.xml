@@ -12,6 +12,7 @@
         <module name="member" />
         <module name="renren-fast" />
         <module name="ware" />
+        <module name="gateway" />
         <module name="order" />
         <module name="renren-generator" />
       </profile>
@@ -21,6 +22,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="coupon" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="member" options="-parameters" />
       <module name="product" options="-parameters" />
       <module name="renren-fast" options="-parameters" />
