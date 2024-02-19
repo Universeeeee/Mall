@@ -27,3 +27,5 @@ n
 >gateway/src/main/java/com/guli/gateway/GatewayApplication.java,d\f\df505f70e888cbafc26875857b0a10839bd96935
 ?
 gateway/pom.xml,4\b\4b316bc60d1cfae51045f6fc8e58a8ae31f03ff3
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec

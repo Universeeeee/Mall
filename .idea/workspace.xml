@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f10f68b0-0284-436c-a48f-2172e3ef0e7c" name="Changes" comment="" />
+    <list default="true" id="f10f68b0-0284-436c-a48f-2172e3ef0e7c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/guli/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/guli/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +48,6 @@
   </component>
   <component name="ProjectId" id="2bknMtrfBf9KPoGNcc9QNJQNFKz" />
   <component name="ProjectViewState">
-    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -68,7 +71,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "spring.configuration.checksum": "4190eb83033eca03872f08de6b2ddead",
+    "spring.configuration.checksum": "a52cedec4ccfe65cad2a19e60374c519",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -77,6 +80,9 @@
     ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\lea\Mall\coupon\src\main\resources" />
@@ -89,7 +95,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CouponApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Mall" />
       <method v="2">
@@ -169,7 +175,8 @@
       <workItem from="1706768285017" duration="298000" />
       <workItem from="1706768592130" duration="20000000" />
       <workItem from="1706866014875" duration="1626000" />
-      <workItem from="1706867654782" duration="8322000" />
+      <workItem from="1706867654782" duration="8499000" />
+      <workItem from="1708327537083" duration="7224000" />
     </task>
     <servers />
   </component>
