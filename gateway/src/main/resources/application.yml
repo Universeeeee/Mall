@@ -12,8 +12,8 @@ spring:
           predicates:
             - Query=url,qq
 
-#        - id: product_route
-#          uri: lb://gulimall-product
+#        - id: route
+#          uri: lb://product
 #          predicates:
 #            - Path=/api/product/**
 #          filters:
@@ -27,14 +27,14 @@ spring:
 #            - RewritePath=/api/thirdparty/(?<segment>.*),/$\{segment}
 #
 #        - id: member_route
-#          uri: lb://gulimall-member
+#          uri: lb://member
 #          predicates:
 #            - Path=/api/member/**
 #          filters:
 #            - RewritePath=/api/(?<segment>.*),/$\{segment}
 #
 #        - id: ware_route
-#          uri: lb://gulimall-ware
+#          uri: lb://ware
 #          predicates:
 #            - Path=/api/ware/**
 #          filters:
